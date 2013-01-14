@@ -27,10 +27,12 @@ constants for the following parameters:
 
 A constant is declared by preceding the variable with the keyword `static`. Constants should be declared at class level, right below the opening brace. See the example below.
 
-    public class Pyramid extends GraphicsProgram
-    {
-        static final int BRICK_WIDTH = 30;
-    }
+~~~ java
+public class Pyramid extends GraphicsProgram
+{
+    static final int BRICK_WIDTH = 30;
+}
+~~~
 
 The numbers in parentheses show the values for this diagram, but you must be able to change those values in your program.
 

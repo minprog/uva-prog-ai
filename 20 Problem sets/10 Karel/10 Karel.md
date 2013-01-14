@@ -16,13 +16,13 @@ So, without further ado, here's the instructions for getting started:
 
 * Create a new directory named 'prog' to store your problem sets from this course:
 
-		mkdir prog
+        mkdir prog
 
 * Then `cd prog` and clone the starter kit by executing the following command (make sure the directory `pset1` does not already exist):
 
-	<pre>git clone http://cs106.mprog.nl/public/course/psets/pset1.git/</pre>
+        git clone http://cs106.mprog.nl/public/course/psets/pset1.git/
 
-	All the necessary files for this problem set are included.
+All the necessary files for this problem set are included.
 
 * Go into the `pset1` directory.
 
@@ -46,43 +46,45 @@ Want to know how the `make` command knows what it should do? Have a look at the 
 
 The following code moves Karel up and down a mountain like we did in the workshop.
 
-    import stanford.karel.*;
-    
-    public class MountainKarel extends SuperKarel
-    {
-        public void run()
-        {
-            stepUp();
-            stepUp();
-            putBeeper();
-            stepDown();
-            stepDown();
-            move();
-        }
-    
-        public void stepUp()
-        {
-            move();
-            turnLeft();
-            move();
-            turnRight();
-        }
-    
-        public void stepDown()
-        {
-            move();
-            turnRight();
-            move();
-            turnLeft();
-        }
+~~~ java
+import stanford.karel.*;
 
-        public void turnRight()
-        {
-            turnLeft();
-            turnLeft();
-            turnLeft();
-        }
+public class MountainKarel extends SuperKarel
+{
+    public void run()
+    {
+        stepUp();
+        stepUp();
+        putBeeper();
+        stepDown();
+        stepDown();
+        move();
     }
+
+    public void stepUp()
+    {
+        move();
+        turnLeft();
+        move();
+        turnRight();
+    }
+
+    public void stepDown()
+    {
+        move();
+        turnRight();
+        move();
+        turnLeft();
+    }
+
+    public void turnRight()
+    {
+        turnLeft();
+        turnLeft();
+        turnLeft();
+    }
+}
+~~~
 
 
 ## Problem 1

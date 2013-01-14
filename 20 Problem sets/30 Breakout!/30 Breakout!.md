@@ -127,17 +127,23 @@ These points have the advantage of being outside the ball - which means that `ge
 
 It would be very useful to write this section of code as a separate method
 
-    private GObject getCollidingObject()
+~~~ java
+private GObject getCollidingObject()
+~~~
 
 that returns the object involved in the collision, if any, and `null` otherwise. You could then use it in a declaration like
 
-    GObject collider = getCollidingObject();
+~~~ java
+GObject collider = getCollidingObject();
+~~~
 
 which assigns that value to a variable called `collider`.
 
 From there the only remaining thing you need to do is decide what to do when a collision occurs. There are only two possibilities. First, the object you get back might be the paddle, which you can test by checking
 
-    if (collider == paddle) . . . 
+~~~ java
+if (collider == paddle) . . . 
+~~~
 
 If it is the paddle, you need to bounce the ball so that it starts traveling up. If it isn't the paddle, the only other thing it might be is a brick, since those are the only other objects in the world. Once again, you need to cause a bounce in the vertical direction, but you also need to take the brick away. To do so, all you need to do is remove it from the screen by calling the remove method.
 
@@ -165,11 +171,15 @@ This assignment is perfect for those of you who are looking for high scores, bec
 
 * *Add sounds.* You can play a short bounce sound every time the ball collides with a brick or a paddle. this extension turns out to be very easy. The starter project contains an audio clip file called `bounce.au` that contains such a sound. You can load the sound by writing
 
-    `AudioClip bounceClip = MediaTools.loadAudioClip("bounce.au");`
+~~~ java
+AudioClip bounceClip = MediaTools.loadAudioClip("bounce.au");
+~~~
 
 and later play it by calling
 
-    bounceClip.play();
+~~~ java
+bounceClip.play();
+~~~
 
 The Java libraries do make some things easy.
 

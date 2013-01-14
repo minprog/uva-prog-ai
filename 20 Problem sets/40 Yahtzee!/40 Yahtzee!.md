@@ -130,7 +130,9 @@ As noted in the preceding section, the starter project contains a precompiled cl
 * The `updateScorecard` method updates a score entry on the scorecard. You call this method at the end of the player’s turn to report the latest score. It takes a player number, a category, and a value, and updates the scorecard to display that value in the proper row and column.
 * The `printMessage` method allows you to display a message at the bottom of the graphics window. This method works exactly like `println` and allows you to include values in exactly the same way. For example, if you want to display the message <pre>Eric's turn.</pre> with the name Eric replaced by the contents of the string variable `name`, you could use the following call to `printMessage`:
 
-    display.printMessage(name + "'s turn.");
+~~~ java
+display.printMessage(name + "'s turn.");
+~~~
 
 As this last example illustrates, any calls to the methods in the `YahtzeeDisplay` class must include the variable `display` as the receiver. You are asking the display to print a message and therefore must use the receiver-based style of method call.
 
@@ -138,59 +140,79 @@ Another point to which you should pay attention is that the methods in the `Yaht
 
 ### Entries in the YahtzeeDisplay class
 
-`public YahtzeeDisplay(GCanvas gc, String[] playerNames)`
+~~~ java
+public YahtzeeDisplay(GCanvas gc, String[] playerNames)
+~~~
 
 Creates a new `YahtzeeDisplay` object that adds its objects to the `GCanvas` specified by `gc`. The `playerNames` parameter is an array consisting of the names of the players.
 
 **Usage:**
 
-    YahtzeeDisplay display = new YahtzeeDisplay(gc, playerNames);
+~~~ java
+YahtzeeDisplay display = new YahtzeeDisplay(gc, playerNames);
+~~~
 
 **Parameters:**
 
 * `gc` The `GCanvas` on which the board is displayed  
 * `playerNames` An array containing the names of the players, indexed from 0.
 
-`public void waitForPlayerToClickRoll(int player)`
+~~~ java
+public void waitForPlayerToClickRoll(int player)
+~~~
 
 Waits for the player to click the **Roll Dice** button to start the first dice roll. You will call this method once at the beginning of each player's turn. The parameter is the index number of the player, which
 ranges from 1 to `nPlayers`, where `nPlayers` is the number of players in the game. The method highlights the player's name in the scorecard, erases any dice displayed from previous rolls, draws the "Roll Dice" button, and then waits for the player to click the button. This method returns when the button is pressed. At that point, it is your job to randomly roll the dice and call the `displayDice` method.
  
 **Usage:**
 
-    display.waitForPlayerToClickRoll(player);
+~~~ java
+display.waitForPlayerToClickRoll(player);
+~~~
 
 **Parameter:**
 
 * `player` The index of the player, ranging from 1 to `nPlayers`
 
-`public void displayDice(int[] dice)`
+~~~ java
+public void displayDice(int[] dice)
+~~~
 
 Draws the pictures of the dice on the screen. You pass one parameter, a zero-based integer array with `N_DICE` entries, that contains the values to draw on the dice. Each value in the array must be a valid die roll between 1 and 6; if not, `displayDice` will throw an `ErrorException`. You will need to call this method after each roll or reroll of the dice to display the new random values.
 
 **Usage:**
 
-    display.displayDice(dice);
+~~~ java
+display.displayDice(dice);
+~~~
 
 **Parameter:**
 
 * `dice` An array of dice values, whose indices range from 0 to `N_DICE - 1`
 
-`public void waitForPlayerToSelectDice()`
+~~~ java
+public void waitForPlayerToSelectDice()
+~~~
 
 Allows the player to select which dice to reroll by clicking on the dice with the mouse. You will call this method twice each player turn, giving them two additional chances to improve their roll. This method draws the "Roll Again" button, and waits for the player to click on the dice to select and deselect which ones they would like to reroll. The method returns only after the player has made a selection and clicks the *Roll Again* button. Once the method returns, you can use the `isDieSelected` method to determine whether the die should be rerolled.
 
 **Usage:**
 
-    display.waitForPlayerToSelectDice();
+~~~ java
+display.waitForPlayerToSelectDice();
+~~~
 
-`public boolean isDieSelected(int index)`
+~~~ java
+public boolean isDieSelected(int index)
+~~~
 
 Checks to see whether the die specified by index is selected. You call this method before each reroll to determine whether this die needs to be updated.
 
 **Usage:**
 
-    if (display.isDieSelected(index)) . . .
+~~~ java
+if (display.isDieSelected(index)) . . .
+~~~
  
 **Parameter:**
 
@@ -200,14 +222,18 @@ Checks to see whether the die specified by index is selected. You call this meth
 
 `true` if the die is selected, and `false` otherwise
 
-`public int waitForPlayerToSelectCategory()`
+~~~ java 
+public int waitForPlayerToSelectCategory()
+~~~
 
 Allows the user to select a category in which to place the score for this roll. You will call this method once each turn after the player finishes rolling the dice. As its name suggests, the method waits for the
 player to click on one of the categories and returns the index of the category, which will be one of the constants defined in  `YahtzeeConstants`. Note that this method does not check to see whether the category is valid for the dice values or whether this category has already been used by this player. Thus, you will need to include some error-checking in your program to test the result of `waitForPlayerToSelectCategory` before you try to update the scorecard. 
  
 **Usage:**
 
-    int category = display.waitForPlayerToSelectCategory();
+~~~ java
+int category = display.waitForPlayerToSelectCategory();
+~~~
 
 **Returns:**
 
@@ -218,7 +244,9 @@ Updates a value on the Yahtzee scorecard. You must call this method once each tu
 `YahtzeeConstants`), the player number, and the score to be displayed in that cell of the scorecard.  
 **Usage:**
 
-    display.updateScorecard(category, player, score);
+~~~ java
+display.updateScorecard(category, player, score);
+~~~
  
 **Parameters:**
 
@@ -226,13 +254,17 @@ Updates a value on the Yahtzee scorecard. You must call this method once each tu
 * `player` The player number (between 1 and nPlayers)
 * `score` The score to display in that box
 
-`public void printMessage(String message)`
+~~~ java
+public void printMessage(String message)
+~~~
 
 Prints a message on the bottom of the Yahtzee scorepad. The old message is cleared whenever any YahtzeeDisplay method is called.
 
 **Usage:**
 
-    int category = display.waitForPlayerToSelectCategory();
+~~~ java
+int category = display.waitForPlayerToSelectCategory();
+~~~
 
 **Parameter:**
 
