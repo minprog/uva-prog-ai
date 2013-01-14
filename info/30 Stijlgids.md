@@ -17,28 +17,34 @@ Eén van de volgende twee vragen is meestal zeer relevant om te beantwoorden:
 
 Variabelenamen leggen vaak al een beetje uit waarvoor ze dienen, en maken je code leesbaarder. En zo leg je dan uit wat je *precies* opslaat in de variabele:
 
-    // compute student average
-    double average = (int) (sum / quizzes + 0.5)
+~~~ java
+// compute student average
+double average = (int) (sum / quizzes + 0.5)
+~~~
 
 Middenin je code schrijf je in principe geen volzinnen, maar om het leesbaar te houden zet je wel netjes een spatie na de `//`.
 
 Dus niet zo:
 
-    //compute student's average
-    // Compute student's average.
+~~~ java
+//compute student's average
+// Compute student's average.
+~~~
 
 ### Bovenaan je Java bestand
 
-    /****************************************************************
-     * Problem set 1.13
-     *
-     * Daan Smit
-     * 1932819
-     *
-     * This program makes Karel the Robot walk from the left side of
-     * the room to the right side, while putting a beeper down on 
-     * every third step.
-     ***************************************************************/
+~~~ java
+/****************************************************************
+ * Problem set 1.13
+ *
+ * Daan Smit
+ * 1932819
+ *
+ * This program makes Karel the Robot walk from the left side of
+ * the room to the right side, while putting a beeper down on 
+ * every third step.
+ ***************************************************************/
+~~~~
 
 ### Lange regels commentaar
 
@@ -51,23 +57,30 @@ Vermijd regels langer dan 79 tekens; zo weet je zeker dat het op elk scherm en o
 
 Indentatie of inspringen is het toevoegen van witruimte aan het begin van een regel om structuur zichtbaar te maken. Zoals in het voorbeeld hieronder waar de body van de while-loop met vier spaties is ingesprongen.
 
-    while (stack.hasNext())
-    {
-        stack.pop();
-    }
+~~~ java
+while (stack.hasNext())
+{
+    stack.pop();
+}
+~~~~    
 
 Spring altijd in met 4 *spaties* (niet met tabs) en doe dit alleen met de inhoud van een block-statement, dus niet met het statement zelf en ook niet met de accolades. Dus niet:
 
-    while (stack.hasNext())
-        {
-        stack.pop();
-        }
-Je kan in gedit zoeken op `\t` om tabs op te sporen.
+~~~ java
+while (stack.hasNext())
+    {
+    stack.pop();
+    }
+~~~
+
+Je kan in gEdit zoeken op `\t` om tabs op te sporen.
 
 ## Accolades
 
 Plaats accolades bij voorkeur op de volgende regel net zoveel ingesprongen als het voorgaande statement. Je mag de openingsaccolade ook achter het voorgaande statement plaatsen zoals in het voorbeeld hieronder. De sluitaccolade gaat dan evengoed op een nieuwe regel.
 
-    while (stack.hasNext()) {
-        stack.pop();
-    }
+~~~ java
+while (stack.hasNext()) {
+    stack.pop();
+}
+~~~
