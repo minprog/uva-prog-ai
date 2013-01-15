@@ -3,7 +3,7 @@
 For each of the given program segments, read the code, and write the output in the space provided below each program. [*Note:* Do not execute these programs on a computer.]
 
 1. What is the output of the following program?
-
+  
   {: .language-java}
       public class Operator
       {
@@ -19,14 +19,14 @@ For each of the given program segments, read the code, and write the output in t
   <textarea name="output-01"></textarea>
   
 2. What is output by the following line of code?
-
+  
   {: .language-java}
       System.out.println((8 * 4 * 2 + 6) / 2 + 4);
   
   <textarea name="output-02"></textarea>
   
 3. What is output by the following program for each of the input values 5, 7, 100, -7, and 0?
-
+  
   {: .language-java}
       import java.util.Scanner;
       
