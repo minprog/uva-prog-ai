@@ -1,10 +1,10 @@
-#Karel the Robot
+# Karel the Robot
 
 "Karel is a very simple robot living in a very simple world. By giving Karel a set of commands, you can direct it to perform certain tasks within its world. The process of specifying those commands is called programming. Initially, Karel understands only a very small number of predefined commands, but an important part of the programming process is teaching Karel new commands that extend its capabilities".[^1]
 
 ## Getting started
 
-In this course, you are required to work on the Linux workstations and use GEdit for editing your Java code. After this course, you may want to upgrade to a more sophisticated environment, but in this course, that's not allowed.
+In this course, you are required to work on the Linux workstations and use gedit for editing your Java code. After this course, you may want to upgrade to a more sophisticated environment, but in this course, that's not allowed.
 
 So, without further ado, here's the instructions for getting started:
 
@@ -14,11 +14,11 @@ So, without further ado, here's the instructions for getting started:
 
 * Start the Terminal.
 
-* Create a new directory named 'prog' to store your problem sets from this course:
+* Create a new directory named 'prog' to store your problem sets from this course. Do this by typing the following in the terminal:
 
         mkdir prog
 
-* Then `cd prog` and clone the starter kit by executing the following command (make sure the directory `pset1` does not already exist):
+* Then `cd prog` (to enter the 'prog' directory) and clone the starter kit by executing the following command (make sure the directory `pset1` does not already exist):
 
         git clone http://cs106.mprog.nl/public/course/psets/pset1.git/
 
@@ -32,59 +32,15 @@ All the necessary files for this problem set are included.
 
 		java -cp .:karel.jar CollectNewspaperKarel
 
-  This runs the CollectNewspaperKarel class. But alas, nothing happens if your press **run** of course, because you still have to implement the code!
+This runs the CollectNewspaperKarel class. But alas, nothing happens if your press **run** of course, because you still have to implement the code!
 
-* Now, when in the `pset1` directory, run the following command to start your editor and get programming!
+* Now, when in the `pset1` directory, run the following command to start your editor and get programming! (Note the `&` at the end.)
 
-		gedit&
+		gedit &
 
 ### Makefile
 
 Want to know how the `make` command knows what it should do? Have a look at the `Makefile` that is included with the starter kit, and read this tutorial: [Makefiles by example](http://mrbook.org/tutorials/make/).
-
-### Workshop
-
-The following code moves Karel up and down a mountain like we did in the workshop.
-
-~~~ java
-import stanford.karel.*;
-
-public class MountainKarel extends SuperKarel
-{
-    public void run()
-    {
-        stepUp();
-        stepUp();
-        putBeeper();
-        stepDown();
-        stepDown();
-        move();
-    }
-
-    public void stepUp()
-    {
-        move();
-        turnLeft();
-        move();
-        turnRight();
-    }
-
-    public void stepDown()
-    {
-        move();
-        turnRight();
-        move();
-        turnLeft();
-    }
-
-    public void turnRight()
-    {
-        turnLeft();
-        turnLeft();
-        turnLeft();
-    }
-}
-~~~
 
 
 ## Problem 1
@@ -104,7 +60,8 @@ This exercise is extremely simple and exists just to get you started. You can as
 
 Even though the program is only a few lines, it is still worth getting at least a little practice in decomposition. In your solution, include a private method for each of the steps shown in the outline.
 
-Implement your solution in `CollectNewspaperKarel.java`.
+Implement your solution in the file `CollectNewspaperKarel.java` that is provided in the starter kit.
+
 
 ## Problem 2
 
