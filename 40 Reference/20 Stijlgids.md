@@ -31,10 +31,14 @@ Dus niet zo:
 // Compute student's average.
 ~~~
 
+Uitgebreider commentaar kan je tussen `/*` en `*/` zetten. Dit commentaar mag meerdere regels beslaan. Gebruik dit vooral bovenaan je bestand en boven methodes.
+
 ### Bovenaan je Java bestand
 
+Zet bovenaan je bestand de problem set, je naam, studentnummer en een korte beschrijving van het programma. Zoals in het voorbeeld hieronder:
+
 ~~~ java
-/****************************************************************
+/*
  * Problem set 1.13
  *
  * Daan Smit
@@ -43,17 +47,33 @@ Dus niet zo:
  * This program makes Karel the Robot walk from the left side of
  * the room to the right side, while putting a beeper down on 
  * every third step.
- ***************************************************************/
+ */
 ~~~~
 
 ### Lange regels commentaar
 
 Let op de omschrijving van het programma in het voorbeeld hierboven. De omschrijving paste niet meer op één regel, dus is een nieuwe regel toegevoegd, ook weer beginnend met een `*`.
 
-Vermijd regels langer dan 79 tekens; zo weet je zeker dat het op elk scherm en op papier goed weergegeven kan worden.
+## Structuur
 
+### Lange regels code
 
-## Indentatie
+Vermijd regels langer dan 80 tekens; zo weet je zeker dat het op elk scherm en op papier goed weergegeven kan worden. Er zijn meerdere methodes om regels af te breken. Je kan delen van een expressie in een variabele stoppen, of een parameters van een methode op de volgende regel zetten. Regels die het statement van de vorig regel afmaken zijn altijd ingesprongen:
+
+~~~ java
+anExtremelyLongMethodName(parameterOne,
+    parameterTwo, parameterThree);
+~~~
+
+dat mag ook zo:
+
+~~~ java
+anExtremelyLongMethodName(parameterOne,
+                          parameterTwo,
+                          parameterThree);
+~~~
+
+### Indentatie
 
 Indentatie of inspringen is het toevoegen van witruimte aan het begin van een regel om structuur zichtbaar te maken. Zoals in het voorbeeld hieronder waar de body van de while-loop met vier spaties is ingesprongen.
 
@@ -64,7 +84,7 @@ while (stack.hasNext())
 }
 ~~~~    
 
-Spring altijd in met 4 *spaties* (niet met tabs) en doe dit alleen met de inhoud van een block-statement, dus niet met het statement zelf en ook niet met de accolades. Dus niet:
+Spring consistent in en doe dit alleen met de inhoud van een block-statement, dus niet met het statement zelf en ook niet met de accolades. Dus niet:
 
 ~~~ java
 while (stack.hasNext())
@@ -73,9 +93,11 @@ while (stack.hasNext())
     }
 ~~~
 
-Je kan in gEdit zoeken op `\t` om tabs op te sporen.
+Spring altijd op dezelfde manier in, met 4 spaties, of met tabs, gebruik geen spaties en tabs door elkaar. De aangeleverde bestanden springen allemaal in met 4 spaties het is daarom het makkelijkst dit aan te houden. Je kan gEdit instellen om 4 spaties in te voegen als je op tab drukt, kijk daarvoor in Preferences.
 
-## Accolades
+Om verloren tabs of spaties op te sporen kan je de zoekfunctie in gEdit gebruiken. Met `\t` kan je op tabs zoeken.
+
+### Accolades
 
 Plaats accolades bij voorkeur op de volgende regel net zoveel ingesprongen als het voorgaande statement. Je mag de openingsaccolade ook achter het voorgaande statement plaatsen zoals in het voorbeeld hieronder. De sluitaccolade gaat dan evengoed op een nieuwe regel.
 
