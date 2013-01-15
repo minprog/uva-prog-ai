@@ -2,7 +2,7 @@
 
 For each of the given program segments, read the code, and write the output in the space provided below each program. [*Note:* Do not execute these programs on a computer.]
 
-<ol><li>What is the output of the following program?
+<ol><li>What is the output of the following program?</li>
 
 {: .language-java}
     public class Operator
@@ -18,14 +18,14 @@ For each of the given program segments, read the code, and write the output in t
 
 <textarea name="output-01"></textarea>
 
-<li>What is output by the following line of code?
+<li>What is output by the following line of code?</li>
 
 {: .language-java}
     System.out.println((8 * 4 * 2 + 6) / 2 + 4);
 
 <textarea name="output-02"></textarea>
 
-<li>What is output by the following program for each of the input values 5, 7, 100, -7, and 0?
+<li>What is output by the following program for each of the input values 5, 7, 100, -7, and 0?</li>
 
 {: .language-java}
     import java.util.Scanner;
@@ -49,7 +49,7 @@ For each of the given program segments, read the code, and write the output in t
 
 <textarea name="output-03"></textarea>
 
-<li>What is output by the following program? Assume the user enters 12 for one execution of the program and 15 for a second execution.
+<li>What is output by the following program? Assume the user enters 12 for one execution of the program and 15 for a second execution.</li>
 
 {: .language-java}
 
@@ -74,7 +74,7 @@ For each of the given program segments, read the code, and write the output in t
 
 <textarea name="output-04"></textarea>
 
-<li>What is output by the following program?
+<li>What is output by the following program?</li>
 
 {: .language-java}
     public class Compares
@@ -108,12 +108,12 @@ For each of the given program segments, read the code, and write the output in t
 
 <textarea name="output-05"></textarea>
 
-<li>What is output by the program in exercise 5 when `x = 5`, `y = 25`, and `z = 99`?
+<li>What is output by the program in exercise 5 when `x = 5`, `y = 25`, and `z = 99`?</li>
 <textarea name="output-06"></textarea>
 
-<li>What is output by the program in exercise 5 when `x = 10`, `y = 9`, and `z = 8`?
+<li>What is output by the program in exercise 5 when `x = 10`, `y = 9`, and `z = 8`?</li>
 <textarea name="output-07"></textarea>
 
-<li>What is output by the program in exercise 5 when `x = 10`, `y = 10`, and `z = 99`?
+<li>What is output by the program in exercise 5 when `x = 10`, `y = 10`, and `z = 99`?</li>
 <textarea name="output-08"></textarea>
 </ol>
