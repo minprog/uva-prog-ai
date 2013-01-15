@@ -1,0 +1,4 @@
+name: pset4
+form: true
+required:
+  - pset4.zip

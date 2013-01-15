@@ -1,0 +1,4 @@
+name: pset5
+form: true
+required:
+  - pset5.zip

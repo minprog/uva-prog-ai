@@ -1,0 +1,4 @@
+name: pset2
+form: true
+required:
+  - pset2.zip
