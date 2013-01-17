@@ -9,7 +9,6 @@ for (int i = 1, j = 1; i <= 10 && j <= 10; i++, j++)
     System.out.printf("%d + %d = %d\n", i, j, (i + j));
 ~~~
    <textarea name="correct-01"></textarea>
-   
 2. The while loop in Listing E should compute the product of all the integers between 1 and 5, inclusive.
    
 ~~~ java
@@ -20,7 +19,6 @@ while (i <= 5);
     product *= i;
 ~~~
    <textarea name="correct-01"></textarea>
-   
 3. The while loop in Listing F should print the sum of the integers between 0 and 5, inclusive.
    
 ~~~ java
@@ -34,3 +32,4 @@ while (i <= 5)
 System.out.printf("The sum is: %d\n", sum);
 ~~~
    <textarea name="correct-01"></textarea>
+   
