@@ -138,17 +138,16 @@
    </select>
    
 10. Another name for a set method.
-   
-   <select name="matching-10">
-   <option value="composition">composition</option>
-   <option value="enum keyword">enum keyword</option>
-   <option value="public">public</option>
-   <option value="finalize">finalize</option>
-   <option value="mutator">mutator</option>
-   <option value="private">private</option>
-   <option value="attribute">attribute</option>
-   <option value="static import">static import</option>
-   <option value="this">this</option>
-   <option value="package name">package name</option>
-   </select>
-   
+    
+    <select name="matching-10">
+    <option value="composition">composition</option>
+    <option value="enum keyword">enum keyword</option>
+    <option value="public">public</option>
+    <option value="finalize">finalize</option>
+    <option value="mutator">mutator</option>
+    <option value="private">private</option>
+    <option value="attribute">attribute</option>
+    <option value="static import">static import</option>
+    <option value="this">this</option>
+    <option value="package name">package name</option>
+    </select>
