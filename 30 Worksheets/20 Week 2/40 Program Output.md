@@ -1,7 +1,8 @@
 <!-- this worksheet covers chapters 3, 4, 5 of Deitel -->
+
 # Program Output
 
-1. What is the output of the following program?
+1. What is the output of the following code segment?
    
 ~~~ java
 int startingValue = 0;
