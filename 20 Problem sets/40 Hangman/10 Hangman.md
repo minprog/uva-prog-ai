@@ -1,5 +1,17 @@
 # Hangman
 
+## Getting Started
+
+Make sure you are in your `prog` directory and clone the starter kit by
+executing the following command (make sure the directory `pset4` doesn't already
+exist).
+
+    git clone ...
+
+All the files needed for this problem set are included.
+
+## Introduction
+
 For this assignment, your mission is to write a program that plays the game of
 Hangman. As an assignment, Hangman serves two purposes. First, the program is
 designed to give you some practice writing programs that manipulate strings and
