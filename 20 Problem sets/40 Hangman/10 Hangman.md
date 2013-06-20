@@ -2,13 +2,8 @@
 
 ## Getting Started
 
-Make sure you are in your `prog` directory and clone the starter kit by
-executing the following command (make sure the directory `pset4` doesn't already
-exist).
-
-    git clone ...
-
-All the files needed for this problem set are included.
+Download and extract
+[the files required for this pset](/problem-sets/hangman/pset4.zip).
 
 ## Introduction
 
