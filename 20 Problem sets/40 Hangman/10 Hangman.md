@@ -2,8 +2,7 @@
 
 ## Getting Started
 
-Download and extract
-[the files required for this pset](/problem-sets/hangman/pset4.zip).
+Download and extract [the files required for this pset](pset4.zip).
 
 ## Introduction
 
