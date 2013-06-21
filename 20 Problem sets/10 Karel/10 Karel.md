@@ -195,7 +195,7 @@ update the starter kit execute the following command:
 In this exercise you are going to make Karel solve various mazes. A maze in the
 world of Karel looks like this:
 
-![](/public/course/images/maze.png)
+![A maze in the world of Karel.](figure8.png)
 
 The exits of a maze are marked by a beeper. You can assume these are the only
 beepers in the world. Placing extra beepers is allowed, but take care not to
