@@ -56,6 +56,7 @@ The purpose of this exercise is to write a class definition that includes a
 variety of methods, including constructors, modifiers and pure functions.
 
 ## Chapter 12
+
 ### Exercise 1
 Write a method called `cloneArray` that takes an array of integers as a
 parameter, creates a new array that is the same size, copies the elements from
@@ -134,39 +135,39 @@ computation patterns we have seen.
    returns.
 3. Describe in a few words what `mus` does.
 
-public static int[] make(int n)
-{
-   int[] a = new int[n];
-
-   for (int i = 0; i < n; i++)
-   {
-      a[i] = i+1;
-   }
-   return a;
-}
-public static void dub(int[] jub)
-{
-   for (int i = 0; i < jub.length; i++)
-   {
-      jub[i] *= 2;
-   }
-}
-public static int mus(int[] zoo)
-{
-   int fus = 0;
-   for (int i = 0; i < zoo.length; i++)
-   {
-      fus = fus + zoo[i];
-   }
-   return fus;
-}
-public static void main(String[] args)
-{
-   int[] bob = make(5);
-   dub(bob);
-
-   System.out.println(mus(bob));
-}
+        public static int[] make(int n)
+        {
+           int[] a = new int[n];
+        
+           for (int i = 0; i < n; i++)
+           {
+              a[i] = i+1;
+           }
+           return a;
+        }
+        public static void dub(int[] jub)
+        {
+           for (int i = 0; i < jub.length; i++)
+           {
+              jub[i] *= 2;
+           }
+        }
+        public static int mus(int[] zoo)
+        {
+           int fus = 0;
+           for (int i = 0; i < zoo.length; i++)
+           {
+              fus = fus + zoo[i];
+           }
+           return fus;
+        }
+        public static void main(String[] args)
+        {
+           int[] bob = make(5);
+           dub(bob);
+        
+           System.out.println(mus(bob));
+        }
 
 ### Exercise 8
 One not-very-efficient way to sort the elements of an array is to find the
@@ -185,9 +186,9 @@ a **selection sort** (see http://en.wikipedia.org/wiki/Selection_sort).
 ### Exercise 9
 Write a method called `letterHist` that takes a String as a parameter and that
 returns a histogram of the letters in the String. The zeroeth element of the
-histogram should contain the number of *a*'s in the String (upper and lower case);
-the 25th element should contain the number of *z*'s. Your solution should only
-traverse the String once.
+histogram should contain the number of *a*'s in the String (upper and lower
+case); the 25th element should contain the number of *z*'s. Your solution should
+only traverse the String once.
 
 ### Exercise 10
 A word is said to be a "doubloon" if every letter that appears in the word

@@ -36,25 +36,25 @@ The purpose of this exercise is to review encapsulation and generalization.
 4. Now that you have generalized the code so that it works on any String, what
    could you do to generalize it more?
 
-    String s = "((3 + 7) * 2)";
-    int len = s.length();
-    
-    int i = 0;
-    int count = 0;
-    
-    while (i < len) {
-       char c = s.charAt(i);
-    
-       if (c == '(') {
-          count = count + 1;
-       } else if (c == ')') {
-          count = count - 1;
-       }
-       i = i + 1;
-    }
-    
-    System.out.println(count);
-       
+        String s = "((3 + 7) * 2)";
+        int len = s.length();
+        
+        int i = 0;
+        int count = 0;
+        
+        while (i < len) {
+           char c = s.charAt(i);
+        
+           if (c == '(') {
+              count = count + 1;
+           } else if (c == ')') {
+              count = count - 1;
+           }
+           i = i + 1;
+        }
+        
+        System.out.println(count);
+
 ### Exercise 4
 The point of this exercise is to explore Java types and fill in some of the
 details that aren't covered in the chapter.
@@ -92,24 +92,24 @@ What is the output of this program? Describe in a sentence what mystery does
 
     public class Mystery 
     {
-    	public static String mystery(String s) 
-    	{
-    		int i = s.length() - 1;
-    		String total = "";
-    		while (i >= 0) 
-    		{
-    			char ch = s.charAt(i);
-    			System.out.println(i + "     " + ch);
-    			total = total + ch;
-    			i--;
-    		}
-    		return total;
-    	}
+       public static String mystery(String s) 
+       {
+          int i = s.length() - 1;
+          String total = "";
+          while (i >= 0) 
+          {
+             char ch = s.charAt(i);
+             System.out.println(i + "     " + ch);
+             total = total + ch;
+             i--;
+          }
+          return total;
+       }
     
-    	public static void main(String[] args) 
-    	{
-    		System.out.println(mystery("Allen"));
-    	}
+       public static void main(String[] args) 
+       {
+          System.out.println(mystery("Allen"));
+       }
     }
 
 ### Exercise 6
@@ -172,28 +172,29 @@ Write a method called `isDupledrome` that takes a String and returns a boolean
 indicating whether the word is a dupledrome.
 
 ## Chapter 9
+
 ### Exercise 1
 1. For the following program, draw a stack diagram showing the local
    variables and parameters of `main` and `riddle`, and show any objects
    those variables refer to.
 2. What is the output of this program?
 
-    public static void main(String[] args)
-    {
-       int x = 5;
-       Point blank = new Point(1, 2);
-    
-       System.out.println(riddle(x, blank));
-       System.out.println(x);
-       System.out.println(blank.x);
-       System.out.println(blank.y);
-    }
-    
-    public static int riddle(int x, Point p)
-    {
-       x = x + 7;
-       return x + p.x + p.y;
-    }
+        public static void main(String[] args)
+        {
+           int x = 5;
+           Point blank = new Point(1, 2);
+        
+           System.out.println(riddle(x, blank));
+           System.out.println(x);
+           System.out.println(blank.x);
+           System.out.println(blank.y);
+        }
+        
+        public static int riddle(int x, Point p)
+        {
+           x = x + 7;
+           return x + p.x + p.y;
+        }
 
 The point of this exercise is to make sure you understand the mechanism for
 passing Objects as parameters.
@@ -204,31 +205,31 @@ passing Objects as parameters.
    and the objects those variables refer to.
 2. What is the output of this program?
 
-    public static double distance(Point p1, Point p2)
-    {
-       int dx = p1.x - p2.x;
-       int dy = p1.y - p2.y;
-       return Math.sqrt(dx*dx + dy*dy);
-    }
-    
-    public static Point findCenter(Rectangle box)
-    {
-       int x = box.x + box.width/2;
-       int y = box.y + box.height/2;
-       return new Point(x, y);
-    }
-    
-    public static void main(String[] args)
-    {
-       Point blank = new Point(5, 8);
-    
-       Rectangle rect = new Rectangle(0, 2, 4, 4);
-       Point center = findCenter(rect);
-    
-       double dist = distance(center, blank);
-    
-       System.out.println(dist);
-    }
+        public static double distance(Point p1, Point p2)
+        {
+           int dx = p1.x - p2.x;
+           int dy = p1.y - p2.y;
+           return Math.sqrt(dx*dx + dy*dy);
+        }
+        
+        public static Point findCenter(Rectangle box)
+        {
+           int x = box.x + box.width/2;
+           int y = box.y + box.height/2;
+           return new Point(x, y);
+        }
+        
+        public static void main(String[] args)
+        {
+           Point blank = new Point(5, 8);
+        
+           Rectangle rect = new Rectangle(0, 2, 4, 4);
+           Point center = findCenter(rect);
+        
+           double dist = distance(center, blank);
+        
+           System.out.println(dist);
+        }
 
 ### Exercise 3
 The method `grow` is part of the `Rectangle` class. Read the documentation
@@ -239,32 +240,33 @@ The method `grow` is part of the `Rectangle` class. Read the documentation
    of `main`. Include all local variables and the objects they refer to.
 3. At the end of `main`, are `p1` and `p2` aliased? Why or why not?
 
-    public static void printPoint(Point p)
-    {
-       System.out.println("(" + p.x + ", " + p.y + ")");
-    }
-    
-    public static Point findCenter(Rectangle box)
-    {
-       int x = box.x + box.width/2;
-       int y = box.y + box.height/2;
-       return new Point(x, y);
-    }
-    
-    public static void main(String[] args)
-    {
-       Rectangle box1 = new Rectangle(2, 4, 7, 9);
-       Point p1 = findCenter(box1);
-       printPoint(p1);
-       
-       box1.grow(1, 1);
-       Point p2 = findCenter(box1);
-       printPoint(p2);
-    }
+        public static void printPoint(Point p)
+        {
+           System.out.println("(" + p.x + ", " + p.y + ")");
+        }
+        
+        public static Point findCenter(Rectangle box)
+        {
+           int x = box.x + box.width/2;
+           int y = box.y + box.height/2;
+           return new Point(x, y);
+        }
+        
+        public static void main(String[] args)
+        {
+           Rectangle box1 = new Rectangle(2, 4, 7, 9);
+           Point p1 = findCenter(box1);
+           printPoint(p1);
+           
+           box1.grow(1, 1);
+           Point p2 = findCenter(box1);
+           printPoint(p2);
+        }
 
 [rectangle javadoc]: http://download.oracle.com/javase/6/docs/api/java/awt/Rectangle.html#grow(int,%20int)
 
 ## Chapter 11
+
 ### Exercise 1
 In the board game Scrabble, each tile contains a letter, which is used to spell
 words, and a score, which is used to determine the value of words.
@@ -293,6 +295,7 @@ Write a `main` method that creates a new `Date` object named birthday. The new
 object should contain your birthdate. You can use either constructor.
 
 ## Chapter 15
+
 ### Exercise 1
 Transform the following class method into an object method.
 

@@ -189,7 +189,7 @@ value methods.
 ### Exercise 4
 The distance between two points $$(x_1, y_1)$$ and $$(x_2, y_2)$$ is
 
-$$Distance = sqrt((x_2 - x_1)^2 + (y_2 - y_1)^2)$$
+$$ "Distance" = sqrt((x_2 - x_1)^2 + (y_2 - y_1)^2)$$
 
 Write a method named `distance` that takes four doubles as parameters -- `x1`,
 `y1`, `x2`, and `y2` -- and that prints the distance between the points.
@@ -238,7 +238,7 @@ Write an iterative method called `power` that takes a double `x` and an integer
 ### Exercise 3
 The mathematical function **factorial** is defined as follows:
 
-$$0! = 1$$
+$$0! = 1$$  
 $$n! = n * (n - 1)$$
 
 (Factorial is usually denoted with the symbol !, which is not to be confused

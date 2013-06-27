@@ -58,7 +58,7 @@ trust the compiler and when you have to figure things out yourself.
 3. Instead of `main`, write `mian`.
 4. Remove the word `static`.
 5. Remove the word `public`.
-6. Remove the word `System`.
+   6. Remove the word `System`.
 7. Replace `println` with `Println`.
 8. Replace `println` with `print`. This one is tricky because it is a logic
    error, not a syntax error. The statement `System.out.print` is legal, but it
@@ -80,10 +80,10 @@ trust the compiler and when you have to figure things out yourself.
    `Saturday, 16 July, 2011`.
 5. Modify the program again so that the total output is:
 
-    European format:
-    Saturday 16 July, 2011
-    American format:
-    Saturday, July 16, 2011
+        European format:
+        Saturday 16 July, 2011
+        American format:
+        Saturday, July 16, 2011
 
 The point of this exercise is to use string concatenation to display values with
 different types (`int` and `String`), and to practice developing programs
@@ -138,31 +138,31 @@ understand the flow of execution through a program with multiple methods.
 2. Draw a stack diagram that shows the state of the program the first time
    `ping` is invoked.
 
-    public static void zoop()
-    {
-       baffle();
-       System.out.print("You wugga ");
-       baffle();
-    }
-    
-    public static void main(String[] args)
-    {
-       System.out.print("No, I ");
-       zoop();
-       System.out.print("I ");
-       baffle();
-    }
-    
-    public static void baffle()
-    {
-       System.out.print("wug");
-       ping();
-    }
-    
-    public static void ping()
-    {
-       System.out.println(".");
-    }
+        public static void zoop()
+        {
+           baffle();
+           System.out.print("You wugga ");
+           baffle();
+        }
+        
+        public static void main(String[] args)
+        {
+           System.out.print("No, I ");
+           zoop();
+           System.out.print("I ");
+           baffle();
+        }
+        
+        public static void baffle()
+        {
+           System.out.print("wug");
+           ping();
+        }
+        
+        public static void ping()
+        {
+           System.out.println(".");
+        }
 
 ### Exercise 3
 The point of this exercise is to make sure you understand how to write and

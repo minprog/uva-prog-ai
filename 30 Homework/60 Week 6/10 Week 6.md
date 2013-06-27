@@ -76,5 +76,5 @@ from this chapter.
    a modifier and `mergeSort` is a function, which means that they get invoked
    differently:
    
-    sortDeck(deck);           // modifies existing deck
-    deck = mergeSort(deck);   // replaces old deck with new
+        sortDeck(deck);           // modifies existing deck
+        deck = mergeSort(deck);   // replaces old deck with new
