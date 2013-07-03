@@ -9,30 +9,18 @@ commands that extend its capabilities".[^1]
 
 ## Getting started
 
-In this course, you are required to work on the Linux workstations and use gedit
-for editing your Java code. After this course, you may want to upgrade to a more
-sophisticated environment, but in this course, that's not allowed.
+* Go into the `prog` directory you made in the Getting Started by executing
 
-So, without further ado, here's the instructions for getting started:
+       cd prog
 
-* Start the computer in Linux; if it starts in Windows, just reboot and press F2
-  when asked.
-* Log on to the Linux workstation.
-* Start the Terminal.
-* Create a new directory named 'prog' to store your problem sets from this
-  course. Do this by typing the following in the terminal:
-
-    mkdir prog
-
-* Then `cd prog` (to enter the 'prog' directory) and clone the starter kit by
-  executing the following command (make sure the directory `pset1` does not
-  already exist):
-
-    git clone http://cs106.mprog.nl/public/course/psets/pset1.git/
-
-All the necessary files for this problem set are included.
-
-* Go into the `pset1` directory.
+* Create another directory for this problem set (`mkdir pset1`) and `cd` into
+  that as well.
+* You can get the starter kit [here](pset1.zip) or you can download it in the
+  terminal
+  
+       wget http://progai.mprog.nl/problem-sets/karel/pset1.zip
+       
+* and then unpack it in the current directory with `unzip pset1.zip`.
 * Compile all your source files by issuing the `make` command. If everything
   went well, you get no errors.
 * Try running the first problem using
