@@ -119,7 +119,7 @@ Het is geen enkel probleem om vóór je instuurt de assistent nog even te vragen
 
 Bij deze cursus gebruiken we twee boeken:
 
-* Eric Roberts, *Karel the robot learns Java*, Stanford University, 2005; [download](/public/course/karel-the-robot-learns-java.pdf)
+* Eric Roberts, *Karel the robot learns Java*, Stanford University, 2005; [download](/problem-sets/karel/karel-the-robot-learns-java.pdf)
 * Deitel & Deitel, *Java: how to program objects-first*, 8e; isbn 9780131364837
 
 Heb je een ander boek of een andere versie dan moet je in week 1 een plan maken hoe je zorgt dat je dit vak goed kunt halen. Neem daarvoor contact op met Martijn.
