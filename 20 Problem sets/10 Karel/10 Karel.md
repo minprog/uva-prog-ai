@@ -25,7 +25,7 @@ commands that extend its capabilities".[^1]
   went well, you get no errors.
 * Try running the first problem using
 
-    java -cp .:karel.jar CollectNewspaperKarel
+       java -cp .:karel.jar CollectNewspaperKarel
 
 This runs the CollectNewspaperKarel class. But alas, nothing happens if your
 press **run** of course, because you still have to implement the code!
@@ -33,7 +33,7 @@ press **run** of course, because you still have to implement the code!
 * Now, when in the `pset1` directory, run the following command to start your
   editor and get programming! (Note the `&` at the end.)
 
-    gedit &
+       gedit &
 
 ### Makefile
 
