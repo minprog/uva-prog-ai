@@ -25,19 +25,19 @@ All the files needed for this problem set are included.
 
 The adventure game you will implement for this assignment - like any of the text-based adventure games that were the dominant genre before the advent of more sophisticated graphical adventures like the Myst/Riven/Exile series - takes place in a virtual world in which you, as the player, move about from one location to another. The locations, which are traditionally called "rooms" even though they may be outside, are described to you through a written textual description that gives you a sense of the geography. You move about in the game by giving commands, most of which are simply an indication of the direction you motion. For example, in the classic adventure game developed by Willie Crowther, you might move about as follows:
 
-![](/public/course/images/adventure1.png)
+![](adventure1.png)
 
 In this example, you started outside the building, followed the road up the hill by typing `WEST`, and arrived at a new room on the top of the hill. Having no obvious places to go once you got there, you went back toward the east and ended up outside the building again. As is typical in such games, the complete description of a location appears only the first time you enter it; the second time you come to the building, the program displays a much shorter identifying tag, although you can get the complete description by typing `LOOK`, as follows:
 
-![](/public/course/images/adventure2.png)
+![](adventure2.png)
 
 From here, you might choose to go inside the building by typing `IN`, which brings you to another room, as follows:
 
-![](/public/course/images/adventure3.png)
+![](adventure3.png)
 
 In addition to the new room description, the inside of the building reveals that the adventure game also contains objects: there is a set of keys here. You can pick up the keys by using the `TAKE` command, which requires that you specify what object you're taking, like this:
 
-![](/public/course/images/adventure4.png)
+![](adventure4.png)
 
 The keys will, as it turns out, enable you to get through a grating at the bottom of the stream bed that opens the door to Colossal Cave and the magic it contains.
 
@@ -133,7 +133,7 @@ OUT     1
 
 In thinking about an adventure game - particularly as the player, but also as the implementer - it is important to recognize that the directions are not as well behaved as you might like. There is no guarantee that if you move from one room to another by moving north, you will be able to get back by going south. The best way to visualize the geographic structure of an adventure game is as a collection of rooms with labeled arrows that move from one room to another, as illustrated by the following diagram of the connections defined in `TinyRooms.txt`:
 
-![](/public/course/images/adventure5.png)
+![](adventure5.png)
 
 The connections in this graph are modeled using the `AdvMotionTableEntry` class, which is described in a subsequent section.
 
@@ -184,7 +184,7 @@ WEST    9</pre>
 
 The first line is active only if the player is carrying keys. In this case, the player moves into room 8 which is the beginning of the underground portion of the cave. If not, the `DOWN` command takes the user to room 7. Because the motion entries include the verb `FORCED`, the program prints out the long description for room 7 and then moves the player back to room 6, as shown in the following sample run:
 
-![](/public/course/images/adventure6.png)
+![](adventure6.png)
 
 It is possible for a single room to use both the locked passage and forced motion options. The `CrowtherRooms.txt`, for example, contains the following entry for the room just north of the curtain in the building:
 
