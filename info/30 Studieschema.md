@@ -18,8 +18,8 @@ week. Deze kan je dus in het weekend doen.
 ## Week 1
 
 * Voorbereiding (2 uur):
-  - Kijk [lecture 1][] vanaf 41:35.
-  - Kijk [lecture 2][].
+  - Kijk lecture 1 vanaf 41:35.
+  - Kijk lecture 2.
   - Lees de hoofdstukken 1 -- 3 uit *Karel the Robot*.
 
 * Practicum (12 uur):
@@ -28,29 +28,29 @@ week. Deze kan je dus in het weekend doen.
 
 * Gedurende de week (5 uur):
   - Lees de rest van *Karel the Robot*.
-  - Kijk [lecture 3][].
-  - Kijk [lecture 4][].
+  - Kijk lecture 3.
+  - Kijk lecture 4.
   - Lees hoofdstukken 1 -- 3 uit *Think Java* en maak [huiswerk week 1][].
   - **deadline huiswerk:** week 2 maandag 9:00.
 
 ## Week 2
 
 * Voorbereiding (3 uur):
-  - Kijk [lecture 5][], [lecture 6][] en [lecture 7][].
+  - Kijk lecture 5, lecture 6 en lecture 7.
 
 * Practicum (12 uur):
   - Doe [problem set 2][].
   - **deadline pset2:** vrijdag 17:00
 
 * Gedurende de week (5 uur):
-  - Kijk [lecture 8][].
+  - Kijk lecture 8.
   - Lees hoofdstukken 4, 6.1 -- 6.5, 7 en 9  uit *Think Java* en maak [huiswerk week 2][].
   - **deadline huiswerk:** week 3 maandag 9:00.
 
 ## Week 3
 
 * Voorbereiding (3 uur):
-  - Kijk [lecture 9][], [lecture 10][] en [lecture 11][].
+  - Kijk lecture 9, lecture 10 en lecture 11.
 
 * Practicum (12 uur):
   - Doe [problem set 3][].
@@ -69,35 +69,35 @@ week. Deze kan je dus in het weekend doen.
 ## Week 5
 
 * Voorbereiding (2 uur):
-  - Kijk [lecture 16][] en [lecture 17][]
+  - Kijk lecture 16 en lecture 17
 
 * Practicum (12 uur):
   - Doe [problem set 4][].
   - **deadline pset4:** vrijdag 17:00
 
 * Gedurende de week (3 uur): 
-  - Kijk [lecture 12][].
+  - Kijk lecture 12.
   - Lees hoofdstukken 12 en 16 uit *Think Java* en maak [huiswerk week 4][].
   - **deadline huiswerk:** week 5 maandag 9:00.
 
 ## Week 6
 
 * Voorbereiding (2 uur):
-  - Kijk [lecture 13][] en [lecture 14][].
+  - Kijk lecture 13 en lecture 14.
   - Lees appendix C uit *Think Java*.
 
 * Practicum (12 uur):
   - Start met [problem set 5][] (deadline volgende week).
 
 * Gedurende de week (4 uur):
-  - Kijk [lecture 15][].
+  - Kijk lecture 15.
   - Lees hoofdstukken 13, 14 en appendix C uit *Think Java* en maak [huiswerk week 5][].
   - **deadline huiswerk:** week 6 maandag 9:00.
 
 ## Week 7
 
 * Voorbereiding (1 uur):
-  - Kijk [lecture 18][].
+  - Kijk lecture 18.
 
 * Practicum (12 uur):
   - Doe [problem set 5][].
