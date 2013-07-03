@@ -17,7 +17,7 @@ Write a `GraphicsProgram` subclass that draws a pyramid consisting of bricks
 arranged in horizontal rows, so that the number of bricks in each row decreases
 by one as you move up the pyramid, as shown in the following sample run:
 
-![](/public/course/images/simplejava1.png)
+![](simplejava1.png)
 
 The pyramid should be centered at the bottom of the window and should use
 constants for the following parameters:
@@ -51,7 +51,7 @@ Documentation for the acm library:
 
 Write a `GraphicsProgram` subclass that draws a rainbow that looks like this:
 
-![](/public/course/images/simplejava2.png)
+![](simplejava2.png)
 
 The colors of the stripes are clear in the web version of the picture, but are
 hard to see in the black-and-white handout. Starting at the top, the six arcs
@@ -80,7 +80,7 @@ aesthetic sensibilities. The only things we’ll be concerned about are:
 Write a `GraphicsProgram` subclass that draws a partial diagram of the
 acm.graphics class hierarchy, as follows:
 
-![](/public/course/images/simplejava3.png)
+![](simplejava3.png)
 
 The only classes you need to create this picture are `GRect`, `GLabel`, and
 `GLine`. The tricky part is specifying the coordinates so that the different
