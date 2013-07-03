@@ -13,11 +13,11 @@ All the files needed for this problem set are included.
 ## The Breakout game
 In Breakout, the initial configuration of the world appears as shown on the right. The colored rectangles in the top part of the screen are bricks, and the slightly larger rectangle at the bottom is the paddle. The paddle is in a fixed position in the vertical dimension, but moves back and forth across the screen along with the mouse until it reaches the edge of its space.
 
-![](/public/course/images/breakout12.png)
+![](breakout12.png)
 
 A complete game consists of three turns. On each turn, a ball is launched from the center of the window toward the bottom of the screen at a random angle. That ball bounces off the paddle and the walls of the world, in accordance with the physical principle generally expressed as "the angle of incidence equals the angle of reflection" (which turns out to be very easy to implement as discussed later in this handout). Thus, after two bounces—one off the paddle and one off the right wall—the ball might have the trajectory shown in the second diagram. (Note that the dotted line is there only to show the ball’s path and won’t appear on the screen.)
 
-![](/public/course/images/breakout34.png)
+![](breakout34.png)
 
 As you can see from the second diagram, the ball is about to collide with one of the bricks on the bottom row. When that happens, the ball bounces just as it does on any other collision, but the brick disappears. The third diagram shows what the game looks like after that collision and after the player has moved the paddle to put it in line with the oncoming ball.
 
@@ -44,7 +44,7 @@ Success in this assignment will depend on beraking up the problem into manageabl
 
 Before you start playing the game, you have to set up the various pieces. Thus, it probably makes sense to implement the run method as two method calls: one that sets up the game and one that plays it. An important part of the setup consists of creating the rows of bricks at the top of the game, which look like this:
 
-![](/public/course/images/breakout5.png)
+![](breakout5.png)
 
 The number, dimensions, and spacing of the bricks are specified using named constants in the starter file, as is the distance from the top of the window to the first line of bricks. The only value you need to compute is the x coordinate of the first column, which should be chosen so that the bricks are centered in the window, with the leftover space divided equally on the left and right sides. The color of the bricks remain constant for two rows and run in the following rainbow-like sequence: `RED`, `ORANGE`, `YELLOW`, `GREEN`, `CYAN`.
 
@@ -52,7 +52,7 @@ The number, dimensions, and spacing of the bricks are specified using named cons
 
 This part of the assignment is almost exactly like the pyramid problem from the previous problem set. The parts that are only a touch more difficult are that you need to fill and color the bricks. This extra complexity is more than compensated by the fact that there are the same number of bricks in each row, and you don’t have to change the coordinate calculation from row to row.
 
-![](/public/course/images/breakout6.png)
+![](breakout6.png)
 
 <!-- Here’s a suggestion: Why don’t you get this part of the program working by Wednesday the 31st, so that you can produce just the diagram at the right? The display has most of what you see on the final screen and will give you considerable confidence that you can get the rest done. And you’ll be well on your way before time gets short. -->
 
@@ -116,7 +116,7 @@ So far, so good. But, unfortunately, the ball is not a single point. It occupies
 
 In your implementation, the easiest thing to do is to check the four corner points on the square in which the ball is inscribed. Remember that a GOval is defined in terms of its bounding rectangle, so that if the upper left corner of the ball is at the point (x, y), the other corners will be at the locations shown in this diagram:
 
-![](/public/course/images/breakout7.png)
+![](breakout7.png)
 
 These points have the advantage of being outside the ball - which means that `getElementAt` can't return the ball itself - but nonetheless close enough to make it appear that collisions have occurred. Thus for each of these four points you need to:
 
