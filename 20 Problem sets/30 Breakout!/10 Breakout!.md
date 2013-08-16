@@ -9,7 +9,7 @@ handout, and there are several suggestions for staying on top of things in the
 
 ## Getting started
 
-Download the started kit from [here](cdn://pset3.zip) and extract it in your
+Download the starter kit from [here](cdn://pset3.zip) and extract it in your
 prog directory. All the files needed for this problem set are included.
 
 ## The Breakout game

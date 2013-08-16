@@ -4,7 +4,7 @@ Your job in this assignment is to write programs to solve each of these problems
 
 ## Getting started
 
-Download the started kit from [here](cdn://pset2.zip) and extract it in your
+Download the starter kit from [here](cdn://pset2.zip) and extract it in your
 prog directory. All the files needed for this problem set are included.
 
 ## Problem 1

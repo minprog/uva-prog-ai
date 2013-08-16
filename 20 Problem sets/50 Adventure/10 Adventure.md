@@ -24,14 +24,12 @@ following sections:
 6. [Strategy and tactics](#Strategy)
 
 Try not to be daunted by the size of this handout. The code is not as big as you
-might think; in terms of the number of lines of code you have to write, it's
-only about 60 percent larger than the Yahtzee program from Problem set 4. If you
-follow the suggestions in the "Strategy and tactics" section, things should work
-out well.
+might think. If you follow the suggestions in the "Strategy and tactics"
+section, things should work out well.
 
 ## Getting started
 
-Download the started kit from [here](cdn://pset5.zip) and extract it into your
+Download the starter kit from [here](cdn://pset5.zip) and extract it into your
 prog directory. All files needed for this problem set are included.
 
 ## <a id="Overview">Overview of the Adventure Game</a>
