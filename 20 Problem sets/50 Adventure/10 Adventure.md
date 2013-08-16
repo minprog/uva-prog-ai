@@ -22,6 +22,7 @@ following sections:
 4. [The <tt>AdvObject</tt> class](#AdvObject_class)
 5. [Implementing the adventure game](#Implementing)
 6. [Strategy and tactics](#Strategy)
+7. [Expectations](#Expectations)
 
 Try not to be daunted by the size of this handout. The code is not as big as you
 might think. If you follow the suggestions in the "Strategy and tactics"
@@ -394,7 +395,7 @@ the comparison to those in the `AdvRoom` class, which significantly more
 complicated.
 
 
-## <a id="#Implementing">Implementing the Adventure game</a>
+## <a id="Implementing">Implementing the Adventure game</a>
 
 As noted in the introduction of the assignment, implementing the `Adventure`
 class represents the lion's share of the work. Before you start in on the code,
@@ -563,3 +564,15 @@ relatively little trouble:
    sure that your program handles them correctly. If you're unsure about how
    some case should be handled, play with the version containing the stub code
    and make sure that your program operates in the same way.
+
+# <a id="Expectations">Expectations</a>
+
+At the end of the first week you have to submit a beta version that reads the
+data files and instantiates the AdvObject, AdvRoom, and AdvMotionTableEntry
+objects. The Adventure.java class should contain code that shows this works
+correctly; code that reads the data files, instantiates the objects, and then
+prints their contents.
+
+*You should submit this version on the submit tab before friday 17:00.* This
+ means you'll have the second week to implement the commands and the remaining
+ game code.

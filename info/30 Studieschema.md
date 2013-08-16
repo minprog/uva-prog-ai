@@ -87,7 +87,8 @@ week. Deze kan je dus in het weekend doen.
   - Lees appendix C uit *Think Java*.
 
 * Practicum (12 uur):
-  - Start met [problem set 5][] (deadline volgende week).
+  - Start met [problem set 5][].
+  - **deadline pset5 beta:** vrijdag 17:00
 
 * Gedurende de week (4 uur):
   - Kijk lecture 15.
@@ -101,7 +102,7 @@ week. Deze kan je dus in het weekend doen.
 
 * Practicum (12 uur):
   - Doe [problem set 5][].
-  - **deadline pset5:** vrijdag 17:00
+  - **deadline pset5 final:** vrijdag 17:00
 
 ## Week 8
 
