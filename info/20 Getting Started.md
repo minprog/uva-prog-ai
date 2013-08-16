@@ -59,3 +59,18 @@ required files by running the following command in a terminal.
 You can submit a problem set multiple times, we always grade at the last
 submission before the deadline. Make sure to submit all files when you resubmit,
 not only the files that changed.
+
+## Using your own machine
+
+When you are using your own machine during the lab session you should install a
+version of Linux, such as [Ubuntu](http://www.ubuntu.com/). If you are running
+Mac OS or Windows you can either dual-boot or use a virtual machine such as
+[Virtual Box](https://www.virtualbox.org/) or [VMWare](http://www.vmware.com/).
+
+In order to run and compile the Java code for the lab sessions you need a JRE
+and JDK for Java version 1.6 (also referred to as Java 6). You can check the JRE
+and JDK version by executing `java -version` and `javac -version` in a
+terminal. They should both yield something similar to `java version
+"1.6.0_27"`. On Ubuntu you can use `sudo update-alternatives --config java` to
+choose between installed java versions (`javac` for JDK versions). Ask a lab
+assistant for help if you have any trouble configuring Java.

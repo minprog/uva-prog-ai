@@ -15,12 +15,8 @@ commands that extend its capabilities".[^1]
 
 * Create another directory for this problem set (`mkdir pset1`) and `cd` into
   that as well.
-* You can get the starter kit [here](pset1.zip) or you can download it in the
-  terminal
-  
-       wget http://progai.mprog.nl/problem-sets/karel/pset1.zip
-       
-* and then unpack it in the current directory with `unzip pset1.zip`.
+* You can get the starter kit [here](cdn://pset1.zip).
+* Unpack it in the current directory with `unzip pset1.zip`.
 * Compile all your source files by issuing the `make` command. If everything
   went well, you get no errors.
 * Try running the first problem using

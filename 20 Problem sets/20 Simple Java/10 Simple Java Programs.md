@@ -4,12 +4,8 @@ Your job in this assignment is to write programs to solve each of these problems
 
 ## Getting started
 
-Go into the prog directory (`cd prog`) and clone the starter kit by executing
-the following command (make sure the directory `pset2` does not already exist):
-
-	git clone http://cs106.mprog.nl/public/course/psets/pset2.git/
-
-All the files needed for this problem set are included.
+Download the started kit from [here](cdn://pset2.zip) and extract it in your
+prog directory. All the files needed for this problem set are included.
 
 ## Problem 1
 
