@@ -42,16 +42,20 @@ be consistent throughout the problem set.
 * or, tabs for indentation and spaces for alignment.
 
 Both tabs and spaces are invisible characters in gedit. You can highlight them
-by doing a search (`\t` for tabs ` ` for spaces). Note that you can only search
-for one at the time. Take a look at the [styleguide] for more about indentation.
+by doing a search (`\t` for tabs, and a space for spaces). Note that you can
+only search for one of these at the same time. Take a look at the [styleguide]
+for more about indentation.
 
 [styleguide]: /reference/styleguide
 
 ## Submitting the problem sets
 
 Once you're done with your problem set, you can submit it using the submit tab
-that you'll find on the page of that problem set. You can make a zip with the
-required files by running the following command.
+that you'll find on each page with a problem set. You can make a zip with the
+required files by running the following command in a terminal.
 
     make submit
 
+You can submit a problem set multiple times, we always grade at the last
+submission before the deadline. Make sure to submit all files when you resubmit,
+not only the files that changed.
