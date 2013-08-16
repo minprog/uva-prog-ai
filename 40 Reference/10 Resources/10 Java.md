@@ -9,7 +9,7 @@
 ## Books
 
 * [Think Java](http://www.greenteapress.com/thinkapjava/)
-* [Karel the robot learns Java](/problem-sets/karel/karel-the-robot-learns-java.pdf)
+* [Karel the robot learns Java](/course/20 Problem sets/10 Karel/karel-the-robot-learns-java.pdf)
 
 ## Tutorials
 
