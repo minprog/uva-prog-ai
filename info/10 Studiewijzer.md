@@ -2,7 +2,7 @@
 
 *Versie: September 2013*
 
-Welkom bij deze cursus *Objectgeoriënteerd Programmeren*. Dit vak begint bij het
+Welkom bij deze cursus Objectgeoriënteerd Programmeren. Dit vak begint bij het
 begin. Je leert over programmeren in het algemeen en je leert programmeren in
 Java. Je leert over het verband tussen de computer en de programma’s die er op
 draaien.
@@ -99,15 +99,15 @@ wanneer je delen van deze boeken moet lezen en begrijpen. Zorg dat je het
 leeswerk van *Think Java* één keer aan het begin van de week doet en gedurende
 de week nog eens.
 
-> Allen Downey
-> *Think Java*
-> Green Tea Press, 2013
+> Allen Downey  
+> *Think Java*  
+> Green Tea Press, 2013  
 
 Dit boek is voor 5 euro verkrijgbaar bij de onderwijsbalie.
 
-> Eric Roberts
-> *Karel the robot learns Java*
-> Stanford University, 2005
+> Eric Roberts  
+> *Karel the robot learns Java*  
+> Stanford University, 2005  
 
 Dit boek is alleen beschikbaar als PDF:
 [download](/problem-sets/karel/karel-the-robot-learns-java.pdf)
