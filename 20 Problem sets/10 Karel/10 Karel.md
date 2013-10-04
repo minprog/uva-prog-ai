@@ -15,7 +15,8 @@ commands that extend its capabilities".[^1]
 
 * Create another directory for this problem set (`mkdir pset1`) and `cd` into
   that as well.
-* You can get the starter kit [here](cdn://pset1.zip).
+* You can get the starter kit [here](cdn://pset1.zip) you can download it with
+  `wget <url>`.
 * Unpack it in the current directory with `unzip pset1.zip`.
 * Compile all your source files by issuing the `make` command. If everything
   went well, you get no errors.
@@ -27,16 +28,7 @@ This runs the CollectNewspaperKarel class. But alas, nothing happens if your
 press **run** of course, because you still have to implement the code!
 
 * Now, when in the `pset1` directory, run the following command to start your
-  editor and get programming! (Note the `&` at the end.)
-
-       gedit &
-
-### Makefile
-
-Want to know how the `make` command knows what it should do? Have a look at the
-`Makefile` that is included with the starter kit, and read this tutorial:
-[Makefiles by example](http://mrbook.org/tutorials/make/).
-
+  editor and get programming!
 
 ## Problem 1
 
@@ -171,27 +163,30 @@ Implement your solution in `MidpointFindingKarel.java`.
 
 ## Problem 5
 
-The files for this problem were included in the starter kit originally. To
-update the starter kit execute the following command:
-
-    git pull
-
-In this exercise you are going to make Karel solve various mazes. A maze in the
-world of Karel looks like this:
+In this exercise you are going to make Karel solve mazes. A maze in the world of
+Karel looks like this:
 
 ![A maze in the world of Karel.](figure8.png)
 
 The exits of a maze are marked by a beeper. You can assume these are the only
 beepers in the world. Placing extra beepers is allowed, but take care not to
-confuse these with the real exits! Note that `SuperKarel` is also capable of
-painting in case you wish to mark a tile.
+confuse these with the real exits!
 
 The files include five mazes, numbered 1 through 5. Your solution should be a
-single class, `MazeSolvingKarel`, and it should move Karel to the exit of all
-mazes.
+single class, `MazeSolvingKarel`, which can move Karel to the exit of the first
+two mazes.
+
+### Hacker edition (optional)
+
+Looking for a challenge? Then try to solve all mazes. The first two mazes can be
+solved by following simple rules, the remaining three however are more
+difficult.
 
 Want some ideas to solve the harder mazes? Try
-[this page](http://www.astrolog.org/labyrnth/algrithm.htm).
+[this page](http://www.astrolog.org/labyrnth/algrithm.htm). Also note that
+`SuperKarel` is capable of painting floors. This can help keep track of where
+you've been.
+
 
 ## Adding comments
 
@@ -207,9 +202,10 @@ describing what the program does, and your name!
 
 ## Submitting your work
 
-* You should at the very least have solved Problems 1-4 and the simplest maze.
+* You should at the very least have solved Problems 1-5.
 * In Problems 1-4, your program should work for **every relevant world** that
-  came with the starter kit!
+  came with the starter kit! For Problem 5 you're only required to solve the
+  first two mazes.
 * Create a ZIP-file of your work. Make sure your teaching assistant can run your
   program without modification! Otherwise it will probably be sent back to you
   without a grade.
