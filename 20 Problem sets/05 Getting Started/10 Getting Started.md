@@ -11,7 +11,8 @@ So, without further ado, here’s the instructions for getting started:
 * Log on to the Linux workstation.
 * Start the Terminal.
 * Create a new directory named `prog` to store your problem sets from this
-  course. Do this by typing mkdir prog the following in the terminal.
+  course. Do this by typing `mkdir prog` in the terminal. Enter the directory
+  with `cd prog`.
 
 ## Hello World!
 
@@ -72,16 +73,16 @@ demonstrate how they work.
 
 Now that you've written some code it's probably a good time to look at what
 gedit offers. It's a simple editor, but it does offer a ways to make editing
-code a little easier. Start the editor and go to Preferences in the Edit
+code a little easier. Start the editor and go to *Preferences* in the *Edit*
 menu.
 
-On the first tab you should tick the "Display line numbers" box, this makes it
-easier to locate compile errors. Also tick the box in front of "Highlight
-matching brackets" unless you enjoy doing this manually. The "Display right
-margin at column: ..."  option is useful to remind yourself not to cram the
-whole program on a single line.
+On the first tab you should tick the *Display line numbers* box, this makes it
+easier to locate compile errors. Also tick the box in front of *Highlight
+matching brackets* unless you enjoy doing this manually. The *Display right
+margin at column: ...* option is useful to remind yourself not to cram the whole
+program on a single line.
 
-Next up is the Editor tab, which contains the tabs and spaces
+Next up is the *Editor* tab, which contains the tabs and spaces
 configuration. Holy wars are fought over the question if tabs or spaces are
 better for indentation purposes. Choose either one of the following methods and
 be consistent throughout the problem set.
