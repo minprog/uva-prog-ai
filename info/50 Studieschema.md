@@ -5,15 +5,13 @@ uit *Think Java* en daarbij behorende huiswerkopgaven. Onder voorbereiding staat
 voor ieder week aangegeven wat je minimaal moet doornemen voordat je aan het
 practicum begint. Onder "gedurende de week" staan de lectures die je de rest van
 de week door moet nemen. Veel hiervan is relevant voor de problem set die week,
-dus neem dit op tijd door.
+dus begin hier op tijd mee.
 
 Achter ieder kopje staat de minimale hoeveelheid tijd die je er mee kwijt
 bent. Dit is slechts een *indicatie van de minimale tijd*, zeker het practicum
 zal voor de meesten meer tijd in beslag nemen.
 
-De deadlines voor de problem sets zijn ieder vrijdag om 17:00 uur. De
-huiswerkopgaven moeten ingeleverd worden vóór maandag 9:00 van de volgende
-week. Deze kan je dus in het weekend doen.
+De deadlines voor de problem sets zijn iedere vrijdag om 17:00 uur.
 
 ## Week 1
 
