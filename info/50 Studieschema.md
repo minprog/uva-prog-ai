@@ -15,128 +15,116 @@ De deadlines voor de problem sets zijn iedere vrijdag om 17:00 uur.
 
 ## Week 1
 
-* Voorbereiding (2 uur):
+* Huiswerk (4 uur):
   - Kijk lecture 1 vanaf 41:35.
   - Kijk lecture 2.
   - Lees de hoofdstukken 1 -- 3 uit *Karel the Robot*.
-
-* Practicum (12 uur):
-  - Doe [problem set 1][].
-  - **deadline pset1:** vrijdag 17:00.
-
-* Gedurende de week (5 uur):
-  - Lees de rest van *Karel the Robot*.
+  - Lees hoofdstuk 1 uit *Think Java*.
+* Practicum (4 uur)
+  - Getting Started
+  - Problem set 1
+* Huiswerk (2 uur)
   - Kijk lecture 3.
+  - Lees de hoofdstukken 4 en 5 uit *Karel the Robot*.
+* Practicum (4 uur)
+  - Problem set 1
+* Huiswerk
   - Kijk lecture 4.
-  - Lees hoofdstukken 1 -- 3 uit *Think Java* en maak [huiswerk week 1][].
-  - **deadline huiswerk:** week 2 maandag 9:00.
+* Practicum (4 uur)
+  - Problem set 1
+
+**deadline pset1:** vrijdag 17:00
 
 ## Week 2
 
-* Voorbereiding (3 uur):
-  - Kijk lecture 5, lecture 6 en lecture 7.
+* Huiswerk (6 uur)
+  - Lees de hoofdstukken 2, 3, 4.1 -- 4.7, 6.1 -- 6.7, 7 uit *Think Java*.
+  - Kijk lecture 5.
+* Practicum (4 uur)
+  - Problem set 2
+* Huiswerk (3 uur)
+  - Lees hoofdstuk 9 uit *Think Java*.
+  - Kijk lecture 6, 7.
+* Practicum (4 uur)
+  - Problem set 2
+* Practicum (4 uur)
+  - Problem set 2
 
-* Practicum (12 uur):
-  - Doe [problem set 2][].
-  - **deadline pset2:** vrijdag 17:00
-
-* Gedurende de week (5 uur):
-  - Kijk lecture 8.
-  - Lees hoofdstukken 4, 6.1 -- 6.5, 7 en 9  uit *Think Java* en maak [huiswerk week 2][].
-  - **deadline huiswerk:** week 3 maandag 9:00.
+**deadline pset2:** vrijdag 17:00
 
 ## Week 3
 
-* Voorbereiding (3 uur):
-  - Kijk lecture 9, lecture 10 en lecture 11.
+* Huiswerk (5 uur)
+  - Kijk lecture 8, 9 en 10.
+  - Lees hoofdstukken 11, 15 uit *Think Java*.
+* Practicum (4 uur)
+  - Problem set 3
+* Huiswerk (1 uur)
+  - Kijk lecture 11.
+* Practicum (4 uur)
+  - Problem set 3
+* Huiswerk (2 uur)
+  - Lees hoofdstuk 8 en appendix D uit *Think Java*
+* Practicum (4 uur)
+  - Problem set 3
 
-* Practicum (12 uur):
-  - Doe [problem set 3][].
-  - **deadline pset3:** vrijdag 17:00
-
-* Gedurende de week (3 uur): 
-  - Lees hoofdstukken 8, 11, 15, en appendix D uit *Think Java* en maak [huiswerk week 3][].
-  - **deadline huiswerk:** week 4 maandag 9:00.
+**deadline pset3:** vrijdag 17:00
 
 ## Week 4
 
 * *Deeltentamen*:
-  - hoofdstukken 1, 2, 3, 4, 6.1 -- 6.5, 7, 8, 9, 11 en 15 uit *Think Java*
+  - hoofdstukken 1, 2, 3, 4.1 -- 4.7, 6.1 -- 6.7, 7, 8, 9, 11, 15 en appendix D uit *Think Java*
   - de huiswerkopgaven van week 1 -- 3
 
 ## Week 5
 
-* Voorbereiding (2 uur):
+* Huiswerk (4 uur):
   - Kijk lecture 16 en lecture 17
-
-* Practicum (12 uur):
-  - Doe [problem set 4][].
-  - **deadline pset4:** vrijdag 17:00
-
-* Gedurende de week (3 uur): 
+  - Lees hoofdstukken 12 en 16 uit *Think Java*.
+* Practicum (4 uur)
+  - Problem set 4
+* Huiswerk
   - Kijk lecture 12.
-  - Lees hoofdstukken 12 en 16 uit *Think Java* en maak [huiswerk week 4][].
-  - **deadline huiswerk:** week 5 maandag 9:00.
+* Practicum (4 uur)
+  - Problem set 4
+* Practicum (4 uur)
+  - Problem set 4
+
+**deadline pset4:** vrijdag 17:00
 
 ## Week 6
 
-* Voorbereiding (2 uur):
-  - Kijk lecture 13 en lecture 14.
+* Huiswerk (3 uur)
+  - Kijk lecture 13 en 14.
   - Lees appendix C uit *Think Java*.
+* Practicum (4 uur)
+  - Problem set 5
+* Huiswerk (1 uur)
+  - Kijk lecture 15
+* Practicum (4 uur)
+  - Problem set 5
+* Huiswerk (2 uur)
+  - Lees hoofdstukken 13 en 14.
+* Practicum (4 uur)
+  - Problem set 5
 
-* Practicum (12 uur):
-  - Start met [problem set 5][].
-  - **deadline pset5 beta:** vrijdag 17:00
-
-* Gedurende de week (4 uur):
-  - Kijk lecture 15.
-  - Lees hoofdstukken 13, 14 en appendix C uit *Think Java* en maak [huiswerk week 5][].
-  - **deadline huiswerk:** week 6 maandag 9:00.
+**deadline pset5 beta:** vrijdag 17:00
 
 ## Week 7
 
-* Voorbereiding (1 uur):
+* Huiswerk (1 uur):
   - Kijk lecture 18.
+* Practicum (4 uur)
+  - Problem set 6
+* Practicum (4 uur)
+  - Problem set 6
+* Practicum (4 uur)
+  - Problem set 6
 
-* Practicum (12 uur):
-  - Doe [problem set 5][].
-  - **deadline pset5 final:** vrijdag 17:00
+**deadline pset5 final:** vrijdag 17:00
 
 ## Week 8
 
 * *Tentamen*:
-  - hoofdstukken 12, 13, 14, 16 uit *Think Java*
-  - de huiswerkopgaven vanaf week 5
-  - lectures 12 t/m 18.
-
-[problem set 1]: /problem-sets/karel
-[problem set 2]: /problem-sets/simple-java
-[problem set 3]: /problem-sets/breakout
-[problem set 4]: /problem-sets/hangman
-[problem set 5]: /problem-sets/adventure
-
-[lecture 1]: /lectures/lecture-1
-[lecture 2]: /lectures/lecture-2
-[lecture 3]: /lectures/lecture-3
-[lecture 4]: /lectures/lecture-4
-[lecture 5]: /lectures/lecture-5
-[lecture 6]: /lectures/lecture-6
-[lecture 7]: /lectures/lecture-7
-[lecture 8]: /lectures/lecture-8
-[lecture 9]: /lectures/lecture-9
-[lecture 10]: /lectures/lecture-10
-[lecture 11]: /lectures/lecture-11
-[lecture 12]: /lectures/lecture-12
-[lecture 13]: /lectures/lecture-13
-[lecture 14]: /lectures/lecture-14
-[lecture 15]: /lectures/lecture-15
-[lecture 16]: /lectures/lecture-16
-[lecture 17]: /lectures/lecture-17
-[lecture 18]: /lectures/lecture-18
-
-[huiswerk week 1]: /homework/week-1
-[huiswerk week 2]: /homework/week-2
-[huiswerk week 3]: /homework/week-3
-[huiswerk week 4]: /homework/week-4
-[huiswerk week 5]: /homework/week-5
-[huiswerk week 6]: /homework/week-6
+  - hoofdstukken 12, 13, 14, 16 en appendix C uit *Think Java*
+  - lectures 12 -- 18.
