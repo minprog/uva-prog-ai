@@ -289,7 +289,7 @@ appears at the end of the tragic session in which the user was unable to guess
 #### Figure 5: The tragic ending of a Hangman game.
 ![The tragic ending of a Hangman game.](figure5.png)
 
-## Part III -- Reading the lexicon from a date file
+## Part III -- Reading the lexicon from a data file
 
 Part III of this assignment is by far the easiest and requires considerably less
 than half a page of code. The only problem is that you won’t have seen the Java
