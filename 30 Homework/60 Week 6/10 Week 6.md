@@ -1,15 +1,16 @@
 # Homework Week 6
 
-The homework for this week consists of the following chapters from *Think
-Java*. You are required to mark all sections that you find hard to
-understand. You must also write down any questions that pop-up during reading.
+The homework for this week consists of the following lectures and chapters from
+*Think Java*.
 
-* Chapter 13
-* Chapter 14
-* Appendix C
+## Before the first lab session
 
-You must bring the syllabus with your notes to your first lab session. We will
-check what you've read and will talk about the questions you have.
+* Lecture 13 and 14.
+* Chapters 13, 14, and appendix C from *Think Java*.
 
-You are strongly encourage to read these chapters again during the week, because
+## Before the second lab session
+
+* Lecture 15.
+
+You are strongly encourage to read the chapters again during the week, because
 these may not make sense immediately without practice.

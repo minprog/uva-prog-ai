@@ -38,12 +38,11 @@ De deadlines voor de problem sets zijn iedere vrijdag om 17:00 uur.
 ## Week 2
 
 * Huiswerk (6 uur)
-  - Lees de hoofdstukken 2, 3, 4.1 -- 4.7, 6.1 -- 6.7, 7 uit *Think Java*.
+  - Lees de hoofdstukken 2, 3, 4.1 -- 4.7, 6.1 -- 6.7, 7, and 9 uit *Think Java*.
   - Kijk lecture 5.
 * Practicum (4 uur)
   - Problem set 2
 * Huiswerk (3 uur)
-  - Lees hoofdstuk 9 uit *Think Java*.
   - Kijk lecture 6, 7.
 * Practicum (4 uur)
   - Problem set 2
@@ -54,17 +53,15 @@ De deadlines voor de problem sets zijn iedere vrijdag om 17:00 uur.
 
 ## Week 3
 
-* Huiswerk (5 uur)
+* Huiswerk (7 uur)
   - Kijk lecture 8, 9 en 10.
-  - Lees hoofdstukken 11, 15 uit *Think Java*.
+  - Lees hoofdstukken 8, 11, 15 en appendix D uit *Think Java*.
 * Practicum (4 uur)
   - Problem set 3
 * Huiswerk (1 uur)
   - Kijk lecture 11.
 * Practicum (4 uur)
   - Problem set 3
-* Huiswerk (2 uur)
-  - Lees hoofdstuk 8 en appendix D uit *Think Java*
 * Practicum (4 uur)
   - Problem set 3
 
@@ -94,17 +91,15 @@ De deadlines voor de problem sets zijn iedere vrijdag om 17:00 uur.
 
 ## Week 6
 
-* Huiswerk (3 uur)
+* Huiswerk (5 uur)
   - Kijk lecture 13 en 14.
-  - Lees appendix C uit *Think Java*.
+  - Lees hoofdstukken 13, 14 en appendix C uit *Think Java*.
 * Practicum (4 uur)
   - Problem set 5
 * Huiswerk (1 uur)
   - Kijk lecture 15
 * Practicum (4 uur)
   - Problem set 5
-* Huiswerk (2 uur)
-  - Lees hoofdstukken 13 en 14.
 * Practicum (4 uur)
   - Problem set 5
 
