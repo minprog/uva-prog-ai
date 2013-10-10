@@ -16,17 +16,29 @@ assignment, along with a considerable number of hints and strategic
 suggestions. To make it easier to read, the document is divided into the
 following sections:
 
-1. [Overview of the adventure game](#Overview)
-2. [The <tt>Adventure</tt> class](#Adventure_class)
-3. [The <tt>AdvRoom</tt> and <tt>AdvMotionTableEntry</tt> classes](#AdvRoom_AdvMotionTableEntry_classes)
-4. [The <tt>AdvObject</tt> class](#AdvObject_class)
-5. [Implementing the adventure game](#Implementing)
-6. [Strategy and tactics](#Strategy)
-7. [Expectations](#Expectations)
+1. [Expectations](#Expectations)
+2. [Overview of the adventure game](#Overview)
+3. [The <tt>Adventure</tt> class](#Adventure_class)
+4. [The <tt>AdvRoom</tt> and <tt>AdvMotionTableEntry</tt> classes](#AdvRoom_AdvMotionTableEntry_classes)
+5. [The <tt>AdvObject</tt> class](#AdvObject_class)
+6. [Implementing the adventure game](#Implementing)
+7. [Strategy and tactics](#Strategy)
 
 Try not to be daunted by the size of this handout. The code is not as big as you
 might think. If you follow the suggestions in the "Strategy and tactics"
 section, things should work out well.
+
+# <a id="Expectations">Expectations</a>
+
+At the end of the first week you have to submit a beta version that reads the
+data files and instantiates the `AdvObject`, `AdvRoom`, and
+`AdvMotionTableEntry` objects. The `Adventure.java` file should contain code
+that shows this works correctly; code that reads the data files, instantiates
+the objects, and then prints their contents.
+
+*You should submit this version on the submit tab before friday 17:00.* This
+ means you'll have the second week to implement the commands and the remaining
+ game code.
 
 ## Getting started
 
@@ -564,15 +576,3 @@ relatively little trouble:
    sure that your program handles them correctly. If you're unsure about how
    some case should be handled, play with the version containing the stub code
    and make sure that your program operates in the same way.
-
-# <a id="Expectations">Expectations</a>
-
-At the end of the first week you have to submit a beta version that reads the
-data files and instantiates the AdvObject, AdvRoom, and AdvMotionTableEntry
-objects. The Adventure.java class should contain code that shows this works
-correctly; code that reads the data files, instantiates the objects, and then
-prints their contents.
-
-*You should submit this version on the submit tab before friday 17:00.* This
- means you'll have the second week to implement the commands and the remaining
- game code.
