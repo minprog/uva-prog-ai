@@ -1,9 +1,13 @@
 # Homework Week 1
 
 The homework for this week consists of the following lectures, chapters from
-*Karel the Robot*, and chapters from *Think Java*. You are required to mark all
-sections that you find hard to understand. You must also write down any
-questions that pop-up during reading.
+*Karel the Robot*, and chapters from *Think Java*. What you should do:
+
+* You are required to mark all sections that you find hard to understand.
+
+* You must write down, in your book or separately, any questions that pop up during reading.
+
+* You must bring your book with you, including notes, to all lab sessions.
 
 ## Before the first lab session
 
