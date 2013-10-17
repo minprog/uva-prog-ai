@@ -12,14 +12,16 @@ drempel heen voordat je het begint te begrijpen.
 
 ## Huiswerk
 
-Vóór aanvang van elke workshopweek moet je een aantal hoofdstukken uit het boek
+Vóór aanvang van alle lesweken moet je een aantal hoofdstukken uit het boek
 lezen. Hierin moet je aantekenen welke onderdelen je moeilijk te begrijpen
-vindt, en welke vragen in je opkomen bij het lezen. Deze aantekeningen zullen we
-bekijken en bespreken. Daarom moet je je syllabus elke week meenemen.
+vindt, en welke vragen in je opkomen bij het lezen. In weken 1 t/m 3 zullen de
+assistenten deze aantekeningen met je bespreken bespreken. In de weken daarna
+verwachten we dat je zelf naar de assistenten toekomt als je vragen hebt over
+de stof. Om deze reden moet je je syllabus elke week meenemen.
 
 ## Problem Sets
 
-Er zijn twee *problem sets* waarin je wat grotere programma's gaat uitwerken en
+Er zijn vijf *problem sets* waarin je wat grotere programma's gaat uitwerken en
 invullen. De bedoeling is dat je enigszins zelfstandig de opdrachten leert
 lezen en begrijpen, en vervolgens een oplossing formuleren en implementeren.
 
@@ -65,17 +67,18 @@ Elk ingeleverd programma wordt beoordeeld op de volgende factoren;
 	5. perfectie, veel eigen principes maar volledig consistent
 	{: start="0"}
 
-Het cijfer voor een problem set wordt vaak bepaald door middel van de volgende
-formule:
+Voor de berekening van het cijfer van je problem set geven we ongeveer de volgende gewichten aan je deelcijfers:
 
-$$"omvang" * (3 * "correctheid" + 2 * "ontwerp" + 1 * "stijl")$$.
+* Omvang: factor 6
+* Correctheid: factor 3
+* Ontwerp: factor 2
+* Stijl: factor 1
 
-De deadline is vrijdag 17:00 voor alle studenten.
+Toch is het zo dat stijl een zwaarwegende factor kan worden als je bijvoorbeeld bij herhaling geen vooruitgang maakt hierin.
 
-De bedoeling is dat je tijdens de cursus steeds betere en leesbaardere
-programma's gaat insturen. De schaal staat dus niet helemaal vast: we kijken
-ook hoe je prestaties groeien. Compenseren van voldoendes met onvoldoendes is
-dan ook niet direct de bedoeling of mogelijk.
+### Deadline
+
+De deadline is vrijdag om 18:00 voor alle studenten. Op dat moment wordt het ingeleverde werk verdeeld onder de nakijkers en gaan zij aan de slag. Er is geen mogelijkheid om het later in te leveren; wél eerder natuurlijk!
 
 Het is prima om vóór je instuurt de assistent nog even te vragen naar je opgave
 te kijken en verbeteringen aan te brengen.
