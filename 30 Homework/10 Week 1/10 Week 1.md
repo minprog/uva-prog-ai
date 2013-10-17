@@ -1,8 +1,13 @@
 # Homework Week 1
 
-Your homework each week will consist of reading book chapters. You should do this fairly quickly. You do not need to remember everything, just read it lightly, make some notes and because it's in your head you will have an easier time doing the assignments.
+Your homework each week will consist of reading book chapters. You should do
+this fairly quickly. You do not need to remember everything, just read it
+lightly, make some notes and because it's in your head you will have an easier
+time doing the assignments.
 
-Besides that, there are nice video lectures that will help you get started with all of the concepts you need to know to get programming. They do not always correspond one-on-one to the book, so make sure to do both.
+Besides that, there are nice video lectures that will help you get started with
+all of the concepts you need to know to get programming. They do not always
+correspond one-on-one to the book, so make sure to do both.
 
 Availability of the book is explained on the [homepage](/).
 
@@ -15,8 +20,8 @@ Availability of the book is explained on the [homepage](/).
 You must bring the syllabus with your notes to each lab session. We will check
 what you've read and will talk about the questions you have.
 
-You are strongly encourage to the chapters again during the week, because these
-may not make sense immediately without practice.
+You are strongly encouraged to read the chapters again during the week, because
+they may not make sense immediately without practice. If you re-read them, you will need almost no time preparing for the quizzes.
 
 ## The homework
 
