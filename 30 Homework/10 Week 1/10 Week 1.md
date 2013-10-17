@@ -1,4 +1,4 @@
-# Homework Week 1
+# Homework
 
 Your homework each week will consist of reading book chapters. You should do
 this fairly quickly. You do not need to remember everything, just read it
