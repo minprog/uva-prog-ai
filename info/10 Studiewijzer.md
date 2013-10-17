@@ -27,10 +27,10 @@ Martijn zal regelmatig tijdens het practicum aanwezig zijn om te spreken met
 studenten, om af spraken te maken en die na te komen, en om te luisteren naar
 studenten die problemen signaleren. Als je even wat meer tijd nodig hebt om met
 hem te spreken, bijvoorbeeld voor het maken van persoonlijke afspraken, kun je
-ook een afspraak maken via <doodle.com/stgm>.
+ook een afspraak maken via [doodle.com/stgm](http://doodle.com/stgm).
 
 Martijn Stegeman  
-<stegeman@uva.nl>  
+stegeman@uva.nl  
 kamer C3.204  
 telefoon (020) 525 5235
 
