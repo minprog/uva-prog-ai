@@ -20,6 +20,11 @@ Availability of the book is explained on the [homepage](/).
 You must bring the syllabus with your notes to each lab session. We will check
 what you've read and will talk about the questions you have.
 
+If you already have some programming experience, the assignment above may not yield a lot of notes. In that case, you must:
+
+* Mark anything that is different from the programming language you have previously used.
+* Take note of anything that you would like to know more about.
+
 You are strongly encouraged to read the chapters again during the week, because
 they may not make sense immediately without practice. If you re-read them, you will need almost no time preparing for the quizzes.
 

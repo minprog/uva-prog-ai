@@ -1,6 +1,6 @@
 # Studiewijzer
 
-*Versie: November 2013 (1.0)*
+*Versie: November 2013 (1.1)*
 
 Welkom bij deze cursus Objectgeoriënteerd Programmeren. Dit vak begint bij het
 begin. Je leert over programmeren in het algemeen en je leert programmeren in
@@ -23,7 +23,16 @@ het practicum.
 
 ### Docent
 
-Martijn zal regelmatig tijdens het practicum aanwezig zijn om te spreken met
+Bij de docent kun je terecht voor:
+
+* persoonlijke afspraken, uitzonderingen
+* bespreken van de becijfering van een problem set
+* grotere vragen over het hoe en waarom van dit vak
+* het doen van suggesties voor verbetering
+* toestemming voor afwezigheid bij vooruit werken
+* ziekmelding
+
+De docent zal regelmatig tijdens het practicum aanwezig zijn om te spreken met
 studenten, om af spraken te maken en die na te komen, en om te luisteren naar
 studenten die problemen signaleren. Als je even wat meer tijd nodig hebt om met
 hem te spreken, bijvoorbeeld voor het maken van persoonlijke afspraken, kun je
@@ -34,15 +43,28 @@ stegeman@uva.nl
 kamer C3.204  
 telefoon (020) 525 5235
 
-### Student-assistenten
+### Studentassistenten
 
-De student-assistenten zijn je aanspreekpunt tijdens de ingeroosterde
-computerpractica. Je kunt bovenal op ze rekenen voor hulp bij het maken van je
-opdracht. Zodra jij ergens niet uitkomt, gaan ze met je meedenken over je
-probleem. Dat betekent niet dat ze je direct je antwoord zullen geven! Het doel
-van de cursus is juist dat je zelfstandig de problemen leert oplossen.
+Bij de studentassistenten kun je terecht voor:
 
-Daarnaast kijken de assistenten ook je ingeleverde opdrachten na. Daarvoor
+* begeleiding bij het oplossen van je opdrachten
+* tips voor een hoger cijfer
+* algemene informatie over het vak zoals die ook op de website staat
+* het doen van suggesties voor verbetering
+* het verkrijgen van feedback op de ingeleverde opdrachten (dit gaat via de
+  website)
+
+De assistenten zijn altijd aanwezig tijdens de ingeroosterde computerpractica.
+Je kunt bovenal op ze rekenen voor hulp bij het maken van je opdracht. Zodra
+jij ergens niet uitkomt, gaan ze met je meedenken over je probleem. Dat
+betekent niet dat ze je direct je antwoord zullen geven! Het doel van de cursus
+is juist dat je zelfstandig de problemen leert oplossen.
+
+De assistenten zullen zich vaak ook actief met je bemoeien. Als je weinig te
+vragen hebt, komen ze af en toe langs om te kijken hoe het gaat en of ze je nog
+tips kunnen geven.
+
+Daarnaast kijken de assistenten je ingeleverde opdrachten na. Daarvoor
 gebruiken ze de becijferingsmethode die vermeld staat op de volgende pagina.
 Omdat zij dit doen, kun je ze tijdens het maken van je opdracht ook al vragen
 er naar te kijken. Zo kunnen ze je tips geven om tot een hoger cijfer te komen.
