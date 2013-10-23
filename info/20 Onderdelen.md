@@ -12,7 +12,7 @@ drempel heen voordat je het begint te begrijpen.
 
 ## Huiswerk
 
-Vóór aanvang van alle lesweken moet je een aantal hoofdstukken uit het boek
+Vóór aanvang van alle lesweken moet je een aantal hoofdstukken uit de syllabus
 lezen. Hierin moet je aantekenen welke onderdelen je moeilijk te begrijpen
 vindt, en welke vragen in je opkomen bij het lezen. In weken 1 t/m 3 zullen de
 assistenten deze aantekeningen met je bespreken bespreken. In de weken daarna
@@ -23,7 +23,7 @@ de stof. Om deze reden moet je je syllabus elke week meenemen.
 
 Er zijn vijf *problem sets* waarin je wat grotere programma's gaat uitwerken en
 invullen. De bedoeling is dat je enigszins zelfstandig de opdrachten leert
-lezen en begrijpen, en vervolgens een oplossing formuleren en implementeren.
+lezen en begrijpen, waarna je een oplossing kunt formuleren en implementeren.
 
 Elk ingeleverd programma wordt beoordeeld op de volgende factoren;
 
@@ -33,7 +33,7 @@ Elk ingeleverd programma wordt beoordeeld op de volgende factoren;
 	1. onaf
 	2. basis staat maar niet alles afgemaakt
 	3. precies het minimum zoals in de opdracht
-	4. extra's geprobeerd
+	4. optionele onderdelen uit de opdracht gedaan
 	5. meer dan in de opdracht stond
 	{: start="0"}
 
@@ -85,7 +85,8 @@ te kijken en verbeteringen aan te brengen.
 
 ## Tentamen
 
-Omdat het mogelijk is bijna ongemerkt mee te liften met een medestudent tijdens
-het maken van de practica, checken we met twee deeltentamens nog een keer of je
-zelfstandig de leerdoelen van het vak gehaald hebt. Het gemiddelde van de
-deeltentamens telt voor 50% mee voor je eindcijfer.
+Omdat het mogelijk is ongemerkt mee te liften met een medestudent tijdens het
+maken van de practica (als je steevast tijdens een discussie over de opdracht
+spreekt over de manier van code schrijven), checken we met twee deeltentamens
+nog een keer of je zelfstandig de leerdoelen van het vak gehaald hebt. Het
+gemiddelde van de deeltentamens telt voor 50% mee voor je eindcijfer.

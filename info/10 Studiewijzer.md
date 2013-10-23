@@ -1,6 +1,6 @@
 # Studiewijzer
 
-*Versie: November 2013 (1.1)*
+*Versie: November 2013 (1.2)*
 
 Welkom bij deze cursus Objectgeoriënteerd Programmeren. Dit vak begint bij het
 begin. Je leert over programmeren in het algemeen en je leert programmeren in
@@ -8,7 +8,7 @@ Java. Je leert over het verband tussen de computer en de programma’s die er op
 draaien.
 
 |Opleiding  |Kunstmatige Intelligentie, Minor KI/AI|
-|Periode    |Semester 1, periode 2                 |
+|Periode    |Studiejaar 1, Semester 1, periode 2   |
 |Coördinator|Hans Dekkers                          |
 |Docent     |Martijn Stegeman                      |
 |Studielast |6 studiepunten                        |
@@ -81,8 +81,8 @@ er naar te kijken. Zo kunnen ze je tips geven om tot een hoger cijfer te komen.
   consistente stijl toe te passen.
 * Je kunt programmeerfouten opsporen en verbeteren: syntaxfouten in de code en
   logische fouten in de achterliggende algoritmes.
-* Je begrijpt hoe object-oriëntatie wordt gebruikt om programma’s overzichtelijk
-  te houden voor de programmeur.
+* Je kunt uitleggen hoe object-oriëntatie wordt gebruikt om programma’s
+  overzichtelijk te houden voor de programmeur.
 * Je kunt de verschillende object-georiënteerde abstracties aanwijzen in het
   ontwerp van een programma.
 
@@ -92,17 +92,17 @@ Deze cursus bevat 5 programmeeropdrachten en 2 deeltentamens. Ter voorbereiding
 van beide zijn er zo'n 3 videocolleges per week; en we hebben een studieboek
 waarin van alles over programmeren wordt uitgelegd.
 
-* We verwachten dat je in de eerste drie studieweken vóór het practicum je
+* We verwachten dat je in de eerste drie studieweken reeds vóór het practicum je
   huiswerk hebt gedaan en dat je je aantekeningen tijdens het eerste practicum
   bespreekt met een assistent. Dit wordt ter plaatse afgetekend.
 
 * We verwachten dat je twaalf uur per week aanwezig bent bij de
   computerpractica. De aanwezigheid wordt bijgehouden.
   
-  Als je meer dan een week vooruit loopt én alle programmeeropdrachten hebt
-  gedaan kun je schriftelijk aan de docent verzoeken om vrijstelling van de
-  aanwezigheidsverplichting. Dit wordt alleen gehonoreerd als je code van
-  uitstekende kwaliteit is.
+  Als je meer dan een week vooruit loopt én alle programmeeropdrachten (problem
+  sets) hebt gedaan kun je schriftelijk aan de docent verzoeken om vrijstelling
+  van de aanwezigheidsverplichting. Dit wordt alleen gehonoreerd als je code
+  van uitstekende kwaliteit is.
 
 * We verwachten dat je aanwezig bent bij de groep waarin je bent ingedeeld.
 
@@ -161,4 +161,5 @@ leeswerk één keer aan het begin van de week doet en gedurende de week nog eens
 > *Karel the robot learns Java*  
 > Stanford University, 2005  
 
-Dit boek is voor 5 euro verkrijgbaar bij de onderwijsbalie.
+Deze boeken zijn gedrukt als syllabus. Deze is voor 5 euro verkrijgbaar bij de
+onderwijsbalie.

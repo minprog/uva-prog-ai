@@ -11,7 +11,7 @@ Achter ieder kopje staat de minimale hoeveelheid tijd die je er mee kwijt
 bent. Dit is slechts een *indicatie van de minimale tijd*, zeker het practicum
 zal voor de meesten meer tijd in beslag nemen.
 
-De deadlines voor de problem sets zijn iedere vrijdag om 17:00 uur.
+De deadlines voor de problem sets zijn iedere vrijdag om 18:00 uur.
 
 ## Week 1
 
@@ -33,7 +33,7 @@ De deadlines voor de problem sets zijn iedere vrijdag om 17:00 uur.
 * Practicum (4 uur)
   - Problem set 1
 
-**deadline pset1:** vrijdag 17:00
+**deadline pset1:** vrijdag 18:00
 
 ## Week 2
 
@@ -49,7 +49,7 @@ De deadlines voor de problem sets zijn iedere vrijdag om 17:00 uur.
 * Practicum (4 uur)
   - Problem set 2
 
-**deadline pset2:** vrijdag 17:00
+**deadline pset2:** vrijdag 18:00
 
 ## Week 3
 
@@ -65,7 +65,7 @@ De deadlines voor de problem sets zijn iedere vrijdag om 17:00 uur.
 * Practicum (4 uur)
   - Problem set 3
 
-**deadline pset3:** vrijdag 17:00
+**deadline pset3:** vrijdag 18:00
 
 ## Week 4
 
@@ -87,7 +87,7 @@ De deadlines voor de problem sets zijn iedere vrijdag om 17:00 uur.
 * Practicum (4 uur)
   - Problem set 4
 
-**deadline pset4:** vrijdag 17:00
+**deadline pset4:** vrijdag 18:00
 
 ## Week 6
 
@@ -103,7 +103,7 @@ De deadlines voor de problem sets zijn iedere vrijdag om 17:00 uur.
 * Practicum (4 uur)
   - Problem set 5
 
-**deadline pset5 beta:** vrijdag 17:00
+**deadline pset5 beta:** vrijdag 18:00
 
 ## Week 7
 
@@ -116,7 +116,7 @@ De deadlines voor de problem sets zijn iedere vrijdag om 17:00 uur.
 * Practicum (4 uur)
   - Problem set 6
 
-**deadline pset5 final:** vrijdag 17:00
+**deadline pset5 final:** vrijdag 18:00
 
 ## Week 8
 
