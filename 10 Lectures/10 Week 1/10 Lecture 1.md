@@ -7,7 +7,7 @@ Methodology?, Are you in the right class?, Class Logistics, Assignments and
 Grading, Extensions, Midterm and Final, Grade Breakdown, The Honor Code, Why
 Karel?
 
-The part up until about 40 minutes will mostly give you an impression what this class is like at Stanford. Feel free to skip that, but it might be fun to watch.
+The class is quite a bit longer at Stanford (three months), so don't mind some of the practical announcements.
 
 ## Video
 
