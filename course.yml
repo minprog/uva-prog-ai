@@ -1,6 +1,7 @@
 course:
     title: Programmeren AI
     short: ProgAI
+    submit: ProgAI2013
 
 acknowledgements:
     - Based on Stanford CS106a (http://see.stanford.edu).
