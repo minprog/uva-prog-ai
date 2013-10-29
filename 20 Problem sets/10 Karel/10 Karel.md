@@ -30,6 +30,14 @@ press **run** of course, because you still have to implement the code!
 * Now, when in the `pset1` directory, run the following command to start your
   editor and get programming!
 
+## About the use of variables
+
+All of these exercises are designed to be solvable without the use of
+variables. Even more so, they are *harder* to solve without variables! That is
+why you cannot use them in your solutions. That is because these exercises aim
+to learn you the first steps in algorithmic problem solving. The solutions to
+these exercises can be very elegantly expressed without variables.
+
 ## Problem 1
 
 Your first task is to solve a simple story-problem in Karel’s world. Suppose
