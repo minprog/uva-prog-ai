@@ -70,8 +70,8 @@ De deadlines voor de problem sets zijn iedere vrijdag om 18:00 uur.
 ## Week 4
 
 * *Deeltentamen*:
-  - hoofdstukken 1, 2, 3, 4.1 -- 4.7, 6.1 -- 6.7, 7, 8, 9, 11, 15 en appendix D uit *Think Java*
-  - de huiswerkopgaven van week 1 -- 3
+  - hoofdstukken 1, 2, 3, 4.1 -- 4.7, 6.1 -- 6.7, 7, 8, 9 en appendix D uit *Think Java*
+  - de practicumopdrachten van week 1 -- 3
 
 ## Week 5
 
