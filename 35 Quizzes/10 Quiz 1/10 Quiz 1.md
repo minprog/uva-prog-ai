@@ -11,13 +11,19 @@ Any external methods you use must actually exist, of course!
 The following program will most certainly cause a runtime error. What kind of
 error will be reported if you run it anyway?
 
-	def recurse():
-	    recurse()
+	public static void countdown(int n) {
+		System.out.println(n);
+		countdown(n-1);
+	}
 
 * `ArrayIndexOutOfBoundsException`
 * `ArithmeticException`
 * `NoClassDefFoundError`
 * `StackOverflowError`
+
+How could you fix this error?
+
+<textarea></textarea>
 
 ## Problem 2: Karel the Robot
 
@@ -115,6 +121,9 @@ To reduce the number of special cases, you may make the following assumptions:
 ![secondl2](secondl2.png)
 
 ## Problem 5: Loopy
+
+Note; this program is the solution to problem 1. On the exam, these would be
+different programs, of course.
 
 Convert the method below into a `while` and a `for` loop, respectively.
 
