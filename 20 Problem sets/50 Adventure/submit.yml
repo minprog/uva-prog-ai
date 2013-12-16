@@ -1,3 +1,5 @@
 name: "5"
 required:
   - pset5.zip
+dependent_grades:
+  - "5f"
