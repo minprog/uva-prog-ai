@@ -1,6 +1,4 @@
-# Studiewijzer
-
-*Versie: November 2013 (1.2)*
+*Versie: September 2014 (1)* (dit is een beta-versie)
 
 Welkom bij deze cursus Objectgeoriënteerd Programmeren. Dit vak begint bij het
 begin. Je leert over programmeren in het algemeen en je leert programmeren in
