@@ -64,7 +64,7 @@ Toch is het zo dat stijl een zwaarwegende factor kan worden als je bijvoorbeeld 
 
 ### Deadline
 
-De deadline is vrijdag om 18:00 voor alle studenten. Op dat moment wordt het ingeleverde werk verdeeld onder de nakijkers en gaan zij aan de slag. Er is geen mogelijkheid om het later in te leveren; wél eerder natuurlijk!
+De deadline is vrijdag om 13:00 voor alle studenten. Op dat moment wordt het ingeleverde werk verdeeld onder de nakijkers en gaan zij aan de slag. Er is geen mogelijkheid om het later in te leveren; wél eerder natuurlijk!
 
 Het is prima om vóór je instuurt de assistent nog even te vragen naar je opgave
 te kijken en verbeteringen aan te brengen.
