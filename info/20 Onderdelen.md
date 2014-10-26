@@ -2,8 +2,8 @@
 
 Dit ben je per week kwijt aan dit vak:
 
-* 12 uur computerpracticum
-* 9 uur thuis lezen, leren, videos kijken en een beetje programmeren.
+* 6 uur verplicht computerpracticum
+* 15 uur thuis lezen, leren, videos kijken en programmeren.
 
 Dat betekent een wekelijkse studielast per week van gemiddeld 21 uur. Hou er
 rekening mee dat je best wat meer tijd kwijt kan zijn, studenten verschillen nu
@@ -12,18 +12,15 @@ drempel heen voordat je het begint te begrijpen.
 
 ## Huiswerk
 
-Vóór aanvang van alle lesweken moet je een aantal hoofdstukken uit de syllabus
-lezen. Hierin moet je aantekenen welke onderdelen je moeilijk te begrijpen
-vindt, en welke vragen in je opkomen bij het lezen. In weken 1 t/m 3 zullen de
-assistenten deze aantekeningen met je bespreken bespreken. In de weken daarna
-verwachten we dat je zelf naar de assistenten toekomt als je vragen hebt over
-de stof. Om deze reden moet je je syllabus elke week meenemen.
+Vóór aanvang van alle lesweken moet je een aantal hoofdstukken lezen. We
+verwachten dat je zelf naar de assistenten toekomt als je vragen hebt over de
+stof.
 
 ## Problem Sets
 
 Er zijn vijf *problem sets* waarin je wat grotere programma's gaat uitwerken en
-invullen. De bedoeling is dat je enigszins zelfstandig de opdrachten leert
-lezen en begrijpen, waarna je een oplossing kunt formuleren en implementeren.
+invullen. De bedoeling is dat je zelfstandig de opdrachten leert lezen en
+begrijpen, waarna je een oplossing kunt formuleren en implementeren.
 
 Elk ingeleverd programma wordt beoordeeld op de volgende factoren;
 
@@ -66,8 +63,8 @@ Toch is het zo dat stijl een zwaarwegende factor kan worden als je bijvoorbeeld 
 
 De deadline is vrijdag om 13:00 voor alle studenten. Op dat moment wordt het ingeleverde werk verdeeld onder de nakijkers en gaan zij aan de slag. Er is geen mogelijkheid om het later in te leveren; wél eerder natuurlijk!
 
-Het is prima om vóór je instuurt de assistent nog even te vragen naar je opgave
-te kijken en verbeteringen aan te brengen.
+PROTIP: Het is prima om vóór je instuurt de assistent nog even te vragen naar
+je opgave te kijken en verbeteringen aan te brengen.
 
 ## Tentamen
 

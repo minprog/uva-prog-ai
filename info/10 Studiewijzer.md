@@ -1,4 +1,4 @@
-*Versie: September 2014 (1)* (dit is een beta-versie)
+*Versie: November-december 2014 (1.0)*
 
 Welkom bij deze cursus Objectgeoriënteerd Programmeren. Dit vak begint bij het
 begin. Je leert over programmeren in het algemeen en je leert programmeren in
@@ -16,30 +16,22 @@ draaien.
 
 De staf bestaat uit je docent en diverse studentassistenten. Door de omvang van
 de cursus kan de staf doorgaans niet reageren op e-mail over problem sets of
-praktische zaken. Spreek daarvoor de studentassistenten of de docent aan tijdens
-het practicum.
+praktische zaken. Spreek voor vragen je assistent aan tijdens het practicum of stuur in noodgevallen een e-mail.
 
 ### Docent
+
+Martijn Stegeman  
+progki@mprog.nl  
+kamer C3.204  
+telefoon (020) 525 5235
 
 Bij de docent kun je terecht voor:
 
 * persoonlijke afspraken, uitzonderingen
 * bespreken van de becijfering van een problem set
-* grotere vragen over het hoe en waarom van dit vak
 * het doen van suggesties voor verbetering
-* toestemming voor afwezigheid bij vooruit werken
+* toestemming voor afwezigheid bij vooruitwerken
 * ziekmelding
-
-De docent zal regelmatig tijdens het practicum aanwezig zijn om te spreken met
-studenten, om af spraken te maken en die na te komen, en om te luisteren naar
-studenten die problemen signaleren. Als je even wat meer tijd nodig hebt om met
-hem te spreken, bijvoorbeeld voor het maken van persoonlijke afspraken, kun je
-ook een afspraak maken via [doodle.com/stgm](http://doodle.com/stgm).
-
-Martijn Stegeman  
-stegeman@uva.nl  
-kamer C3.204  
-telefoon (020) 525 5235
 
 ### Studentassistenten
 
@@ -87,14 +79,13 @@ er naar te kijken. Zo kunnen ze je tips geven om tot een hoger cijfer te komen.
 ## Verwachtingen
 
 Deze cursus bevat 5 programmeeropdrachten en 2 deeltentamens. Ter voorbereiding
-van beide zijn er zo'n 3 videocolleges per week; en we hebben een studieboek
-waarin van alles over programmeren wordt uitgelegd.
+van beide zijn er zo'n 3 videocolleges per week; en we hebben schriftelijke
+materialen waarin van alles over programmeren wordt uitgelegd.
 
-* We verwachten dat je in de eerste drie studieweken reeds vóór het practicum je
-  huiswerk hebt gedaan en dat je je aantekeningen tijdens het eerste practicum
-  bespreekt met een assistent. Dit wordt ter plaatse afgetekend.
+* We verwachten dat je in de eerste drie studieweken reeds vóór het practicum
+  je huiswerk hebt gedaan.
 
-* We verwachten dat je twaalf uur per week aanwezig bent bij de
+* We verwachten dat je minimaal zes uur per week aanwezig bent bij de
   computerpractica. De aanwezigheid wordt bijgehouden.
   
   Als je meer dan een week vooruit loopt én alle programmeeropdrachten (problem
@@ -104,14 +95,14 @@ waarin van alles over programmeren wordt uitgelegd.
 
 * We verwachten dat je aanwezig bent bij de groep waarin je bent ingedeeld.
 
-* We verwachten dat je uiterlijk vrijdagavond je opdracht van de week inlevert.
+* We verwachten dat je uiterlijk vrijdag om 13:00 uur je opdracht van de week inlevert.
 
 * We verwachten dat je de feedback over je opdrachten gebruikt om de opdrachten
   van de volgende week beter te maken. We zullen hier actief naar kijken en dit
   in de becijfering meenemen.
 
 * We verwachten dat je de videocolleges buiten de practicumuren kijkt en nooit
-  tijdens.
+  tijdens. Onze practica zijn geen ophokuren!
 
 Mocht je in de problemen komen met het vak en het tempo, zorg dan dat je meteen
 contact opneemt. We zijn altijd bereid te zoeken naar oplossingen voor zover
@@ -122,7 +113,6 @@ mogelijk met de hoeveelheid studenten in het vak.
 Je krijgt een eindcijfer voor dit vak als je:
 
 * voldoende uren aanwezig bent geweest tijdens de practica;
-* in de eerste drie weken aantekeningen hebt besproken met de assistent;
 * alle benodigde programma's op tijd en naar verwachting hebt aangeleverd;
 * gemiddeld een voldoende hebt gehaald voor de deeltentamens.
 
@@ -145,6 +135,8 @@ Een klein deel van het cijfer van de practica wordt bepaald door hoe je beter
 bent gaan programmeren tijdens het vak. Dit kan van invloed zijn op je
 eindcijfer.
 
+Het regelmatig doen van Hacker editions kan ook een positieve invloed hebben op je eindcijfer. Dit is echter alleen bedoeld voor studenten die al goed kunnen programmeren.
+
 ## Literatuur
 
 De volgende boeken zijn verplichte literatuur. In de cursus staat vermeld
@@ -158,6 +150,3 @@ leeswerk één keer aan het begin van de week doet en gedurende de week nog eens
 > Eric Roberts  
 > *Karel the robot learns Java*  
 > Stanford University, 2005  
-
-Deze boeken zijn gedrukt als syllabus. Deze is voor 5 euro verkrijgbaar bij de
-onderwijsbalie.
