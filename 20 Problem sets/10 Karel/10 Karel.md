@@ -30,13 +30,13 @@ press **run** of course, because you still have to implement the code!
 * Now, when in the `pset1` directory, run the following command to start your
   editor and get programming!
 
-## About the use of variables
+## About the use of Java
 
-All of these exercises are designed to be solvable without the use of
-variables. Even more so, they are *harder* to solve without variables! That is
-why you cannot use them in your solutions. That is because these exercises aim
-to learn you the first steps in algorithmic problem solving. The solutions to
-these exercises can be very elegantly expressed without variables.
+You cannot use any other constructs in your programs than those mentioned on
+the last page of the Karel book (cheat sheet!). All of these exercises are
+designed to be solvable without the use of variables.
+
+Also, you should not use recursion, in order to practice with iterative solutions. You have done enough recursion in the Logic Programming course!
 
 ## Problem 1
 
@@ -202,11 +202,19 @@ The five problems in this problem set do not usually require a lot of
 comments. We would like to see, however, atop each function, a short description
 of what it does.
 
-Also, you should describe the algorithms you used in Problem 5, by inserting
-comments throughout those.
+	// this is a comment that describes the line(s) below
+
+You should explicitly describe the algorithms you used in Problem 5, by
+inserting comments throughout those. We do not know in advance what algorithm you will be using, so summarize and explain.
 
 And finally, make very sure that your files include a short top comment
 describing what the program does, and your name!
+
+	/*
+	 * This program designed by Martijn Stegeman, 9804730
+	 *
+	 * Lets Karel walk some steps.
+	 */
 
 ## Submitting your work
 
