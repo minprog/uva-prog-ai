@@ -1,4 +1,4 @@
-*Versie: November-december 2014 (1.0)*
+*Versie: november-december 2014 (1.0)*
 
 Welkom bij deze cursus Objectgeoriënteerd Programmeren. Dit vak begint bij het
 begin. Je leert over programmeren in het algemeen en je leert programmeren in
