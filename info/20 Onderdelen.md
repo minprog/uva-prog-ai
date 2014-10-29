@@ -31,7 +31,6 @@ Elk ingeleverd programma wordt beoordeeld op de volgende factoren;
 	3. basis staat, het werkt wel, maar niet alles afgemaakt
 	4. alles gedaan, maar niet altijd goede antwoord
 	5. werkt perfect met alle voorbeelden uit de opgave
-	{: start="0"}
 
 * Design --- hoe ordelijk is je code?
 
@@ -40,7 +39,6 @@ Elk ingeleverd programma wordt beoordeeld op de volgende factoren;
 	3. ongecompliceerd, details misschien inefficiënt
 	4. goed gebruik van de mogelijkheden die te taal biedt
 	5. perfectie, je hebt erover gelezen en het uitstekend toegepast
-	{: start="0"}
 
 * Style --- hoe leesbaar is je code?
 
@@ -49,7 +47,6 @@ Elk ingeleverd programma wordt beoordeeld op de volgende factoren;
 	3. leesbaar en behoorlijk consistent, misschien nog een enkel probleem
 	4. helemaal consistent, inclusief afwijkingen van de stijlgids
 	5. perfectie, veel eigen principes maar volledig consistent
-	{: start="0"}
 
 Voor de berekening van het cijfer van je problem set geven we ongeveer de volgende gewichten aan je deelcijfers:
 
