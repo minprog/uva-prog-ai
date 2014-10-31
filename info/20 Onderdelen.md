@@ -26,8 +26,8 @@ Elk ingeleverd programma wordt beoordeeld op de volgende factoren;
 
 * Correctness --- heb je alles geprobeerd?
 
-	1. kost teveel tijd om werkend te krijgen (bugs!)
-	2. belangrijk deel niet gedaan, of moet gewijzigd om werkend te krijgen
+	1. belangrijk deel niet gedaan of teveel bugs om werkend te krijgen
+	2. moet gewijzigd om werkend te krijgen
 	3. basis staat, het werkt wel, maar niet alles afgemaakt
 	4. alles gedaan, maar niet altijd goede antwoord
 	5. werkt perfect met alle voorbeelden uit de opgave
