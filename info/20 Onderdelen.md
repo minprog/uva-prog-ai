@@ -22,7 +22,7 @@ Er zijn vijf *problem sets* waarin je wat grotere programma's gaat uitwerken en
 invullen. De bedoeling is dat je zelfstandig de opdrachten leert lezen en
 begrijpen, waarna je een oplossing kunt formuleren en implementeren.
 
-Elk ingeleverd programma wordt beoordeeld op de volgende factoren;
+Elk ingeleverd programma wordt beoordeeld op de volgende factoren:
 
 * Correctness --- heb je alles geprobeerd?
 
