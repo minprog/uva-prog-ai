@@ -219,14 +219,23 @@ describing what the program does, and your name!
 ## Submitting your work
 
 * You should at the very least have solved Problems 1-5.
+
 * In Problems 1-4, your program should work for **every relevant world** that
   came with the starter kit! For Problem 5 you're only required to solve the
   first two mazes.
-* Create a ZIP-file of your work. Make sure your teaching assistant can run your
-  program without modification! Otherwise it will probably be sent back to you
-  without a grade.
+
+* You can make a zip with the required files by running the following command
+  in a terminal.
+
+        make submit
+
+    You can submit a problem set multiple times, we always grade at the last
+    submission before the deadline. Make sure to submit all files when you
+    resubmit, not only the files that changed.
+
 * Go to the submit tab and send your ZIP-file to us. After the weekend, you'll
   see if you got a grade or if your submission was rejected.
-* In all cases, ask your assistant for feedback on the problem set.
+
+* In all cases, ask your assistant for feedback on the problem set during the lab sessions. This is how you learn!
 
 [^1]: From [Karel the robot learns Java](http://www.stanford.edu/class/cs106a/handouts/karel-the-robot-learns-java.pdf)

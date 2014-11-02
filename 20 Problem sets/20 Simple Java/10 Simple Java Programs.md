@@ -223,5 +223,16 @@ very large. How many steps, for example, does your program take when *n* is 27?
 
 ## Submit
 
-* Package your java files by issuing a `make submit`.
-* Submit your zipfile on the submit tab.
+* You can make a zip with the required files by running the following command
+  in a terminal.
+
+        make submit
+
+    You can submit a problem set multiple times, we always grade at the last
+    submission before the deadline. Make sure to submit all files when you
+    resubmit, not only the files that changed.
+
+* Go to the submit tab and send your ZIP-file to us. After the weekend, you'll
+  see if you got a grade or if your submission was rejected.
+
+* In all cases, ask your assistant for feedback on the problem set during the lab sessions. This is how you learn!

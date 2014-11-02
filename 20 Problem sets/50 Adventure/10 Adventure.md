@@ -555,24 +555,42 @@ not specify a superclass at all.
 The following suggestions should enable you to complete the program with
 relatively little trouble:
 
-* *Get each class working before you start writing the next one.* Because the
+* Get each class working before you start writing the next one.* Because the
    starter project supplies magic superclasses that implement each of the
    classes you need to write, you don't have to get everything working before
    you can make useful progress. Work on the classes one at the time, and debug
    each one thoroughly before moving on to the next. My suggestion is to start
    with `AdvObject` and `AdvRoom`, and then move on to the more difficult
    implementation of `Adventure` itself.
-* *Use the smaller data files for most of your testing.* Don't try to test your
+
+* Use the smaller data files for most of your testing.* Don't try to test your
    code on the `Crowther` data files. These files take time to read in and are
    complicated only because of their scale. The `Tiny` data files are
    appropriate for the basic functionality, and the `Small` data files have
    examples of every required feature. When you finish you implementation, it
    makes sense to try the larger data files just to make sure everything
    continues to work in the larger context.
-* *Test your program thoroughly against this document and the magic
+
+* Test your program thoroughly against this document and the magic
    superclasses.* When you think you've finished, go back through this document
    and make sure that your program meets the requirements stated in the
    assignment. Look for special cases in the assignment description and make
    sure that your program handles them correctly. If you're unsure about how
    some case should be handled, play with the version containing the stub code
    and make sure that your program operates in the same way.
+
+## Submit
+
+* You can make a zip with the required files by running the following command
+  in a terminal.
+
+        make submit
+
+    You can submit a problem set multiple times, we always grade at the last
+    submission before the deadline. Make sure to submit all files when you
+    resubmit, not only the files that changed.
+
+* Go to the submit tab and send your ZIP-file to us. After the weekend, you'll
+  see if you got a grade or if your submission was rejected.
+
+* In all cases, ask your assistant for feedback on the problem set during the lab sessions. This is how you learn!
