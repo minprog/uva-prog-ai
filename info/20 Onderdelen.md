@@ -48,13 +48,9 @@ Elk ingeleverd programma wordt beoordeeld op de volgende factoren;
 	4. helemaal consistent, inclusief afwijkingen van de stijlgids
 	5. perfectie, veel eigen principes maar volledig consistent
 
-Voor de berekening van het cijfer van je problem set geven we ongeveer de volgende gewichten aan je deelcijfers:
+Voor de berekening van het cijfer van je problem set geven we ongeveer de volgende gewichten aan je deelcijfers: correctness > design > style.
 
-* Correctness: factor 3
-* Design: factor 2
-* Style: factor 1
-
-Toch is het zo dat stijl een zwaarwegende factor kan worden als je bijvoorbeeld bij herhaling geen vooruitgang maakt hierin.
+Toch is het zo dat style een zwaarwegende factor kan worden als je bijvoorbeeld bij herhaling geen vooruitgang maakt hierin.
 
 ### Deadline
 
