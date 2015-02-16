@@ -22,4 +22,5 @@ quizzes:
         q2: 3
 
 resit:
+    type: float
     resit: 1
