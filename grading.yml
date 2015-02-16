@@ -23,4 +23,5 @@ quizzes:
 
 resit:
     type: float
-    resit: 1
+    grades:
+        resit: 1
