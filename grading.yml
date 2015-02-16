@@ -18,8 +18,8 @@ psets:
 quizzes:
     type: float
     grades:
-        'q1': 3
-        'q2': 3
+        q1: 3
+        q2: 3
 
 resit:
     resit: 1
