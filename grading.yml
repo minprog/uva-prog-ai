@@ -1,0 +1,25 @@
+calculation:
+    resit:
+        resit: 1
+        psets: 1
+    normal:
+        quizzes: 1
+        psets: 1
+
+psets:
+    type: integer
+    grades:
+        '1': 1
+        '2': 1
+        '3': 1
+        '4': 1
+        '5': 2
+
+quizzes:
+    type: float
+    grades:
+        'q1': 3
+        'q2': 3
+
+resit:
+    resit: 1
