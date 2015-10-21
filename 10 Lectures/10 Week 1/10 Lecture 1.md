@@ -7,7 +7,9 @@ Methodology?, Are you in the right class?, Class Logistics, Assignments and
 Grading, Extensions, Midterm and Final, Grade Breakdown, The Honor Code, Why
 Karel?
 
-The class is quite a bit longer at Stanford (three months), so don't mind some of the practical announcements.
+
+Vanaf 44:21 Why Karel
+
 
 ## Video
 

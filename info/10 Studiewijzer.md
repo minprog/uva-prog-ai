@@ -1,26 +1,24 @@
-*Versie: november-december 2014 (1.0)*
+# Objectgeoriënteerd programmeren
+
+*Versie: november-december 2015 (1.0)*
 
 Welkom bij deze cursus Objectgeoriënteerd Programmeren. Dit vak begint bij het
 begin. Je leert over programmeren in het algemeen en je leert programmeren in
-Java. Je leert over het verband tussen de computer en de programma’s die er op
+Java. Je leert over het verband tussen de computer en de programma's die er op
 draaien.
 
-|Opleiding  |Kunstmatige Intelligentie, Minor KI/AI|
-|Periode    |Studiejaar 1, Semester 1, periode 2   |
-|Coördinator|Hans Dekkers                          |
-|Docent     |Martijn Stegeman                      |
+|Coördinator|Martijn Stegeman                      |
+|Hoofdassistent|Tim Doolan                         |
 |Studielast |6 studiepunten                        |
-|Vakcode    |5082IMOP6Y                            |
 
 ## Staf
 
 De staf bestaat uit je docent en diverse studentassistenten. Door de omvang van
-de cursus kan de staf doorgaans niet reageren op e-mail over problem sets of
-praktische zaken. Spreek voor vragen je assistent aan tijdens het practicum of stuur in noodgevallen een e-mail.
+de cursus kunnen we doorgaans niet reageren op e-mail over problem sets of
+praktische zaken. Spreek voor vragen je assistent aan tijdens het practicum of
+stuur in noodgevallen een e-mail.
 
-### Docent
-
-Martijn Stegeman  
+Martijn Stegeman & Tim Doolan  
 progki@mprog.nl  
 kamer C3.204  
 telefoon (020) 525 5235
@@ -30,7 +28,7 @@ Bij de docent kun je terecht voor:
 * persoonlijke afspraken, uitzonderingen
 * bespreken van de becijfering van een problem set
 * het doen van suggesties voor verbetering
-* toestemming voor afwezigheid bij vooruitwerken
+* toestemming voor afwezigheid
 * ziekmelding
 
 ### Studentassistenten
@@ -54,10 +52,9 @@ De assistenten zullen zich vaak ook actief met je bemoeien. Als je weinig te
 vragen hebt, komen ze af en toe langs om te kijken hoe het gaat en of ze je nog
 tips kunnen geven.
 
-Daarnaast kijken de assistenten je ingeleverde opdrachten na. Daarvoor
-gebruiken ze de becijferingsmethode die vermeld staat op de volgende pagina.
-Omdat zij dit doen, kun je ze tijdens het maken van je opdracht ook al vragen
-er naar te kijken. Zo kunnen ze je tips geven om tot een hoger cijfer te komen.
+Daarnaast kijken de assistenten je ingeleverde opdrachten na. Omdat zij dit
+doen, kun je ze tijdens het maken van je opdracht ook al vragen er naar te
+kijken. Zo kunnen ze je tips geven om tot een hoger cijfer te komen.
 
 ## Leerdoelen
 
@@ -66,34 +63,34 @@ er naar te kijken. Zo kunnen ze je tips geven om tot een hoger cijfer te komen.
 * Je kunt een specificatie van een programma omzetten naar werkende code,
   opgedeeld in functies.
 * Je kunt bij programmeertalen bijgeleverde bibliotheken gebruiken in je eigen
-  programma’s.
-* Je kunt programma’s overzichtelijk en beter leesbaar maken door een
+  programma's.
+* Je kunt programma's overzichtelijk en beter leesbaar maken door een
   consistente stijl toe te passen.
 * Je kunt programmeerfouten opsporen en verbeteren: syntaxfouten in de code en
   logische fouten in de achterliggende algoritmes.
-* Je kunt uitleggen hoe object-oriëntatie wordt gebruikt om programma’s
+* Je kunt uitleggen hoe object-oriëntatie wordt gebruikt om programma's
   overzichtelijk te houden voor de programmeur.
 * Je kunt de verschillende object-georiënteerde abstracties aanwijzen in het
   ontwerp van een programma.
 
 ## Verwachtingen
 
-Deze cursus bevat 5 programmeeropdrachten en 2 deeltentamens. Ter voorbereiding
+Deze cursus bevat 6 programmeeropdrachten en 2 deeltentamens. Ter voorbereiding
 van beide zijn er zo'n 3 videocolleges per week; en we hebben schriftelijke
 materialen waarin van alles over programmeren wordt uitgelegd.
 
-* We verwachten dat je in de eerste drie studieweken reeds vóór het practicum
+* We verwachten dat je steeds vóór het practicum
   je huiswerk hebt gedaan.
 
 * We verwachten dat je minimaal zes uur per week aanwezig bent bij de
-  computerpractica. De aanwezigheid wordt bijgehouden.
+  computerpractica. De aanwezigheid wordt bijgehouden via de website.
   
   Als je meer dan een week vooruit loopt én alle programmeeropdrachten (problem
   sets) hebt gedaan kun je schriftelijk aan de docent verzoeken om vrijstelling
   van de aanwezigheidsverplichting. Dit wordt alleen gehonoreerd als je code
   van uitstekende kwaliteit is.
 
-* We verwachten dat je aanwezig bent bij de groep waarin je bent ingedeeld.
+* We verwachten dat je aanwezig bent bij de groep waarin je bent ingedeeld en niet bij andere groepen.
 
 * We verwachten dat je uiterlijk vrijdag om 13:00 uur je opdracht van de week inlevert.
 
@@ -102,11 +99,10 @@ materialen waarin van alles over programmeren wordt uitgelegd.
   in de becijfering meenemen.
 
 * We verwachten dat je de videocolleges buiten de practicumuren kijkt en nooit
-  tijdens. Onze practica zijn geen ophokuren!
+  tijdens (practicum is geen ophokuur maar een plek om hard te werken en hulp te krijgen).
 
 Mocht je in de problemen komen met het vak en het tempo, zorg dan dat je meteen
-contact opneemt. We zijn altijd bereid te zoeken naar oplossingen voor zover
-mogelijk met de hoeveelheid studenten in het vak.
+contact opneemt. We zijn altijd bereid mee te zoeken naar oplossingen.
 
 ## Eindcijfer
 
@@ -131,11 +127,9 @@ Het eindcijfer bestaat uit:
 * 50% het gemiddelde van de deeltentamens
 * 50% gebaseerd op het gemiddelde van de practica
 
-Een klein deel van het cijfer van de practica wordt bepaald door hoe je beter
+Een deel van het cijfer van de practica wordt bepaald door hoe je beter
 bent gaan programmeren tijdens het vak. Dit kan van invloed zijn op je
 eindcijfer.
-
-Het regelmatig doen van Hacker editions kan ook een positieve invloed hebben op je eindcijfer. Dit is echter alleen bedoeld voor studenten die al goed kunnen programmeren.
 
 ## Literatuur
 
