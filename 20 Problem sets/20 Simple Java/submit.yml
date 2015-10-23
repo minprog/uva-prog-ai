@@ -1,3 +1,4 @@
-name: "2"
+name: "1"
 required:
+  - pset1.zip
   - pset2.zip
