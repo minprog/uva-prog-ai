@@ -1,4 +1,4 @@
-# Lecture 5
+# Lecture 5: Graphics Programs
 
 ## Topics
 

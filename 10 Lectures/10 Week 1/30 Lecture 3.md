@@ -1,4 +1,4 @@
-# Lecture 3
+# Lecture 3: Karel
 
 ## Topics
 

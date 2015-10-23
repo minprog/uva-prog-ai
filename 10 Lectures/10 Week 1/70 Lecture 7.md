@@ -1,4 +1,4 @@
-# Lecture 7
+# Lecture 7: Console Program
 
 ## Topics
 

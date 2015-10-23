@@ -127,10 +127,3 @@ configuring Java.
 [VirtualBox]: https://www.virtualbox.org/
 [VMWare]: http://www.vmware.com/
 
-## Appetizer
-
-To get a taste for what you're going to make have a look at this web version of
-[Adventure]. We deliver the data files that contain the text and structure of
-the adventure. It will be your job to implement the program that uses this data.
-
-[Adventure]: http://quuxplusone.github.io/Advent/play.html
