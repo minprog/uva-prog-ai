@@ -137,10 +137,10 @@ De volgende boeken zijn verplichte literatuur. In de cursus staat vermeld
 wanneer je delen van deze boeken moet lezen en begrijpen. Zorg dat je het
 leeswerk één keer aan het begin van de week doet en gedurende de week nog eens.
 
-> Allen Downey  
-> *Think Java*  
-> Green Tea Press, 2013  
+* Allen Downey  
+  *Think Java*  
+  Green Tea Press, 2013  
 
-> Eric Roberts  
-> *Karel the robot learns Java*  
-> Stanford University, 2005  
+* Eric Roberts  
+  *Karel the robot learns Java*  
+  Stanford University, 2005  
