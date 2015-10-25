@@ -26,9 +26,9 @@ extend its capabilities".[^1]
 
 * Try running the first problem using
 
-       java -cp .:karel.jar CollectNewspaperKarel
+       java -cp .:karel.jar StoneMasonKarel
 
-  This runs the CollectNewspaperKarel class. But alas, nothing happens if your
+  This runs the StoneMasonKarel class. But alas, nothing happens if your
   press *run* of course, because you still have to implement the code!
 
 * Now, when in the **pset1** directory, run the following command to start your
