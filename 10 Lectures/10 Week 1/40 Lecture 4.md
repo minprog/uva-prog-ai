@@ -6,7 +6,7 @@ The History of Computing, Computer Science vs Programming, What Does the Compute
 
 ## Video
 
-![embed](http://www.youtube.com/embed/nWheM30THaY)
+![embed](https://www.youtube.com/embed/nWheM30THaY)
 
 ## Slides
 

@@ -12,4 +12,4 @@ Karel?
 
 Vanaf 44:21 - Why Karel?
 
-![embed](http://www.youtube.com/embed/KkMDCCdjyW8)
+![embed](https://www.youtube.com/embed/KkMDCCdjyW8)

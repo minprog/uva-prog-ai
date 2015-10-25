@@ -6,7 +6,7 @@ The Loop and a Half Problem, For Versus While Loop, The CheckerBoard Program Exa
 
 ## Video
 
-![embed](http://www.youtube.com/embed/3oM9yT9kBBc)
+![embed](https://www.youtube.com/embed/3oM9yT9kBBc)
 
 ## Slides
 

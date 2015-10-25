@@ -6,4 +6,4 @@ Karel and Java, Common Errors, Comments, Pre-conditions and Post-conditions, Dec
 
 ## Video
 
-![embed](http://www.youtube.com/embed/C5HeRliZ0Ns)
+![embed](https://www.youtube.com/embed/C5HeRliZ0Ns)

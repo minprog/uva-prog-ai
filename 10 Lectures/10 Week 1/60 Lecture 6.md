@@ -6,7 +6,7 @@ readInt() and readDouble(), The Division Operator w.r.t ints and Doubles, Order 
 
 ## Video
 
-![embed](http://www.youtube.com/embed/GPWah4wbwYs)
+![embed](https://www.youtube.com/embed/GPWah4wbwYs)
 
 ## Slides
 
