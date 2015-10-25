@@ -6,7 +6,7 @@ Variables, Data Types for Variables, Syntax for Using Variables, Classes as Type
 
 ## Video
 
-<iframe width="640" height="360" src="http://www.youtube.com/embed/NPzPnycCFuE?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+![embed](http://www.youtube.com/embed/NPzPnycCFuE)
 
 ## Slides
 

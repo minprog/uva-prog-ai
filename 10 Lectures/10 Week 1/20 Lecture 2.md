@@ -6,4 +6,4 @@ Handout Information, Section Sign-up, Karel Commands, An Algorithm vs Program, S
 
 ## Video
 
-<iframe width="640" height="360" src="http://www.youtube.com/embed/0LoKDDRlfZc?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+![embed](http://www.youtube.com/embed/0LoKDDRlfZc)
