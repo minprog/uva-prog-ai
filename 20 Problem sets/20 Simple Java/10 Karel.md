@@ -36,9 +36,8 @@ extend its capabilities".[^1]
 
 > You cannot use any other constructs in your programs than those mentioned on
 the last page of the Karel book (cheat sheet!). All of these exercises are
-designed to be solvable without the use of variables. Also, you should not use
-recursion, in order to practice with iterative solutions. You have done enough
-recursion in the Logic Programming course!
+designed to be solvable without the use of variables. Also, you should *not* use
+recursion, so as to practice with iterative solutions.
 
 ## Problem 1: `StoneMasonKarel.java`
 
