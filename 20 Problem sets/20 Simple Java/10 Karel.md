@@ -11,7 +11,7 @@ extend its capabilities".[^1]
 
 * Go into the **Dropbox** directory you made in the Getting Started by executing
 
-       cd prog
+       cd Dropbox
 
 * Create another directory for this problem set (**mkdir pset1**) and **cd** into
   that as well.
