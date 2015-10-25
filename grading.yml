@@ -9,11 +9,9 @@ calculation:
 psets:
     type: integer
     grades:
-        '1': 1
-        '2': 1
-        '3': 1
-        '4': 1
-        '5': 2
+        simple: 1
+        breakout: 1
+        hangman: 1
 
 quizzes:
     type: float
