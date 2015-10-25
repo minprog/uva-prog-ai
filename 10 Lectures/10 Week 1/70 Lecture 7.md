@@ -1,4 +1,4 @@
-# Lecture 7: Console Program
+# Lecture 7: Console Programs
 
 The Loop and a Half Problem, For Versus While Loop, The CheckerBoard Program
 Example, Methods in Java, Examples of Methods, The FactorialExample Program,

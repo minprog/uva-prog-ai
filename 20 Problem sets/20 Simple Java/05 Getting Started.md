@@ -17,11 +17,13 @@ particularly up-to-date version of Java. Because this is a virtual machine, we
 need to worry less about the potential security implications of this (just
 don't run any other Java software from troubling sources!).
 
-To configure your Ubuntu virtual machine to use Java 6, run this command:
+To configure your Ubuntu virtual machine to use Java 6, run these commands:
 
     sudo update-alternatives --config java
+    
+    sudo update-alternatives --config javac
 
-and then choose either one of the Java 6 versions that are presented.
+and then for both choose either one of the Java 6 versions that are presented.
 
 ## Dropboxing
 
