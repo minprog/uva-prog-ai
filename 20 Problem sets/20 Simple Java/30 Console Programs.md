@@ -1,7 +1,7 @@
 # Console Programs
 
-For these programs we will also be using the files that were provided with 
-**pset2.zip** from the Graphics Program assignment.
+All the files needed for this problem set are included in the **pset1.zip** 
+from the Karel assignment.
 
 ## Problem 5: `FindRange.java`
 

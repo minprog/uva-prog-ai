@@ -1,7 +1,7 @@
 # Graphics Programs
 
-Download the starter kit from [here](cdn://pset2.zip) and extract it in your
-**Dropbox** directory. All the files needed for this problem set are included.
+All the files needed for this problem set are included in the **pset1.zip** 
+from the Karel assignment.
 
 ## Problem 3: `Pyramid.java`
 

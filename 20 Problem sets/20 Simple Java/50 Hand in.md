@@ -28,8 +28,7 @@ describing what the program does, and your name!
 
         make submit
 
-  Make sure to run this in *both* **pset1** and **pset2** folders. You can submit 
-  the **zip** files at the bottom of this page.
+  You can submit the resulting **zip** file at the bottom of this page.
     
 > You can submit a problem set multiple times, we always grade at the last
   submission before the deadline. Make sure to submit all files when you
