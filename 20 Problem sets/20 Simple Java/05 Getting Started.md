@@ -129,10 +129,7 @@ be consistent throughout the problem set.
 
 Both tabs and spaces are invisible characters in gedit. You can highlight them
 by doing a search for those characters (`\t` for tabs). Note that you can only
-search for one of these at the same time. Take a look at the [styleguide] for
-more about indentation.
-
-[styleguide]: /reference/styleguide
+search for one of these at the same time.
 
 ## Submitting your problem sets
 
