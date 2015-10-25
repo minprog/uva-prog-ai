@@ -1,15 +1,5 @@
 # Lecture 1: Intro
 
-## Topics
+Why Karel?
 
-Welcome to CS106A, Course Staff, Why is the class called Programming
-Methodology?, Are you in the right class?, Class Logistics, Assignments and
-Grading, Extensions, Midterm and Final, Grade Breakdown, The Honor Code, Why
-Karel?
-
-
-## Video
-
-Vanaf 44:21 - Why Karel?
-
-![embed](https://www.youtube.com/embed/KkMDCCdjyW8)
+![embed](https://www.youtube.com/embed/KkMDCCdjyW8?start=2494&rel=0)
