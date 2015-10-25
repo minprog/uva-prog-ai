@@ -56,3 +56,23 @@ If you commit some act that is not reasonable but bring it to the attention of t
 * Submitting work to this course that you intend to use outside of the course (e.g., for a job) without prior approval from the course's heads.
 * Using resources during a quiz beyond those explicitly allowed in the quiz's instructions.
 * Viewing another's solution to a problem set's problem and basing your own solution on it.
+
+## Assessment
+
+Your work on this problem set will be evaluated along four axes primarily.
+
+Scope
+: To what extent does your code implement the features required by our specification?
+
+Correctness
+: To what extent is your code consistent with our specifications and free of bugs?
+
+Design
+: To what extent is your code written well (i.e., clearly, efficiently, elegantly, and/or logically)?
+
+Style
+: To what extent is your code readable (i.e., commented and indented with variables aptly named)?
+
+All students must ordinarily submit this and all other problem sets to be
+eligible for a satisfactory grade unless granted an exception in writing by the
+course's heads.
