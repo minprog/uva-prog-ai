@@ -1,18 +1,11 @@
 # Getting Started
 
-In this course you are required to work on the Linux workstations and use gedit
-for editing your Java code. After this course, you may want to upgrade to a more
-sophisticated environment, but in this course that's not allowed.
+Configure your VM to use Java 6:
 
-So, without further ado, here’s the instructions for getting started:
+    sudo update-alternatives --config java
 
-* Start the computer in Linux; if it starts in Windows, just reboot and press F2
-  when asked.
-* Log on to the Linux workstation.
-* Start the Terminal.
-* Create a new directory named `prog` to store your problem sets from this
-  course. Do this by typing `mkdir prog` in the terminal. Enter the directory
-  with `cd prog`.
+Also, please install [dropbox](https://dropbox.com/) so your programs will get
+automatically backed up and no tears will be shed during the course!
 
 ## Hello World!
 
@@ -120,7 +113,7 @@ In order to run and compile the Java code for the lab sessions you need a JRE
 and JDK for Java version 1.6 (also referred to as Java 6). You can check the JRE
 and JDK version by executing `java -version` and `javac -version` in a
 terminal. They should both yield something similar to `java version
-"1.6.0_27"`. Ask a lab assistant for help if you have any trouble installing or
+"1.6.0_45"`. Ask a lab assistant for help if you have any trouble installing or
 configuring Java.
 
 [Ubuntu]: http://www.ubuntu.com/
