@@ -42,7 +42,7 @@ that came with the starter kit!
 Also, you should not use recursion, in order to practice with iterative 
 solutions. You have done enough recursion in the Logic Programming course!
 
-## Problem 1 `StoneMasonKarel.java`
+## Problem 1: `StoneMasonKarel.java`
 
 Karel has been hired to repair the damage done to the Quad in the 1989
 earthquake. In particular, Karel is to repair a set of arches where some of the
@@ -81,7 +81,7 @@ Karel may count on the following facts about the world:
 Implement your solution in `StoneMasonKarel.java`.
 
 
-## Problem 2 `CheckerboardKarel.java`
+## Problem 2: `CheckerboardKarel.java`
 
 In this exercise, your job is to get Karel to create a checkerboard pattern of
 beepers inside an empty rectangular world, as illustrated in the following

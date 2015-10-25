@@ -7,7 +7,7 @@ Your job in this assignment is to write programs to solve each of these problems
 For these programs we will also be using the files that were provided with 
 `pset2.zip` from the Graphics Program assignment. 
 
-## Problem 5 `FindRange.java`
+## Problem 5: `FindRange.java`
 
 Write a `ConsoleProgram` that reads in a list of integers, one per line, until a
 sentinel value of 0 (which you should be able to change easily to some other
@@ -33,7 +33,7 @@ Your program should handle the following special cases:
 * If the user enters the sentinel on the very first input line, then no values
   have been entered, and your program should display a message to that effect.
 
-## Problem 6 `Hailstone.java`
+## Problem 6: `Hailstone.java`
 
 Douglas Hofstadter’s Pulitzer-prize-winning book *Gödel, Escher,
 Bach*. Hofstadter’s book contains many interesting mathematical puzzles, many of

@@ -7,7 +7,7 @@ Your job in this assignment is to write programs to solve each of these problems
 Download the starter kit from [here](cdn://pset2.zip) and extract it in your
 prog directory. All the files needed for this problem set are included.
 
-## Problem 3 `Pyramid.java`
+## Problem 3: `Pyramid.java`
 
 Write a `GraphicsProgram` subclass that draws a pyramid consisting of bricks
 arranged in horizontal rows, so that the number of bricks in each row decreases
@@ -43,7 +43,7 @@ Documentation for the acm library:
 * [GraphicsProgram](http://jtf.acm.org/javadoc/student/acm/program/GraphicsProgram.html)
 * [GRect](http://jtf.acm.org/javadoc/student/acm/graphics/GRect.html)
 
-## Problem 4 `Rainbow.java`
+## Problem 4: `Rainbow.java`
 
 Write a `GraphicsProgram` subclass that draws a rainbow that looks like this:
 
