@@ -1,4 +1,3 @@
-
 ## Hacker edition (optional) `MazeSolvingKarel.java`
 
 Looking for a challenge? Then try and make Karel solve mazes! There are 5 mazes 
