@@ -106,4 +106,4 @@ for each of them.
 
 Implement your solution in **CheckerboardKarel.java**.
 
-[^1]: From [Karel the robot learns Java](http://www.stanford.edu/class/cs106a/handouts/karel-the-robot-learns-java.pdf)
+[^1]: From [Karel the robot learns Java](https://cs.stanford.edu/people/eroberts/karel-the-robot-learns-java.pdf)
