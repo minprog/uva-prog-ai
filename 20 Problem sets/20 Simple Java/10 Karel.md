@@ -17,7 +17,7 @@ extend its capabilities".[^1]
   that as well.
 
 * You can get the starter kit [here](cdn://pset1.zip). To download via the
-  Terminal, run **wget <url of zip>**.
+  Terminal, run **wget \<url of zip\>**.
 
 * Unpack it in the current directory with **unzip pset1.zip**.
 
