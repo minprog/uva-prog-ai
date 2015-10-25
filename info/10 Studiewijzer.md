@@ -92,7 +92,7 @@ materialen waarin van alles over programmeren wordt uitgelegd.
 
 * We verwachten dat je aanwezig bent bij de groep waarin je bent ingedeeld en niet bij andere groepen.
 
-* We verwachten dat je uiterlijk vrijdag om 13:00 uur je opdracht van de week inlevert.
+* We verwachten dat je uiterlijk vrijdag om 15:00 uur je opdracht van de week inlevert.
 
 * We verwachten dat je de feedback over je opdrachten gebruikt om de opdrachten
   van de volgende week beter te maken. We zullen hier actief naar kijken en dit
