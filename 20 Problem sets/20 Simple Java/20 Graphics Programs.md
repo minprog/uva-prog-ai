@@ -31,8 +31,10 @@ public class Pyramid extends GraphicsProgram
 }
 ~~~
 
-The numbers in parentheses show the values for this diagram, but you must be
-able to change those values in your program.
+Our goal is that your program will produce the correct output even if we change
+these constants to other (reasonable) values. We might check your program with
+a brick width of 2 pixels and see if it still works! However, a brick width of
+0 pixels makes no sense in this case, so we will not check that option.
 
 Documentation for the acm library:
 
@@ -48,16 +50,16 @@ Write a `GraphicsProgram` subclass that draws a rainbow that looks like this:
 The colors of the stripes are clear in the web version of the picture, but are
 hard to see in the black-and-white handout. Starting at the top, the six arcs
 are red, orange, yellow, green, blue, and magenta, respectively; cyan makes a
-lovely color for the sky.  At first glance, it might seem as if you need to draw
+lovely color for the sky. At first glance, it might seem as if you need to draw
 arcs on the screen, even though you won't actually learn about the `GArc` class
 until Lecture 10. As it turns out, that class doesn't really help much. The
-program that produced the diagram shown at the bottom of the previous page uses
-only circles, although seeing how this is possible forces you to think outside
-the box—in a literal rather than a figurative sense. The common center for each
-circle is some distance below the bottom of the window, and the diameters of the
-circles are wider than the screen. The `GraphicsProgram` shows only the part of
-the figure that actually appears in the window. This process of reducing a
-picture to the visible area is called clipping.
+program that produced the diagram shown uses only circles, although seeing how
+this is possible forces you to think outside the box---in a literal rather than a
+figurative sense. The common center for each circle is some distance below the
+bottom of the window, and the diameters of the circles are wider than the
+screen. The `GraphicsProgram` shows only the part of the figure that actually
+appears in the window. This process of reducing a picture to the visible area
+is called clipping.
 
 Rather than specify the exact dimensions of each circle, play around with the
 sizes and positioning of the circles until you get something that matches your
