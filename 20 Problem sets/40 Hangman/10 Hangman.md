@@ -55,7 +55,7 @@ graphical display. To solve the problem, your program must be able to:
 
 * Choose a random word to use the secret word. That word is chosen from a word
   list, as described in the following paragraph.
-* Keep track of the user’s partially guessed word, which begins as a series of
+* Keep track of the user's partially guessed word, which begins as a series of
   dashes and then updated as correct letters are guessed.
 * Implement the basic control structure and manage the details (ask the user to
   guess a letter, keep track of the number of guesses remaining, print out the
@@ -63,11 +63,11 @@ graphical display. To solve the problem, your program must be able to:
 
 The only operation that is beyond your current knowledge is that of representing
 the list of words from which you can choose a word at random. For the first two
-parts of the assignment, you will simply make use of a class that we’ve given
+parts of the assignment, you will simply make use of a class that we've given
 you called `HangmanLexicon` that provides a small list of words that will allow
-you to test your program. [^1] The implementation of the class you’ve been given
+you to test your program. [^1] The implementation of the class you've been given
 is only a temporary expedient to make it possible to code the rest of the
-assignment. In Part III, you will replace the definition we’ve provided with one
+assignment. In Part III, you will replace the definition we've provided with one
 that reads a list of words from a data file.
 
 [^1]: A *lexicon* is very much like a dictionary, but does not necessarily include definitions, which makes it a more appropriate name for a class that provides a list of words with no associated meanings.
@@ -292,7 +292,7 @@ appears at the end of the tragic session in which the user was unable to guess
 ## Part III -- Reading the lexicon from a data file
 
 Part III of this assignment is by far the easiest and requires considerably less
-than half a page of code. The only problem is that you won’t have seen the Java
+than half a page of code. The only problem is that you won't have seen the Java
 facilities you need to do it until the lectures next week. So the idea is to
 start with parts I and II and then fill in this final detail at the end.
 

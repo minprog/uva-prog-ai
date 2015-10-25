@@ -35,8 +35,8 @@ Your program should handle the following special cases:
 
 ## Problem 6: `Hailstone.java`
 
-Douglas Hofstadter’s Pulitzer-prize-winning book *Gödel, Escher,
-Bach*. Hofstadter’s book contains many interesting mathematical puzzles, many of
+Douglas Hofstadter's Pulitzer-prize-winning book *Gödel, Escher,
+Bach*. Hofstadter's book contains many interesting mathematical puzzles, many of
 which can be expressed in the form of computer programs. Of these, most require
 programming skills well beyond the second week of this course. However, in
 Chapter XII, Hofstadter mentions a wonderful problem that is well within the
@@ -77,7 +77,7 @@ the ground. Because of this analogy, this sequence of numbers is usually called
 the **Hailstone sequence**, although it goes by many other names as well.
 
 Write a `ConsoleProgram` that reads in a number from the user and then displays
-the Hailstone sequence for that number, just as in Hofstadter’s book, followed
+the Hailstone sequence for that number, just as in Hofstadter's book, followed
 by a line showing the number of steps taken to reach 1. For example, your
 program should be able to produce a sample run that looks like this:
 

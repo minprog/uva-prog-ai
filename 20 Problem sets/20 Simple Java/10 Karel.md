@@ -1,11 +1,11 @@
 # Karel the Robot
 
 "Karel is a very simple robot living in a very simple world. By giving Karel a
-set of commands, you can direct it to perform certain tasks within its
-world. The process of specifying those commands is called
-programming. Initially, Karel understands only a very small number of predefined
-commands, but an important part of the programming process is teaching Karel new
-commands that extend its capabilities".[^1]
+set of commands, you can direct it to perform certain tasks within its world.
+The process of specifying those commands is called programming. Initially,
+Karel understands only a very small number of predefined commands, but an
+important part of the programming process is teaching Karel new commands that
+extend its capabilities".[^1]
 
 ## Getting started
 
@@ -15,17 +15,21 @@ commands that extend its capabilities".[^1]
 
 * Create another directory for this problem set (`mkdir pset1`) and `cd` into
   that as well.
+
 * You can get the starter kit [here](cdn://pset1.zip) you can download it with
   `wget <url>`.
+
 * Unpack it in the current directory with `unzip pset1.zip`.
+
 * Compile all your source files by issuing the `make` command. If everything
   went well, you get no errors.
+
 * Try running the first problem using
 
        java -cp .:karel.jar CollectNewspaperKarel
 
-This runs the CollectNewspaperKarel class. But alas, nothing happens if your
-press **run** of course, because you still have to implement the code!
+  This runs the CollectNewspaperKarel class. But alas, nothing happens if your
+  press **run** of course, because you still have to implement the code!
 
 * Now, when in the `pset1` directory, run the following command to start your
   editor and get programming!

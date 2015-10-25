@@ -2,7 +2,7 @@
 
 Download VMware Fusion as follows by [clicking this link](https://www.vmware.com/go/tryfusion).
 
-Double-click the file you just downloaded (which is likely in your **Downloads** folder) in order to "mount" VMware Fusion’s icon on your desktop.
+Double-click the file you just downloaded (which is likely in your **Downloads** folder) in order to "mount" VMware Fusion's icon on your desktop.
 
 A window should open. Drag the **VMware Fusion** (or **VMware Fusion.app**) icon in that window to your **Applications** folder.
 

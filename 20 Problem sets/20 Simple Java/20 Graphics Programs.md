@@ -53,8 +53,8 @@ The colors of the stripes are clear in the web version of the picture, but are
 hard to see in the black-and-white handout. Starting at the top, the six arcs
 are red, orange, yellow, green, blue, and magenta, respectively; cyan makes a
 lovely color for the sky.  At first glance, it might seem as if you need to draw
-arcs on the screen, even though you won’t actually learn about the `GArc` class
-until Lecture 10. As it turns out, that class doesn’t really help much. The
+arcs on the screen, even though you won't actually learn about the `GArc` class
+until Lecture 10. As it turns out, that class doesn't really help much. The
 program that produced the diagram shown at the bottom of the previous page uses
 only circles, although seeing how this is possible forces you to think outside
 the box—in a literal rather than a figurative sense. The common center for each
@@ -65,7 +65,7 @@ picture to the visible area is called clipping.
 
 Rather than specify the exact dimensions of each circle, play around with the
 sizes and positioning of the circles until you get something that matches your
-aesthetic sensibilities. The only things we’ll be concerned about are:
+aesthetic sensibilities. The only things we'll be concerned about are:
 
 * The top of the arc should not be off the screen.
 * Each of the arcs in the rainbow should get clipped along the sides of the top,

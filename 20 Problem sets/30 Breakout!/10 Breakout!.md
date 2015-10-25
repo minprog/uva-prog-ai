@@ -29,8 +29,8 @@ physical principle generally expressed as "the angle of incidence equals the
 angle of reflection" (which turns out to be very easy to implement as discussed
 later in this handout). Thus, after two bounces—one off the paddle and one off
 the right wall—the ball might have the trajectory shown in the second
-diagram. (Note that the dotted line is there only to show the ball’s path and
-won’t appear on the screen.)
+diagram. (Note that the dotted line is there only to show the ball's path and
+won't appear on the screen.)
 
 ![](breakout34.png)
 
@@ -57,7 +57,7 @@ first ball has broken through the wall. That ball will go on to clear several
 more bricks before it comes back down the open channel.
 
 It is important to note that, even though breaking out is a very exciting part
-of the player’s experience, you don’t have to do anything special in your
+of the player's experience, you don't have to do anything special in your
 program to make it happen. The game is simply operating by the same rules it
 always applies: bouncing off walls, clearing bricks, and otherwise obeying the
 laws of physics.
@@ -105,14 +105,14 @@ This part of the assignment is almost exactly like the pyramid problem from the
 previous problem set. The parts that are only a touch more difficult are that
 you need to fill and color the bricks. This extra complexity is more than
 compensated by the fact that there are the same number of bricks in each row,
-and you don’t have to change the coordinate calculation from row to row.
+and you don't have to change the coordinate calculation from row to row.
 
 ![](breakout6.png)
 
-<!-- Here’s a suggestion: Why don’t you get this part of the program working by
+<!-- Here's a suggestion: Why don't you get this part of the program working by
 Wednesday the 31st, so that you can produce just the diagram at the right? The
 display has most of what you see on the final screen and will give you
-considerable confidence that you can get the rest done. And you’ll be well on
+considerable confidence that you can get the rest done. And you'll be well on
 your way before time gets short. -->
 
 
@@ -125,15 +125,15 @@ know its position relative to the bottom of the window.
 The challenge in creating the paddle is to make it track the mouse. You have to
 pay attention to the x coordinate of the mouse because the y position of the
 paddle is fixed. The only wrinkle is that you should not let the paddle move off
-the edge of the window. Thus, you’ll have to check to see whether the x
+the edge of the window. Thus, you'll have to check to see whether the x
 coordinate of the mouse would make the paddle extend beyond the boundary and
 change it if necessary to ensure that the entire paddle is visible in the
 window.
 
-<!-- Here’s a soon-to-become-boring suggestion: Why don’t you get this part of
+<!-- Here's a soon-to-become-boring suggestion: Why don't you get this part of
 the program working by Friday the 2nd, so that you can follow the mouse with the
 paddle? This entire part of the program takes fewer than 10 code lines, so it
-shouldn’t take so long. The hard part lies in reading the Graphics chapter and
+shouldn't take so long. The hard part lies in reading the Graphics chapter and
 understanding what you need to do. -->
 
 ## Create a ball and get it to bounce off the walls
@@ -156,7 +156,7 @@ The velocity components represent the change in position that occurs on each
 time step. Initially, the ball should be heading downward, and you might try a
 starting velocity of +3.0 for `vy` (remember that y values in Java increase as
 you move down the screen). The game would be boring if every ball took the same
-course, so you should choose the `vx` component randomly. We’ll talk about
+course, so you should choose the `vx` component randomly. We'll talk about
 random numbers later in the quarter, but for now you should simply do the
 following:
 
@@ -181,7 +181,7 @@ less, straight down. That would make life far too easy for the player.
 is much simpler than you might at first think because the `GraphicsProgram`
 class includes a `waitForClick` method that does exactly what you want.
 
-Once you’ve gotten things started, your next challenge is to get the ball to
+Once you've gotten things started, your next challenge is to get the ball to
 bounce around the world, ignoring the paddle and the bricks entirely. To do so,
 you need to check to see if the coordinates of the ball have gone beyond the
 boundary, taking into account that the ball has a nonzero size. Thus, to see if
@@ -288,23 +288,23 @@ method.
 If you've gotten to here, you've done all the hard parts. There are however, a
 few more details you need to take into account:
 
-* You’ve got to take care of the case when the ball hits the bottom wall. In the
-  prototype you’ve been building, the ball just bounces off this wall like all
-  the others, but that makes the game pretty hard to lose. You’ve got to modify
+* You've got to take care of the case when the ball hits the bottom wall. In the
+  prototype you've been building, the ball just bounces off this wall like all
+  the others, but that makes the game pretty hard to lose. You've got to modify
   your loop structure so that it tests for hitting the bottom wall as one of its
   terminating conditions.
-* You’ve got to check for the other terminating condition, which is hitting the
-  last brick. How do you know when you’ve done so? Although there are other ways
+* You've got to check for the other terminating condition, which is hitting the
+  last brick. How do you know when you've done so? Although there are other ways
   to do it, one of the easiest is to have your program keep track of the number
   of bricks remaining. Every time you hit one, subtract one from that
   counter. When the count reaches zero, you must be done. In terms of the
   requirements of the assignment, you can simply stop at that point, but it
   would be nice to give the player a little feedback that at least indicates
   whether the game was won or lost.
-* You’ve got to experiment with the settings that control the speed of your
+* You've got to experiment with the settings that control the speed of your
   program. How long should you pause in the loop that updates the ball? Do you
   need to change the velocity values to get better play action?
-* You’ve got to test your program to see that it works. Play for a while and
+* You've got to test your program to see that it works. Play for a while and
   make sure that as many parts of it as you can check are working. If you think
   everything is working, here is something to try: Just before the ball is going
   to pass the paddle level, move the paddle quickly so that the paddle collides
@@ -319,15 +319,15 @@ Here are some survival hints for this assignment:
 * *Start as soon as possible.* This assignment is due on Friday, which will be
    here before you know it. If you wait until the until the last moment, you
    will have a very hard time getting it all together.
-* *Implement the program in stages, as described on this page.* Don’t try to get
+* *Implement the program in stages, as described on this page.* Don't try to get
    everything working all at once. Implement the various pieces of the project
    one at a time and make sure that each one is working before you move on to
    the next phase.
-* *Don’t try to extend the program until you get the basic functionality
+* *Don't try to extend the program until you get the basic functionality
    working.* The following section describes several ways in which you could
-   extend the implementation. Several of those are lots of fun. Don’t start
+   extend the implementation. Several of those are lots of fun. Don't start
    them, however, until the basic assignment is working. If you add extensions
-   too early, you’ll find that the debugging process gets really difficult.
+   too early, you'll find that the debugging process gets really difficult.
 
 ## Possible extensions
 
@@ -365,12 +365,12 @@ The Java libraries do make some things easy.
    off slowly. But, as soon as you thought you were getting the hang of things,
    the program sped up, making life just a bit more exciting. The applet version
    implements this feature by doubling the horizontal velocity of the ball the
-   seventh time it hits the paddle, figuring that’s the time the player is
+   seventh time it hits the paddle, figuring that's the time the player is
    growing complacent.
 * *Keep score.* You could easily keep score, generating points for each
    brick. In the arcade game, bricks were more valuable higher up in the array,
    so that you got more points for red bricks than cyan bricks. You could
-   display the score underneath the paddle, since it won’t get in the way there.
+   display the score underneath the paddle, since it won't get in the way there.
 * *Use your imagination.* What else have you always wanted a game like this to do?
 
 ## Submit

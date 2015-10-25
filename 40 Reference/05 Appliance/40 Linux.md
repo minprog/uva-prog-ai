@@ -4,7 +4,7 @@ Installing VMware Player:
 
 * Download VMware Player for free from <http://www.vmware.com/go/downloadplayer/>.
 
-* Double-click the file you just downloaded (which is likely in your Downloads folder) in order launch VMware Player’s installer.
+* Double-click the file you just downloaded (which is likely in your Downloads folder) in order launch VMware Player's installer.
 
 * If a window entitled User Account Control appears, click Yes.
 
@@ -12,7 +12,7 @@ Installing VMware Player:
 
 * When prompted to select a Destination Folder, click Next.
 
-* When prompted about Shortcuts, click Next. (Uncheck Desktop and/or Start Menu Programs folder if you’d like.)
+* When prompted about Shortcuts, click Next. (Uncheck Desktop and/or Start Menu Programs folder if you'd like.)
 
 * When prompted to Perform the Requested Operations, click Continue.
 
@@ -24,6 +24,6 @@ Launch VMware Player, as by double-clicking its icon, which should be in your Ap
 
 Select File &rarr; **Open...**. Navigate your way to that appliance50-19-vmware.ova and click Open.
 
-Click VMware Player’s ▶ button to start up the appliance. If prompted to "upgrade this virtual machine," click Upgrade.
+Click VMware Player's ▶ button to start up the appliance. If prompted to "upgrade this virtual machine," click Upgrade.
 
 The appliance should then boot! If you see a black-and-white screen entitled GNU GRUB, no need to do anything; the appliance will continue to boot after a few seconds!
