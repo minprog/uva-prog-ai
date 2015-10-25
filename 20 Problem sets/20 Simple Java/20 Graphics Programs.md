@@ -1,11 +1,7 @@
 # Graphics Programs
 
-Your job in this assignment is to write programs to solve each of these problems.
-
-## Getting started
-
 Download the starter kit from [here](cdn://pset2.zip) and extract it in your
-prog directory. All the files needed for this problem set are included.
+**Dropbox** directory. All the files needed for this problem set are included.
 
 ## Problem 3: `Pyramid.java`
 
@@ -70,4 +66,3 @@ aesthetic sensibilities. The only things we'll be concerned about are:
 * The top of the arc should not be off the screen.
 * Each of the arcs in the rainbow should get clipped along the sides of the top,
   and not along the bottom.
-

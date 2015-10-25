@@ -1,11 +1,7 @@
 # Console Programs
 
-Your job in this assignment is to write programs to solve each of these problems.
-
-## Getting starting
-
 For these programs we will also be using the files that were provided with 
-`pset2.zip` from the Graphics Program assignment. 
+**pset2.zip** from the Graphics Program assignment.
 
 ## Problem 5: `FindRange.java`
 
@@ -30,14 +26,15 @@ Your program should handle the following special cases:
 
 * If the user enters only one value before the sentinel, the program should
   report that value as both the largest and smallest.
+
 * If the user enters the sentinel on the very first input line, then no values
   have been entered, and your program should display a message to that effect.
 
 ## Problem 6: `Hailstone.java`
 
-Douglas Hofstadter's Pulitzer-prize-winning book *Gödel, Escher,
-Bach*. Hofstadter's book contains many interesting mathematical puzzles, many of
-which can be expressed in the form of computer programs. Of these, most require
+Douglas Hofstadter's Pulitzer-prize-winning book *Gödel, Escher, Bach*.
+Hofstadter's book contains many interesting mathematical puzzles, many of which
+can be expressed in the form of computer programs. Of these, most require
 programming skills well beyond the second week of this course. However, in
 Chapter XII, Hofstadter mentions a wonderful problem that is well within the
 scope of the covered control statements. The problem can be expressed as
@@ -100,4 +97,3 @@ program should be able to produce a sample run that looks like this:
 The fascinating thing about this problem is that no one has yet been able to
 prove that it always stops. The number of steps in the process can certainly get
 very large. How many steps, for example, does your program take when *n* is 27?
-

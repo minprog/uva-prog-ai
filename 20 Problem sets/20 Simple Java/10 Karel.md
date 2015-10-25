@@ -9,19 +9,19 @@ extend its capabilities".[^1]
 
 ## Getting started
 
-* Go into the `prog` directory you made in the Getting Started by executing
+* Go into the **Dropbox** directory you made in the Getting Started by executing
 
        cd prog
 
-* Create another directory for this problem set (`mkdir pset1`) and `cd` into
+* Create another directory for this problem set (**mkdir pset1**) and **cd** into
   that as well.
 
-* You can get the starter kit [here](cdn://pset1.zip) you can download it with
-  `wget <url>`.
+* You can get the starter kit [here](cdn://pset1.zip). To download via the
+  Terminal, run **wget <url of zip>**.
 
-* Unpack it in the current directory with `unzip pset1.zip`.
+* Unpack it in the current directory with **unzip pset1.zip**.
 
-* Compile all your source files by issuing the `make` command. If everything
+* Compile all your source files by issuing the **make** command. If everything
   went well, you get no errors.
 
 * Try running the first problem using
@@ -29,22 +29,16 @@ extend its capabilities".[^1]
        java -cp .:karel.jar CollectNewspaperKarel
 
   This runs the CollectNewspaperKarel class. But alas, nothing happens if your
-  press **run** of course, because you still have to implement the code!
+  press *run* of course, because you still have to implement the code!
 
-* Now, when in the `pset1` directory, run the following command to start your
+* Now, when in the **pset1** directory, run the following command to start your
   editor and get programming!
 
-## About the use of Java
-
-You cannot use any other constructs in your programs than those mentioned on
+> You cannot use any other constructs in your programs than those mentioned on
 the last page of the Karel book (cheat sheet!). All of these exercises are
-designed to be solvable without the use of variables.
-
-For both these problems, your program should work for **every relevant world** 
-that came with the starter kit!
-
-Also, you should not use recursion, in order to practice with iterative 
-solutions. You have done enough recursion in the Logic Programming course!
+designed to be solvable without the use of variables. Also, you should not use
+recursion, in order to practice with iterative solutions. You have done enough
+recursion in the Logic Programming course!
 
 ## Problem 1: `StoneMasonKarel.java`
 
@@ -82,8 +76,10 @@ Karel may count on the following facts about the world:
   stones that are still in place. Your program should not put a second beeper on
   these corners.
 
-Implement your solution in `StoneMasonKarel.java`.
+Implement your solution in **StoneMasonKarel.java**.
 
+> For both the Karel problems, your program should work for *every relevant world*
+that came with the starter kit!
 
 ## Problem 2: `CheckerboardKarel.java`
 
@@ -107,6 +103,6 @@ column wide or one row high. The starter folder contains several sample worlds
 that test these special cases, and you should make sure that your program works
 for each of them.
 
-Implement your solution in `CheckerboardKarel.java`.
+Implement your solution in **CheckerboardKarel.java**.
 
 [^1]: From [Karel the robot learns Java](http://www.stanford.edu/class/cs106a/handouts/karel-the-robot-learns-java.pdf)
