@@ -78,7 +78,9 @@ Karel may count on the following facts about the world:
 Implement your solution in **StoneMasonKarel.java**.
 
 > For both the Karel problems, your program should work for *every relevant world*
-that came with the starter kit!
+that came with the starter kit! When grading, we will check all of the worlds to 
+see if each works with the code you have submitted. This is an important part of 
+the *correctness* score of your problem set.
 
 ## Problem 2: `CheckerboardKarel.java`
 
