@@ -83,12 +83,9 @@ materialen waarin van alles over programmeren wordt uitgelegd.
   je huiswerk hebt gedaan.
 
 * We verwachten dat je minimaal zes uur per week aanwezig bent bij de
-  computerpractica. De aanwezigheid wordt bijgehouden via de website.
-  
-  Als je meer dan een week vooruit loopt én alle programmeeropdrachten (problem
-  sets) hebt gedaan kun je schriftelijk aan de docent verzoeken om vrijstelling
-  van de aanwezigheidsverplichting. Dit wordt alleen gehonoreerd als je code
-  van uitstekende kwaliteit is.
+  computerpractica. De aanwezigheid wordt bijgehouden via de website. Ben je erg
+  goed bezig? Mail dan om je code aan de docent te laten zien en we geven je
+  vrijstelling voor de week!
 
 * We verwachten dat je aanwezig bent bij de groep waarin je bent ingedeeld en niet bij andere groepen.
 
