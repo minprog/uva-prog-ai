@@ -1,7 +1,9 @@
 # Console Programs
 
-All the files needed for this problem set are included in the **pset1.zip** 
-from the Karel assignment.
+The ACM graphics library, in a strange twist of events, also allows us to create
+programs without graphics! That's great, because many of the common Java programs
+nowadays actually reside on a web server to generate HTML content for visitors.
+Let's practice with two of these console programs.
 
 ## Problem 5: `FindRange.java`
 
