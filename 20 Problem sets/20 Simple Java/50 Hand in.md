@@ -30,6 +30,6 @@ describing what the program does, and your name!
 
   You can submit the resulting **zip** file at the bottom of this page.
     
-> You can submit a problem set multiple times, we always grade at the last
-  submission before the deadline. Make sure to submit all files when you
-  resubmit, not only the files that changed.
+> You can always submit a problem set multiple times. We will grade the very last
+  submission *before* the deadline. Make sure to always submit all files, even
+  when re-submitting, not only the files that changed!
