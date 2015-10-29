@@ -8,7 +8,7 @@ For Loop, The While Loop
 
 ![embed](https://www.youtube.com/embed/GPWah4wbwYs?rel=0)
 
-## Slides
+## Handouts
 
-* [Expressions](06-expressions.pdf)
-* [Statements](06-expressions.pdf)
+* [Programming patterns](11-prog-patterns.pdf)
+* [Control statements](12-control-statements.pdf)

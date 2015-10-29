@@ -6,8 +6,6 @@ Returning Objects from Methods
 
 ![embed](https://www.youtube.com/embed/3oM9yT9kBBc?rel=0)
 
-## Slides
+## Handouts
 
-* [Statements](06-statements.pdf)
-* [Methods](07-methods.pdf)
-* [Method Mechanics](07-method-mechanics.pdf)
+* [Methods](14-methods.pdf)

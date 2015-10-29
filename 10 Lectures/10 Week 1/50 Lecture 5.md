@@ -6,7 +6,3 @@ Operations on the GObject Class and its Subclasses, Drawing Geometrical
 Objects, A FunGraphics Example, Expressions and Operators
 
 ![embed](https://www.youtube.com/embed/NPzPnycCFuE?rel=0)
-
-## Slides
-
-* [GObjects](05-gobjects.pdf)
