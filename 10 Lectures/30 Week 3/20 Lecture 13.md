@@ -11,4 +11,4 @@ String Processing, Tokenizers, Encryption
 ## Handouts
 
 * [Strings](25-strings.pdf)
-* [Strings and cyphers](26-strings-and-cyphers.pdf)
+* [Strings and ciphers](26-strings-and-ciphers.pdf)
