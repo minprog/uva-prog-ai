@@ -6,6 +6,6 @@ Engineering, The Right Decomposition, The CleanUpKarel Example
 
 ![embed](https://www.youtube.com/embed/C5HeRliZ0Ns?rel=0&start=134&end=3016)
 
-## Handouts
+## Handout
 
-* [Karel example problems](09-karel-examples.pdf)
+[Karel example problems](09-karel-examples.pdf)

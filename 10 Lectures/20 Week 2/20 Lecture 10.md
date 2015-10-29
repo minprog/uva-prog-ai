@@ -8,7 +8,6 @@ Importance of Private Variables, Extending the Student Class, Overriding Methods
 
 <iframe width="640" height="360" src="http://www.youtube.com/embed/YpZCKVG4s5k?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
 
-## Slides
+## Handout
 
-* [Extending Classes](10-extending-classes.pdf)
-* [Graphics](10-graphics.pdf)
+[Bouncing ball example](21-bouncing-ball-example.pdf)

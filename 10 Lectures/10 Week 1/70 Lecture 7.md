@@ -6,6 +6,6 @@ Returning Objects from Methods
 
 ![embed](https://www.youtube.com/embed/3oM9yT9kBBc?rel=0)
 
-## Handouts
+## Handout
 
-* [Methods](14-methods.pdf)
+[Methods](14-methods.pdf)

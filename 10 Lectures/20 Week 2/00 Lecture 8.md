@@ -8,6 +8,6 @@ Information Hiding, The Void Return Type, Parameter Passing Between Methods, Bad
 
 <iframe width="640" height="360" src="http://www.youtube.com/embed/W2ysz_6AyJE?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
 
-## Slides
+## Handout
 
-* [Method Mechanics](07-method-mechanics.pdf)
+[Random number examples](16-random-number-examples.pdf)

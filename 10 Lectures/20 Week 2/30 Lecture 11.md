@@ -8,6 +8,7 @@ The GImage Class, The GPolygon Class, The GCompound Class, Event Driven Programs
 
 <iframe width="640" height="360" src="http://www.youtube.com/embed/Iua9Klr0lfo?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
 
-## Slides
+## Handouts
 
-* [Graphics](10-graphics.pdf)
+* [Graphics events examples](22-graphics-events-examples.pdf)
+* [UFO game example](23-ufo-game-example.pdf)

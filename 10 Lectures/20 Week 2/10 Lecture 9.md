@@ -8,7 +8,7 @@ Strings, Writing Your Own Class, Public and Private Visibility, Creating a New C
 
 <iframe width="640" height="360" src="http://www.youtube.com/embed/iYtri45lhtc?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
 
-## Slides
+## Handouts
 
-* [Classes and Objects](09-classes-and-objects.pdf)
-* [Javadoc](09-javadoc.pdf)
+* [Coding style](17-coding-style.pdf) (but don't forget [our style guide](/resources/style-guide)!)
+* [Variables](18-variables.pdf)
