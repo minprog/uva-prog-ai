@@ -6,7 +6,7 @@ Multi-dimensional Arrays, An ArrayList, The Template Class, Methods in the Array
 
 ## Video
 
-<iframe width="640" height="360" src="http://www.youtube.com/embed/YJ9FlCFi3c8?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+![embed](https://www.youtube.com/embed/YJ9FlCFi3c8?rel=0)
 
 ## Handout
 

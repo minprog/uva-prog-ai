@@ -6,7 +6,7 @@ Information Hiding, The Void Return Type, Parameter Passing Between Methods, Bad
 
 ## Video
 
-<iframe width="640" height="360" src="http://www.youtube.com/embed/W2ysz_6AyJE?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+![embed](https://www.youtube.com/embed/W2ysz_6AyJE?rel=0)
 
 ## Handout
 

@@ -6,4 +6,4 @@ Memory, Different Sections of Memory for Different Types of Variables, Memory Al
 
 ## Video
 
-<iframe width="640" height="360" src="http://www.youtube.com/embed/W8nNdNZ40EQ?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+![embed](https://www.youtube.com/embed/W8nNdNZ40EQ?rel=0)

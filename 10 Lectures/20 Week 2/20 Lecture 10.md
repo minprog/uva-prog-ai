@@ -6,7 +6,7 @@ Importance of Private Variables, Extending the Student Class, Overriding Methods
 
 ## Video
 
-<iframe width="640" height="360" src="http://www.youtube.com/embed/YpZCKVG4s5k?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+![embed](https://www.youtube.com/embed/YpZCKVG4s5k?rel=0)
 
 ## Handout
 

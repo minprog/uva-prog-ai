@@ -6,7 +6,7 @@ The GImage Class, The GPolygon Class, The GCompound Class, Event Driven Programs
 
 ## Video
 
-<iframe width="640" height="360" src="http://www.youtube.com/embed/Iua9Klr0lfo?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+![embed](https://www.youtube.com/embed/Iua9Klr0lfo?rel=0)
 
 ## Handouts
 

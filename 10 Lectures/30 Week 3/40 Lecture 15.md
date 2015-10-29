@@ -6,4 +6,4 @@ Pointer Recap, Why are Objects 'Call by Reference' Instead of 'Call of Value'?, 
 
 ## Video
 
-<iframe width="640" height="360" src="http://www.youtube.com/embed/ttbu9L4RdYs?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+![embed](https://www.youtube.com/embed/ttbu9L4RdYs?rel=0)

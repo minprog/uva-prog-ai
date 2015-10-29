@@ -6,7 +6,7 @@ Strings, Writing Your Own Class, Public and Private Visibility, Creating a New C
 
 ## Video
 
-<iframe width="640" height="360" src="http://www.youtube.com/embed/iYtri45lhtc?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+![embed](https://www.youtube.com/embed/iYtri45lhtc?rel=0)
 
 ## Handouts
 
