@@ -10,5 +10,5 @@ Strings, Writing Your Own Class, Public and Private Visibility, Creating a New C
 
 ## Handouts
 
-* [Coding style](17-coding-style.pdf) (but don't forget [our style guide](/resources/style-guide)!)
+* [Coding style](17-coding-style.pdf) (but don't forget [our style guide](/reference/style-guide)!)
 * [Variables](18-variables.pdf)
