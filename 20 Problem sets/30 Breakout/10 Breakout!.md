@@ -14,7 +14,13 @@
 ## Getting started
 
 Download the starter kit from [here](cdn://pset2.zip) and extract it in your
-prog directory. All the files needed for this problem set are included.
+**Dropbox** directory:
+
+    cd Dropbox
+    wget http://.../pset2.zip
+    unzip pset2.zip
+
+Now **cd** into **pset2** and you're ready to start!
 
 ## The Breakout game
 
@@ -337,11 +343,11 @@ because there are so many possible extensions. Here are a few:
 * You can make a zip with the required files by running the following command
   in a terminal.
 
-        make submit
+      make submit
 
-    You can submit a problem set multiple times, we always grade at the last
-    submission before the deadline. Make sure to submit all files when you
-    resubmit, not only the files that changed.
+  You can submit a problem set multiple times, we always grade at the last
+  submission before the deadline. Make sure to submit all files when you
+  resubmit, not only the files that changed.
 
 * Go to the submit tab and send your ZIP-file to us. After the weekend, you'll
   see if you got a grade or if your submission was rejected.

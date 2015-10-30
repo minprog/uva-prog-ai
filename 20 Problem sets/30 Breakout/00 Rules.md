@@ -14,6 +14,8 @@ the "Strategy and tactics" section later on.
 
 ## Recommended Reading
 
+Review these chapters if needed; they cover important concepts from last week. If you skim them a little, you may be able to use them as a good reference when writing your programs! However, before anything else, best to watch this week's lectures!
+
 - ["The way of the program"](http://www.greenteapress.com/thinkapjava/html/thinkjava003.html) from Think Java
 - ["Variables and types"](http://www.greenteapress.com/thinkapjava/html/thinkjava004.html) from Think Java
 - ["Void methods"](http://www.greenteapress.com/thinkapjava/html/thinkjava005.html) from Think Java
