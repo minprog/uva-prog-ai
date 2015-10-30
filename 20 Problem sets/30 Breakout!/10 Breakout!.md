@@ -1,4 +1,4 @@
-# Breakout!
+# Backstory
 
 *One day in the late summer of 1975, Nolan Bushnell [founder of Atari and, um, Chuck E. Cheese’s], defying the prevailing wisdom that paddle games were over, decided to develop a single-player version of Pong; instead of competing against an opponent, the player would volley the ball into a wall that lost a brick whenever it was hit. He called [Steve] Jobs into his office, sketched it out on his little blackboard, and asked him to design it. There would be a bonus, Bushnell told him, for every chip fewer than fifty that he used. Bushnell knew that Jobs was not a great engineer, but he assumed, correctly, that he would recruit [Steve] Wozniak, who was always hanging around. "I looked at it as a two-for-one thing," Bushnell recalled. "Woz was a better engineer."*
 
@@ -8,17 +8,12 @@
 
 *Astonishingly, they were able to get the job done in four days, and Wozniak used only forty-five chips. Recollections differ, but by most accounts Jobs simply gave Wozniak half of the base fee and not the bonus Bushnell paid for saving five chips. It would be another ten years before Wozniak discovered (by being shown the tale in a book on the history of Atari titled Zap) that Jobs had been paid this bonus....*
 
-**Steve Jobs**  
+*Steve Jobs*  
 --- Walter Isaacson
-
-This is a large assignment, but well within your capabilities, as long as you
-break the problem up into manageable pieces. The decomposition is discussed in
-this handout, and there are several suggestions for staying on top of things in
-the "Strategy and tactics" section later in this handout.
 
 ## Getting started
 
-Download the starter kit from [here](cdn://pset3.zip) and extract it in your
+Download the starter kit from [here](cdn://pset2.zip) and extract it in your
 prog directory. All the files needed for this problem set are included.
 
 ## The Breakout game
