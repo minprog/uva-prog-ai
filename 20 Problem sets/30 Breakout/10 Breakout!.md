@@ -349,7 +349,7 @@ extra Java, because there are so many possible extensions. Here are a few:
   submission before the deadline. Make sure to submit all files when you
   resubmit, not only the files that changed.
 
-* Go to the submit tab and send your ZIP-file to us. After the weekend, you'll
+* Go to form below and send your ZIP-file to us. After the weekend, you'll
   see if you got a grade or if your submission was rejected.
 
 * In all cases, ask your assistant for feedback on the problem set during the lab sessions. This is how you learn!
