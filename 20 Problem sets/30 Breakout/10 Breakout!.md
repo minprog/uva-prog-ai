@@ -46,7 +46,7 @@ paddle to put it in line with the oncoming ball.
 
 The play on a turn continues in this way until one of two conditions occurs:
 
-* The ball hits the lower wall, which means that the player must shave missed it
+* The ball hits the lower wall, which means that the player must have missed it
   with the paddle. In this case, the turn ends and the next ball is served if
   the player has any turns left. If not, the game ends in a loss for the player.
 * The last brick is eliminated. In this case the player wins, and the game ends immediately.
@@ -70,15 +70,24 @@ laws of physics.
 ## The starter file
 
 The starter project for this assignment has a little more in it than it has in
-the past, but none of the important parts of the program. The contents of the
-initial `Breakout.java` file appear in Figure 1. This file takes care of the
-following details:
+the past, including some of the structure of the program. This file takes care
+of the following details:
 
 * It includes the imports you will need in writing the game.
 * It defines the named constants that control the game parameters, such as the
   dimensions of the various objects. Your code should use these constants
   internally so that changing them in your file changes the behavior of your
   program accordingly.
+* It defines some of the instances variables that should be part of your game,
+  such as the ball and the paddle. Your code should use these variables, so you 
+  can  still access these variables from other functions after you've added 
+  them to the canvas.
+* It contains a list of functions that you can you use to decompose the game.
+  Filling in these functions and then calling them in the correct place will 
+  make your life a lot easier. Feel free to add more functions to the code of 
+  course, but it strongly suggested that you at least use the ones provided.
+* If defines a function `getCollidingObject()`, which already solves a part of 
+  the problem of collisions for you. *Make sure to use it!*
 
 Success in this assignment will depend on beraking up the problem into
 manageable pieces and getting each one working before you move on to the
@@ -103,8 +112,6 @@ the window, with the leftover space divided equally on the left and right
 sides. The color of the bricks remain constant for two rows and run in the
 following rainbow-like sequence: `RED`, `ORANGE`, `YELLOW`, `GREEN`, `CYAN`.
 
-<!-- The breakout starter file -->
-
 This part of the assignment is almost exactly like the pyramid problem from the
 previous problem set. The parts that are only a touch more difficult are that
 you need to fill and color the bricks. This extra complexity is more than
@@ -113,12 +120,11 @@ and you don't have to change the coordinate calculation from row to row.
 
 ![](breakout6.png)
 
-<!-- Here's a suggestion: Why don't you get this part of the program working by
-Wednesday the 31st, so that you can produce just the diagram at the right? The
-display has most of what you see on the final screen and will give you
-considerable confidence that you can get the rest done. And you'll be well on
-your way before time gets short. -->
-
+For this part of the problem, fill in the functions `createBricks()` and 
+`createBrickRow()`. Call these functions in the `run()` to actually add them to 
+your game. Use the constants at the top of the file to determine how 
+many bricks to add. Don't worry too much about getting the bricks centered 
+pixel perfectly, it might be slightly off due to rounding of the values.
 
 ## Create the paddle
 
@@ -134,11 +140,22 @@ coordinate of the mouse would make the paddle extend beyond the boundary and
 change it if necessary to ensure that the entire paddle is visible in the
 window.
 
-<!-- Here's a soon-to-become-boring suggestion: Why don't you get this part of
-the program working by Friday the 2nd, so that you can follow the mouse with the
-paddle? This entire part of the program takes fewer than 10 code lines, so it
-shouldn't take so long. The hard part lies in reading the Graphics chapter and
-understanding what you need to do. -->
+Detecting keyboard or mouse input is done using **event listeners**. In 
+`GraphicsProgram` there is a function called `addMouseListeners()`, 
+which adds the current program as a `MouseMotionListener`. What that means is 
+that every time the mouse is moved, Java will try to call the `mouseMoved()`
+function in your program, passing it a `MouseEvent`. You can then use that 
+`MouseEvent` in your function to ask details about the current state of mouse, 
+like which buttons were clicked and where the mouse is on the screen. Below are 
+links to the relevant parts of the documentation:
+
+* [addMouseListeners](https://cs.stanford.edu/people/eroberts/jtf/javadoc/student/acm/program/GraphicsProgram.html#addMouseListeners%28%29)
+* [MouseMotionListener](https://docs.oracle.com/javase/6/docs/api/java/awt/event/MouseMotionListener.html)
+* [MouseEvent](https://docs.oracle.com/javase/6/docs/api/java/awt/event/MouseEvent.html)
+
+Implement the `createPaddle()` function, which should use the instance variable 
+*GRect paddle* and add it to the screen. Also fill in the `mouseMoved()`
+function, which should update your program each time the mouse moves!
 
 ## Create a ball and get it to bounce off the walls
 
@@ -154,7 +171,8 @@ The program needs to keep track of the velocity of the ball, which consists of
 two separate components, which you will presumably declare as instance variables
 like this:
 
-    private double vx, vy;
+    private double vx;
+    private double vy;
 
 The velocity components represent the change in position that occurs on each
 time step. Initially, the ball should be heading downward, and you might try a
@@ -183,7 +201,7 @@ less, straight down. That would make life far too easy for the player.
 
 3) Wait for the user to click the mouse before starting the ball. This operation
 is much simpler than you might at first think because the `GraphicsProgram`
-class includes a `waitForClick` method that does exactly what you want.
+class includes a `waitForClick()` method that does exactly what you want.
 
 Once you've gotten things started, your next challenge is to get the ball to
 bounce around the world, ignoring the paddle and the bricks entirely. To do so,
@@ -200,70 +218,21 @@ Computing what happens after a bounce is extremely simple. If a ball bounces off
 the top or bottom wall, all you need to do is reverse the sign of
 `vy`. Symmetrically, bounces off the side walls simply reverse the sign of `vx`.
 
+Fill in the function `createBall()` and `bounceWalls()`, which should check if 
+the ball has hit a wall and change the direction accordingly. Complete the
+setup part of the `run()` function, so you game starts correctly.
+
+Now you can start filling in the main game loop. What should happen for each
+*step* of the game?
+
 ## Checking for collisions
 
-Now comes the interesting part. In order to make Breakout into a real game, you
-have to be able to tell whether the ball is colliding with another object in the
-window. As scientists often do, it helps to begin by making a simplifying
-assumption and then relaxing that assumption later. Suppose the ball were a
-single point rather than a circle. In that case, how could you tell whether it
-had collided with another object?
-
-If you look in the documentation <!-- at Chapter 9 --> at the methods that are
-defined at the `GraphicsProgram` level, you will discover that there is a method
-
-    public GObject getElementAt(double x, double y)
-
-that takes a position in the window and returns the graphical object at that
-location, if any. If there are no graphical objects that cover that position,
-`getElementAt` returns the special constant `null`. If there is more than one,
-`getElementAt` always chooses the one closest to the top of the stack, which is
-the one that appears to be in front on the display.
-
-What happens if you call
-
-    getElementAt(x, y)
-
-where `x` and `y` are the coordinates of the ball? If the point `(x,y)` is
-underneath an object, this call returns the graphical object with which the ball
-collided. If there are no objects at the point `(x, y`), you'll get the value
-`null`.
-
-So far, so good. But, unfortunately, the ball is not a single point. It occupies
-physical area and therefore may collide with something on the screen even though
-its center does not. The easiest thing to do—which is in fact typical of the
-simplifying assumptions made in real computer games—is to check a few carefully
-chosen points on the outside of the ball and see whether any of those points has
-collided with anything. As soon as you find something at one of those points,
-you can declare that the ball has collided with that object.
-
-In your implementation, the easiest thing to do is to check the four corner
-points on the square in which the ball is inscribed. Remember that a GOval is
-defined in terms of its bounding rectangle, so that if the upper left corner of
-the ball is at the point (x, y), the other corners will be at the locations
-shown in this diagram:
-
-![](breakout7.png)
-
-These points have the advantage of being outside the ball - which means that
-`getElementAt` can't return the ball itself - but nonetheless close enough to
-make it appear that collisions have occurred. Thus for each of these four points
-you need to:
-
-1. Call `getElementAt` on that location to see whether anything is there.
-2. If the value you get back is not `null`, then you need look no farther and
-can take that value as the `GObject` with which the collision occurred.
-3. If `getElementAt` returns `null` for a particular corner, go on and try the next corner.
-4. If you get through all four corners without finding a collision, then no collision exists.
-
-It would be very useful to write this section of code as a separate method
-
-~~~ java
-private GObject getCollidingObject()
-~~~
-
-that returns the object involved in the collision, if any, and `null`
-otherwise. You could then use it in a declaration like
+In order to make Breakout into a real game, you have to be able to tell whether 
+the ball is colliding with another object in the window. In the starter file 
+there is function provided called `getCollidingObject()`, which checks a number 
+of points around the ball to see if there are objects there. If there is an 
+object at one of these points, then then ball has collided and the object is
+returned. The function returns `null` otherwise. You can use it like so
 
 ~~~ java
 GObject collider = getCollidingObject();
@@ -271,7 +240,7 @@ GObject collider = getCollidingObject();
 
 which assigns that value to a variable called `collider`.
 
-From there the only remaining thing you need to do is decide what to do when a
+So the only remaining thing you need to do is decide what to do when a
 collision occurs. There are only two possibilities. First, the object you get
 back might be the paddle, which you can test by checking
 
@@ -285,6 +254,9 @@ those are the only other objects in the world. Once again, you need to cause a
 bounce in the vertical direction, but you also need to take the brick away. To
 do so, all you need to do is remove it from the screen by calling the remove
 method.
+
+Think about where in the code you should make this collision check and add it 
+to your code!
 
 
 ## Finishing up
@@ -337,23 +309,6 @@ Here are some survival hints for this assignment:
 
 This assignment is perfect for those of you who are looking for high scores,
 because there are so many possible extensions. Here are a few:
-
-* *Add sounds.* You can play a short bounce sound every time the ball collides
-   with a brick or a paddle. this extension turns out to be very easy. The
-   starter project contains an audio clip file called `bounce.au` that contains
-   such a sound. You can load the sound by writing
-
-~~~ java
-AudioClip bounceClip = MediaTools.loadAudioClip("bounce.au");
-~~~
-
-and later play it by calling
-
-~~~ java
-bounceClip.play();
-~~~
-
-The Java libraries do make some things easy.
 
 * *Add messages.* A message can be implemented as a `GLabel` object that you add
    and remove at the appropriate time. You can announce that the game starts as
