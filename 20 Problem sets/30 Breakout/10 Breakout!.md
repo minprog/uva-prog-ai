@@ -313,8 +313,8 @@ Here are some survival hints for this assignment:
 
 ## Possible extensions
 
-This assignment is perfect for those of you who are looking for high scores,
-because there are so many possible extensions. Here are a few:
+This assignment is perfect for those of you who are looking to learn a little
+extra Java, because there are so many possible extensions. Here are a few:
 
 * *Add messages.* A message can be implemented as a `GLabel` object that you add
    and remove at the appropriate time. You can announce that the game starts as
