@@ -14,7 +14,7 @@ calculation:
         psets: 1
 
 psets:
-    type: integer
+    type: float
     grades:
         "1": 1
         "2": 1
