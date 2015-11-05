@@ -7,3 +7,7 @@ Array, Creating a New Array, The ++ Operator, Actual Size / Effective Size of th
 ## Video
 
 ![embed](https://www.youtube.com/embed/FUO3XEUVydk?rel=0)
+
+## Handout
+
+[ArrayList](31-ArrayList.pdf)
