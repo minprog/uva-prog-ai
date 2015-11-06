@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-Download and extract [the files required for this pset](cdn://pset4.zip).
+Download and extract [the files required for this pset](cdn://pset3.zip).
 
 ## Introduction
 
@@ -54,9 +54,9 @@ handles the user interaction component of the game -- everything except the
 graphical display. To solve the problem, your program must be able to:
 
 * Choose a random word to use the secret word. That word is chosen from a word
-  list, as described in the following paragraph.
+  list, called the HangmanLexicon, as described in the following paragraph.
 * Keep track of the user's partially guessed word, which begins as a series of
-  dashes and then updated as correct letters are guessed.
+  dashes and then replaces them with letters as correct letters are guessed.
 * Implement the basic control structure and manage the details (ask the user to
   guess a letter, keep track of the number of guesses remaining, print out the
   various messages, detect the end of the game, and so forth).
@@ -121,16 +121,18 @@ become uninteresting because there are only ten words available. Even so, it
 will allow you to develop the rest of the program and then come back and improve
 this part later.
 
-Part I is a string manipulation problem. The sample runs in Figure 2 should be
-sufficient to illustrate the basic operation of the game, but the following
+At the beginning of your `run` method, you should to create a new
+`HangmanLexicon` and store it in an instance variable. If you extend the
+program to allow the user to play multiple games, the creation of the
+`HangmanLexicon` should be performed outside the loop that plays the game
+repeatedly so that this operation is performed once rather than for every
+game.
+
+The rest of Part I is a string manipulation problem. The sample runs in Figure
+2 should be sufficient to illustrate the basic operation of the game; updating 
+the users's current guess with each correctly guessed letter. The following
 points may help to clarify a few issues:
 
-* At the beginning of your `run` method, you need to create a new
-  `HangmanLexicon` and store it in an instance variable. If you extend the
-  program to allow the user to play multiple games, the creation of the
-  `HangmanLexicon` should be performed outside the loop that plays the game
-  repeatedly so that this operation is performed once rather than for every
-  game.
 * You should accept the user's guesses in **either lower or upper case**, even
   though all letters in the secret words are written in upper case.
 * If the user guesses something other than a single letter, your program should
@@ -275,8 +277,13 @@ before, freeing you to concentrate on implementing the methods in
 `HangmanCanvas`. Note that you should not add any more `public` methods to
 `HangmanCanvas` (adding `private` helper methods is fine though).
 
-The implementation of `HangmanCanvas` should be reasonably
-straightforward. Although the sizes of the scaffold and the various body parts
+The implementation of `HangmanCanvas` should be reasonably straightforward. 
+`displayWord` should update the label showing the user's current guess of the 
+word, with dashes in place of the letters that haven't been guessed yet. 
+`noteIncorrectGuess` should draw the next limb of the hangman and add the 
+character guessed to to the label of incorrect characters.
+
+Although the sizes of the scaffold and the various body parts
 are given to you, their positions are not specified, so you will have to do some
 arithmetic to calculate the coordinates. The center line of the body should be
 centered horizontally on the screen, and the scaffold should be displayed a bit
