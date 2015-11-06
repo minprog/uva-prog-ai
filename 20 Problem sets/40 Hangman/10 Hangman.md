@@ -1,16 +1,4 @@
-# Hangman
-
-## Getting Started
-
-Download and extract [the files required for this pset](cdn://pset3.zip).
-
 ## Introduction
-
-For this assignment, your mission is to write a program that plays the game of
-Hangman. As an assignment, Hangman serves two purposes. First, the program is
-designed to give you some practice writing programs that manipulate strings and
-files. Second, by extending the program using you will have a chance to work
-with multiple classes in a single application.
 
 When it plays Hangman, the computer first selects a secret word at random from a
 list built into the program. The program then prints out a row of dashes—one for
@@ -33,7 +21,6 @@ diagrams below show the drawing after the first incorrect guess (just the head),
 the third (the head, body, and left arm), and the diagram at the tragic end of a
 losing game:
 
-#### Figure 1: A hangman figure in three stages of completeness.
 ![A hangman figure in three stages of completeness.](figure1.png)
 
 In order to write the program that plays Hangman, you should design and test
@@ -44,10 +31,13 @@ maintains the scaffold diagram. The final part requires you to replace the
 supplied version of the secret word list with one that reads words from a
 file. The rest of this handout describes these three parts in more detail.
 
-#### Figure 2: Two sample runs of the Hangman program (console only).
-![Two sample runs of the Hangman program (console only).](figure2.png)
+## Getting Started
+
+Download and extract [the files required for this pset](cdn://pset3.zip).
 
 ## Part I -- Playing a console-based game
+
+![Two sample runs of the Hangman program (console only).](figure2.png)
 
 In the first part of this assignment, your job is to write a program that
 handles the user interaction component of the game -- everything except the
@@ -153,7 +143,6 @@ so that it now keeps track of the Hangman graphical display. Although you might
 want to spice things up in your extensions, the simple version of the final
 picture for the unfortunate user who has run out of guesses looks like this:
 
-#### Figure 3: Final hangman picture.
 ![Final hangman picture.](figure3.png)
 
 The scaffold and the tiny bit of rope above the head are drawn before the game
@@ -261,7 +250,6 @@ continue to appear on the console, and any objects you add to the
 `HangmanCanvas` stored in the variable `canvas` will appear in the area on the
 right.
 
-#### Figure 4: Screenshot showing side-by-side console (left) and canvas (right).
 ![side-by-side console (left) and canvas (right)](figure4.png)
 
 You can now go through and add the calls to the methods in
@@ -293,7 +281,6 @@ smaller font showing the incorrect guesses. Figure 5 shows how the screen
 appears at the end of the tragic session in which the user was unable to guess
 `FUZZY`.
 
-#### Figure 5: The tragic ending of a Hangman game.
 ![The tragic ending of a Hangman game.](figure5.png)
 
 ## Part III -- Reading the lexicon from a data file
@@ -356,14 +343,13 @@ There are many ways to extend Hangman to make it more fun. Here are some ideas:
 * You can make a zip with the required files by running the following command
   in a terminal.
 
-        make submit
+      make submit
 
-    You can submit a problem set multiple times, we always grade at the last
-    submission before the deadline. Make sure to submit all files when you
-    resubmit, not only the files that changed.
+  You can submit a problem set multiple times, we always grade at the last
+  submission before the deadline. Make sure to submit all files when you
+  resubmit, not only the files that changed.
 
-* Go to the submit tab and send your ZIP-file to us. After the weekend, you'll
+* Go to form below and send your ZIP-file to us. After the weekend, you'll
   see if you got a grade or if your submission was rejected.
 
 * In all cases, ask your assistant for feedback on the problem set during the lab sessions. This is how you learn!
-
