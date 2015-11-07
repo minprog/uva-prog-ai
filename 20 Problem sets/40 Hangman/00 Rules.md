@@ -7,8 +7,8 @@ Hangman.
 
 - Practice string manipulation.
 - Have a try at file I/O.
-- Start using an ArrayList
-- Acquaint you with modularized software in multiple files
+- Start using `ArrayList`s.
+- Acquaint you with modularizing software into multiple classes.
 
 ## Recommended Reading
 
@@ -18,6 +18,10 @@ Review these chapters if needed; they cover important concepts from last week. I
 - ["Create your own objects"](http://www.greenteapress.com/thinkapjava/html/thinkjava013.html) from Think Java
 - ["Arrays"](http://greenteapress.com/thinkjava/html/thinkjava014.html) from Think Java
 - ["Input and Output"](http://greenteapress.com/thinkjava/html/thinkjava020.html) from Think Java
+
+The chapter below contains useful information on debugging. You will need this in class!
+
+- ["Debugging"](http://greenteapress.com/thinkjava/html/thinkjava022.html) from Think Java
 
 ## Academic Honesty
 
@@ -60,7 +64,6 @@ If you commit some act that is not reasonable but bring it to the attention of t
 * Submitting work to this course that you intend to use outside of the course (e.g., for a job) without prior approval from the course's heads.
 * Using resources during a quiz beyond those explicitly allowed in the quiz's instructions.
 * Viewing another's solution to a problem set's problem and basing your own solution on it.
->>>>>>> afd64052683793b114bf89e7ee3c807f15d82625
 
 ## Assessment
 

@@ -71,41 +71,6 @@ methods: `getWordCount()`, which returns the number of words in the lexicon, and
 `getWord(i)`, which returns the word at index `i`. Like all indices in Java, the
 value `i` runs from 0 to one less than the number of words.
 
-    /**
-     * File: HangmanLexicon.java
-     * -------------------------
-     * This file contains a stub implementation of the HangmanLexicon
-     * class that you will reimplement for Part III of the assignment.
-     */
-    import acm.util.*;
-    
-    public class HangmanLexicon
-    {
-        /** Returns the number of words in the lexicon. */
-        public int getWordCount()
-        {
-            return 10;
-        }
-    
-        /** Returns the word at the specified index. */
-        public String getWord(int index)
-        {
-            switch (index) {
-                case 0: return "BUOY";
-                case 1: return "COMPUTER";
-                case 2: return "CONNOISSEUR";
-                case 3: return "DEHYDRATE";
-                case 4: return "FUZZY";
-                case 5: return "HUBBUB";
-                case 6: return "KEYHOLE";
-                case 7: return "QUAGMIRE";
-                case 8: return "SLITHER";
-                case 9: return "ZIRCON";
-                default: throw new ErrorException("getWord: Illegal index");
-            }
-        }
-    }
-
 A game that used this implementation of `HangmanLexicon` class would quickly
 become uninteresting because there are only ten words available. Even so, it
 will allow you to develop the rest of the program and then come back and improve
@@ -134,7 +99,7 @@ points may help to clarify a few issues:
 Remember to finish Part I before moving on to Part II. Part II is arguably more
 fun, but it is essential to develop large programs in manageable stages.
 
-[^2]: In each case these interpretations are the easiest way to handle the situation, and your program will probably do the right thing even if you don't thing about these in detail.
+[^2]: In each case these interpretations are the easiest way to handle the situation, and your program will probably do the right thing even if you don't think about these in detail.
 
 ## Part II -- Adding graphics
 
@@ -153,57 +118,7 @@ challenge of this part of the assignment does not lie so much in using the
 `acm.graphics` package but rather in implementing the separation of functions
 between the class that performs the console-based interaction and the class that
 manages the display. That class is called `HangmanCanvas` and is included in the
-starter project in the form of the stub implementation shown below.
-
-    /*
-     * File: HangmanCanvas.java
-     * ------------------------
-     * This file keeps track of the Hangman display.
-     */
-    import acm.graphics.*;
-    
-    public class HangmanCanvas extends GCanvas
-    {
-        /* Constants for the simple version of the picture (in pixels) */
-        private static final int SCAFFOLD_HEIGHT = 360;
-        private static final int BEAM_LENGTH = 144;
-        private static final int ROPE_LENGTH = 18;
-        private static final int HEAD_RADIUS = 36;
-        private static final int BODY_LENGTH = 144;
-        private static final int ARM_OFFSET_FROM_HEAD = 28;
-        private static final int UPPER_ARM_LENGTH = 72;
-        private static final int LOWER_ARM_LENGTH = 44;
-        private static final int HIP_WIDTH = 36;
-        private static final int LEG_LENGTH = 108;
-        private static final int FOOT_LENGTH = 28;
-    
-        /** Resets the display so that only the scaffold appears */
-        public void reset()
-        {
-            /* You fill this in */
-        }
-    
-        /**
-         * Updates the word on the screen to correspond to the current
-         * state of the game. The argument string shows what letters have
-         * been guessed so far; unguessed letters are indicated by hyphens.
-         */
-        public void displayWord(String word)
-        {
-            /* You fill this in */
-        }
-        
-        /**
-         * Updates the display to correspond to an incorrect guess by the
-         * user. Calling this method causes the next body part to appear
-         * on the scaffold and adds the letter to the list of incorrect
-         * guesses that appears at the bottom of the window.
-         */
-        public void noteIncorrectGuess(char letter)
-        {
-            /* You fill this in */
-        }
-    }
+starter project.
 
 This stub is somewhat different from the one shown earlier for
 `HangmanLexicon`. That stub actually did something, even if it was only a part
@@ -310,13 +225,16 @@ Here is how the `HangmanLexicon` constructor should be added to the
 
     public class HangmanLexicon
     {
-        // This is the HangmanLexicon constructor
-        public HangmanLexicon()
+        public HangmanLexicon()   <-- the constructor
         {
-            // your initialization code goes here
+            your initialization code goes here
         }
         
-        // rest of HangmanLexicon class...
+        .
+        .
+        rest of HangmanLexicon class
+        .
+        .
     }
 
 Note that nothing in the main program should have to change in response to this
@@ -337,6 +255,12 @@ There are many ways to extend Hangman to make it more fun. Here are some ideas:
   something like Wheel of Fortune, in which the single word is replaced by a
   common phrase and in which you have to buy vowels.
 * Use your imagination!
+
+## Style check
+
+Don't forget to read through your code once more before submitting. Make sure that you have good comments atop your methods, as well as in your code to highlight particularly complex parts.
+
+The comments that came with the starter kit are probably not the best. We have written these to get you started quickly, but you that is not the kind of comment you'll need to write for us!
 
 ## Submit
 
