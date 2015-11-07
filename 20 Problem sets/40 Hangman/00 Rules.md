@@ -16,8 +16,6 @@ Review these chapters if needed; they cover important concepts from last week. I
 
 - ["Strings and things"](http://www.greenteapress.com/thinkapjava/html/thinkjava010.html) from Think Java
 - ["Create your own objects"](http://www.greenteapress.com/thinkapjava/html/thinkjava013.html) from Think Java
-- ["Arrays"](http://greenteapress.com/thinkjava/html/thinkjava014.html) from Think Java
-- ["Input and Output"](http://greenteapress.com/thinkjava/html/thinkjava020.html) from Think Java
 
 The chapter below contains useful information on debugging. You will need this in class!
 
