@@ -1,3 +1,5 @@
+# Practice Quiz
+
 During the quiz, you are allowed to use one (1) sheet of A4 paper containing
 written or typed notes on any subject, and a pen, nothing else.
 
@@ -23,37 +25,7 @@ error will be reported if you run it anyway?
 
 How could you fix this error?
 
-<textarea></textarea>
-
-## Problem 2: Karel the Robot
-
-We want to write a Karel program which will create an inside border around the
-world. Each location that is part of the border should have one (and only one)
-beeper on it and the border should be inset by one square from the outer walls
-of the world like this:
-
-![karel.png](karel.png)
-
-In solving this problem, you can count on the following facts about the world:
-
-* You may assume that the world is at least 3x3 squares. The correct solution
-  for a 3x3 square world is to place a single beeper in the center square.
-
-* Karel starts off facing East at the corner of 1st Street and 1st Avenue with
-  an infinite number beepers in its beeper bag.
-
-* We do not care about Karel's final location or heading.
-
-* You do not need to worry about efficiency.
-
-* You are limited to the instructions in the Karel booklet—the only variables
-  allowed are loop control variables used within the control section of the for
-  loop.
-
-Give an algorithm to solve this problem. You can use all Karel and SuperKarel
-methods but no functions from other libraries.
-
-## Problem 3: Simple Java expressions, statements, and methods
+## Problem 2: Simple Java expressions, statements, and methods
 
 1. Compute the value of each of the following Java expressions. If an error
 occurs during any of these evaluations, write **Error** on that line and
@@ -98,7 +70,7 @@ explain briefly why the error occurs.
 
 	<textarea></textarea>
 
-## Problem 4: Simple Java programs
+## Problem 3: Simple Java programs
 
 In problem set 2, you wrote a program to find the largest and smallest integers
 in a list entered by the user. For this problem, write a similar program that
@@ -120,7 +92,7 @@ To reduce the number of special cases, you may make the following assumptions:
 
 ![secondl2](secondl2.png)
 
-## Problem 5: Loopy
+## Problem 4: Loopy
 
 Note; this program is the solution to problem 1. On the exam, these would be
 different programs, of course.
@@ -144,7 +116,7 @@ Using a `for` loop:
 
 <textarea></textarea>
 
-## Problem 6: Stump the Chump
+## Problem 5: Stump the Chump
 
 We slightly disfigured the following program. Your job is to find out what's
 wrong with it and correct it. Also, write down what the output of the program
