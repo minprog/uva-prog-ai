@@ -31,11 +31,11 @@ How could you fix this error?
 occurs during any of these evaluations, write **Error** on that line and
 explain briefly why the error occurs.
 
-    |expression               |output |
-    |-------------------------|-------|
-    |`5.0 / 4 - 4 / 5`        |<input>|
-    |`7 < 9 - 5 && 3 % 0 == 3`|<input>|
-    |`"B" + 8 + 4`            |<input>|
+    |expression               |output |type   |
+    |-------------------------|-------|-------|
+    |`5.0 / 4 - 4 / 5`        |<input>|<input>|
+    |`7 < 9 - 5 && 3 % 0 == 3`|<input>|<input>|
+    |`"B" + 8 + 4`            |<input>|<input>|
 
 2. What output is printed by the following program?
 
