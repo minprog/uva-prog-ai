@@ -4,6 +4,7 @@ formulas:
     "3": (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
     "4": (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
     "5": (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
+    "q1": (scope / 34.0 * 9 + 1).round(1)
 
 calculation:
     resit:
