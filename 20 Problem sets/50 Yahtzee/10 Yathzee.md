@@ -295,8 +295,7 @@ stored in the array are valid for the category and `false` otherwise. Note some 
 (namely, *Chance* and *Ones*, *Twos*, etc.) accept any dice configuration; for these categories
 `checkCategory` always returns `true`.
 
-The javadoc describing the class `YahtzeeMagicStub is available from the "Assignments" page of the CS106A web site,
-`YahtzeeMagicStub` is available [here](http://web.stanford.edu/class/cs106a/assignments/yahtzee/YahtzeeMagicStub.html).
+The javadoc describing the class `YahtzeeMagicStub` is available [here](http://web.stanford.edu/class/cs106a/assignments/yahtzee/YahtzeeMagicStub.html).
 
 but for your convenience, we note that the static method
 `YahtzeeMagicStub.checkCategory` can be called as follows (assuming we have an
