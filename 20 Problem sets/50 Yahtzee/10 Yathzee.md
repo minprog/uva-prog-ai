@@ -2,7 +2,7 @@
 
 Note: Yahtzee is the trademarked name of a game produced by Hasbro. We refer to this
 game for educational purposes only. Okay, we also like to have fun playing the game.
-But then again, something can be both *educational* and *fun* (hopefully, like CS106a),
+But then again, something can be both *educational* and *fun* (hopefully, like this course),
 so we shouldn't run into any problems there. Thanks for listening. We now return to our
 previously scheduled assignment.
 
@@ -217,7 +217,7 @@ As noted in the preceding section, the starter project contains a precompiled cl
 handout offers a brief overview of the methods, which should be enough to get you
 started. 
 
-[Here is the link to the full documentation](http://web.stanford.edu/class/cs106a/assignments/yahtzee/YahtzeeDisplay.html)
+[Here is the link to the full documentation](YahtzeeDisplay.html)
 
 
 * There is a constructor method `YahtzeeDisplay` that creates the initial display. It takes
@@ -295,7 +295,7 @@ stored in the array are valid for the category and `false` otherwise. Note some 
 (namely, *Chance* and *Ones*, *Twos*, etc.) accept any dice configuration; for these categories
 `checkCategory` always returns `true`.
 
-The javadoc describing the class `YahtzeeMagicStub` is available [here](http://web.stanford.edu/class/cs106a/assignments/yahtzee/YahtzeeMagicStub.html).
+The javadoc describing the class `YahtzeeMagicStub` is available [here](YahtzeeMagicStub.html).
 
 but for your convenience, we note that the static method
 `YahtzeeMagicStub.checkCategory` can be called as follows (assuming we have an
