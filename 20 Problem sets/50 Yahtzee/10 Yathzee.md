@@ -65,7 +65,7 @@ sum of all of the values showing on the dice.
 
 ### Running the applet
 
-As outlined in the section entitled **What is provided**, all the
+As outlined in the section entitled *What is provided*, all the
 methods to implement the graphics and mouse interaction have been written for you.
 This section describes the way the program works as a whole.
 
@@ -97,7 +97,7 @@ highlighted in the scorecard, which also displays the following message:
 
     Eric's turn. Click "Roll Dice" button to roll the dice.
 
-When Eric clicks the **Roll Dice** button, the dice are randomly rolled, resulting in a display
+When Eric clicks the *Roll Dice* button, the dice are randomly rolled, resulting in a display
 that looks like the diagram shown in Figure 2.
 
 ![Figure 2](figure2.png)
@@ -109,7 +109,7 @@ follows:
 
 ![Figure 3](figure3.png)
 
-To reroll the selected dice, all the player has to do is click on the **Roll again** button. Until
+To reroll the selected dice, all the player has to do is click on the *Roll again* button. Until
 this button is clicked, the player can select or deselect any particular die by clicking on it.
 For example, if Eric decided instead to try for some kind of straight, he could deselect the
 3 and the 4 by clicking on them and then selecting new dice (presumably two of the
@@ -136,7 +136,7 @@ House*, which is worth 25 points and gives her the early lead.
 Now it’s Round #2. Eric is behind by one point and wants to seize the lead. His first roll
 is 3, 5, 5, 4, 1. Eric sees that if he could just turn one of those 5’s into a 2 he would have
 a large straight. He rolls the single die again and gets . . . a 2! He made it! Of course,
-Eric doesn’t want to roll the dice again, so he simply clicks the **Roll again** button **without
+Eric doesn’t want to roll the dice again, so he simply clicks the *Roll again* button **without
 selecting any more dice** and then selects the *Large Straight* category to end his turn, as
 shown in Figure 6.
 
@@ -152,8 +152,8 @@ shown in Figure 7.
 
 The game continues in a similar fashion. On each turn, players must
 
-1. Click on the **Roll Dice** button to set up the initial roll of all five dice.
-2. Select a set of dice and then click the **Roll again** button to reroll the selected dice.
+1. Click on the *Roll Dice* button to set up the initial roll of all five dice.
+2. Select a set of dice and then click the *Roll again* button to reroll the selected dice.
 3. Repeat step 2 to generate the final dice configuration after the third roll.
 4. Click on a category to store the score in the appropriate box.
 
@@ -185,7 +185,7 @@ score of 273 to 192 (shown below)!
 
 ### What is provided in the starter project
 
-The starter project provides the following:
+[Download it now.](cdn://pset4.zip) The starter project provides the following:
 
 * A `Yahtzee.java` file that you need to expand to play the game. The initialization
 code, however, is already provided.
@@ -267,7 +267,7 @@ about a player 0. You might want to look at the section of Chapter 8 entitled �
 the index range‖ for some guidance as to how to think about this small wrinkle in the
 design, although it should be rather straightforward to deal with.
 
-**Make sure to check the full documentation from the link above**
+*Make sure to check the full documentation provided at the link above!*
 
 ### Some strategies to consider
 
@@ -345,11 +345,11 @@ receives a score of 0.
 (whose turn it is, when the player should roll, when to select dice for rerolling, when to
 choose a category, who the winner is, etc.).
 * Be sure to check for errors when the player selects the category to assign a dice
-configuration. The user **cannot** re-use any previous category. Print a message if you
+configuration. The user *cannot* re-use any previous category. Print a message if you
 cannot honor their choice and have them select another.
 * On each turn, a player will roll the dice three times. If a player doesn’t want to change
-anything on a subsequent roll, that player should click the **Roll again** button **without
-selecting any dice**.
+anything on a subsequent roll, that player should click the *Roll again* button *without
+selecting any dice*.
 * At the end of the game, don’t forget to compute and assign the upper bonus (35 points
 if their upper score is 63 or over), upper score, lower score, and final total.
 * Be sure to mark all methods as `private` unless you explicitly plan for them to be used
@@ -383,8 +383,7 @@ score is the winner.
 
 As always, you should only tackle extensions after you have completed and thoroughly
 tested all the basic requirements. If you do create an extended version, please hand in
-**both** a basic and an extended version to make it easier for us to verify the base
+*both* a basic and an extended version to make it easier for us to verify the base
 functionality. Small extensions that don’t disrupt the basic functionality are fine to
 include in one version. Be sure to describe in your comments where we should look for
 your fun additions!
-
