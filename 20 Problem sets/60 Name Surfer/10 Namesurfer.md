@@ -5,7 +5,7 @@ This assignment has two primary goals. The first is to give you an opportunity t
 Java interactors to create an application that looks more like a modern interactive
 program complete with buttons, text fields, and a resizable graphical display. The second
 goal is to pull together the various facilities you have learned about so far to create
-an interesting application that—unlike Breakout, Hangman, and Yahtzee—is not a game but
+an interesting application that (unlike Breakout, Hangman, and Yahtzee) is not a game but
 rather a useful program that presents data on some fascinating sociological questions.
 
 ### Overview of the NameSurfer project
