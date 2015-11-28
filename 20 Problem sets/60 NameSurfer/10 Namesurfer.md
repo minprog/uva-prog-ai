@@ -90,9 +90,8 @@ milestones, with the other two following next week.
 In addition to the `names-data.txt`, we also requested the data for Dutch first names
 from the [Meertens Institute](http://www.meertens.knaw.nl/nvb/). We converted the
 provided data to the same format as the original names file using *Python* (more on 
-this next week). The final file can be downloaded [here](dutch-names.txt).
-
-With this file and your code, you can surf through Dutch name data!
+this next week). The final file can be downloaded [here](dutch-names.txt). With 
+this file and your code, you can surf through Dutch name data!
 
 ### Milestone 1: Assemble the GUI interactors
 
@@ -205,7 +204,6 @@ Figure 3 below.
 
 If you have completed *Milestone 3*, you are done for this week. Make sure to 
 document all of the code with your own comments, while the code is still fresh in
-your memory. Next week you will complete the assignment by making the actual graph!
-
+your memory. Next week you will complete the assignment by making the actual graph! 
 **There is no submit this week**
 
