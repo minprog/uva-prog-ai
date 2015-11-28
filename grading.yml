@@ -4,7 +4,8 @@ formulas:
     "3": (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
     yahtzee: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
     namesurf: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
-    "q1": (scope / 34.0 * 9 + 1).round(1)
+    q1: (scope / 34.0 * 9 + 1).round(1)
+    q2: (scope / 34.0 * 9 + 1).round(1)
 
 calculation:
     resit:
@@ -21,14 +22,13 @@ psets:
         "2": 1
         "3": 1
         yahtzee: 1
-        namesurf: 1
-        "6": 1
+        namesurf: 2
 
 quizzes:
     type: float
     grades:
-        q1: 3
-        q2: 3
+        q1: 1
+        q2: 1
 
 resit:
     type: float
