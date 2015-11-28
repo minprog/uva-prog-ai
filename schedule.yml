@@ -7,11 +7,19 @@ Week 2:
     'Problem Set 2: Breakout': '/psets/breakout'
     'Style guide': '/reference/style-guide'
 Week 3:
-    'Lectures on Strings, arrays and files': '/lectures/week-3'
+    'Lectures on strings, arrays and files': '/lectures/week-3'
     'Problem Set 3: Hangman': '/psets/hangman'
     'Style guide': '/reference/style-guide'
     'Quiz prep': '/quizzes/quiz-1'
 Week 5:
-    'Lectures on Multidimensional arrays and debugging': '/lectures/week-5'
+    'Lectures on multidimensional arrays and debugging': '/lectures/week-5'
     'Problem Set 4: Yahtzee': '/psets/yahtzee'
+    'Style guide': '/reference/style-guide'
+Week 6:
+    'Lectures on Swing and interactors': '/lectures/week-6'
+    'Problem Set 5: NameSurfer': '/psets/namesurfer'
+    'Style guide': '/reference/style-guide'
+Week 7:
+    'Lectures on standard Java, and... Python!': '/lectures/week-7'
+    'Problem Set 5: NameSurfer': '/psets/namesurfer'
     'Style guide': '/reference/style-guide'
