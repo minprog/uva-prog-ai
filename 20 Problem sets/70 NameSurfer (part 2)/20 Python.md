@@ -16,7 +16,7 @@ start.
 
 We will be working with Python `3.4`, which already comes installed on your VM. 
 Note if you type `python` in the terminal, you will run the old `2.7` version.
-In order to run the correct version, **you should use the `python3` command**. If 
+In order to run the correct version, **you should use the` python3 `command**. If 
 you find this confusing and want to make sure you always run the right version, 
 you can simply rename the command `python`. In the terminal, type:
     
@@ -188,8 +188,8 @@ the file we got was not in exactly the same format as `names-data.txt` (as almos
 always the case for any data you get). So we wrote a Python script to convert 
 it to the same format. Here are the files we got:
 
-[Male names](Namen_man_per_10_jaar.csv)
-[Female names](Namen_vrouw_per_10_jaar.csv)
+* [Male names](Namen_man_per_10_jaar.csv)
+* [Female names](Namen_vrouw_per_10_jaar.csv)
 
 Try and create a file `dutch-names.txt` that contains the combined data from 
 both files using popularity rankings (instead of the actual counts) for each 
@@ -239,8 +239,8 @@ You can then use the indices to access the elements, just like you would in Java
     1 b
     2 c
 
-[Think Python](http://www.greenteapress.com/thinkpython2/html/thinkpython2008.html)
-[Python docs](https://docs.python.org/3/tutorial/controlflow.html#for-statements)
+* [Think Python](http://www.greenteapress.com/thinkpython2/html/thinkpython2008.html)
+* [Python docs](https://docs.python.org/3/tutorial/controlflow.html#for-statements)
 
 ### Lists
 
