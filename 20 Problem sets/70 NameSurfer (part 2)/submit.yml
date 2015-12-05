@@ -1,3 +1,7 @@
 name: namesurf
 required:
   - pset5.zip
+optional:
+  - top-10-names.py
+  - first-letters.py
+  - dutch-names.py

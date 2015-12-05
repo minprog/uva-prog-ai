@@ -1,6 +1,10 @@
 
 # NameSurfer (continued)
 
+This week we will start by finishing the Name Surfer assignment by completing
+the last milestone. *If you have not yet completed Milestone 4, make sure 
+to finish that first!* The assignment is still listed in the archive under 
+`Week 6`.
 
 ### Milestone 5: Complete the implementation of NameSurferGraph class
 
