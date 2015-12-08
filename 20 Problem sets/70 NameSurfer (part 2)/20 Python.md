@@ -173,9 +173,9 @@ decade a letter was most popular as the first letter of a name. You may use
 whatever definition of *most popular* makes sense to you based on the data files
 you have. Print the results for each letter in the alphabet to the terminal.
 
-    Names staring with the letter A were most popular in the 1950's
-    Names staring with the letter B were most popular in the 1940's
-    Names staring with the letter C were most popular in the 2000's
+    Names starting with the letter A were most popular in the 1950's
+    Names starting with the letter B were most popular in the 1940's
+    Names starting with the letter C were most popular in the 2000's
     ....
     ....
 
@@ -193,7 +193,7 @@ it to the same format. Here are the files we got:
 
 Try and create a file `dutch-names.txt` that contains the combined data from 
 both files using popularity rankings (instead of the actual counts) for each 
-decade.
+decade. Your file should end up looking like this: [link](dutch-names.txt)
 
 Save the file as `dutch-names.py`
 
