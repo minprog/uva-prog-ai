@@ -123,7 +123,7 @@ are not careful with your variable names.
 
 ### Interpreted language
 
-Python code is not compiled beforehand like Java is. It is simply read into 
+Python code is not compiled beforehand like Java is. It is just read into 
 Python line by line until the code has completed or an error is produced. This 
 can be a very nice feature, but it does mean that you will not know if your code 
 contains any errors until you actually run it.
@@ -134,13 +134,14 @@ extremely simple. This is all the code you would need in `hello-world.py`
     
     print("Hello World!")
  
-One result of running code this way that may seem strange at first, is that the 
-order in which you define functions can actually matter, i.e. you cannot call 
-functions that have not been defined yet (even though they might be defined 
-later in the file). The most common way around this, is to write all you 
-functions first in the file, including a simple `main()` function and then 
-calling it at the bottom of the file. This ensures that all functions will be
-read into memory before you start executing the code.
+This way of reading code does have some effects that might seem strange at first.
+The most import effect is that the order in which you define functions can 
+actually matter, i.e. you cannot call functions that have not been defined yet 
+(even though they might be defined later in the file). The most common way 
+around this, is to write all your code in functions, adding a simple `main()` 
+function and then calling that `main()` function at the *bottom* of the file. 
+This ensures that all functions will be read into memory before you start 
+executing the code.
 
     def main():
         print("Hello World!")
