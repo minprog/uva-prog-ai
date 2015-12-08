@@ -204,7 +204,7 @@ The structures below might be useful for the assignments. The first link provide
 is to the book [Think Python](http://www.greenteapress.com/thinkpython2/html/index.html), 
 which walks through the topics using short examples. The second link is to the 
 [Python docs](https://docs.python.org/3/tutorial/index.html), which provides a 
-readable tutorial and complete reference for the language.
+readable tutorial and a complete reference for the language.
 
 There is no need to read all of these for the assignment. You might prefer the 
 one source over the other, or just to Google it for yourself. It is just provided 
@@ -245,7 +245,7 @@ You can then use the indices to access the elements, just like you would in Java
 ### Lists
 
 Lists are used to store multiple values together. They are most like `ArrayLists`
-in Java, as they have no fixed size and just can just add and remove elements 
+in Java, as they have no fixed size and you can just add and remove elements 
 from it. In Python, the elements don't even have to be the same type!
 
     >>> x = []
@@ -256,14 +256,14 @@ from it. In Python, the elements don't even have to be the same type!
 
 You can use the same square bracket notation `[i]` as in Java to retrieve or update 
 elements. You can even create a subset of the list using the `:`, look up the
-section on slices (10.5) below.
+section on slices below (Think Python 10.5).
 
 * [Think Python](http://www.greenteapress.com/thinkpython2/html/thinkpython2011.html)
 * [Python docs](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists)
 
 ### Strings
 
-Strings in Python work a lot like Strings in Java. In addition, string in Python 
+Strings in Python work a lot like Strings in Java. In addition, strings in Python 
 can be indexed and sliced using square brackes in exactly the same way as lists 
 can.
 
@@ -276,7 +276,7 @@ can.
 
 ### Dictionaries
 
-Dictionaries work like `HashMaps` in Java; hey map a key to a value. A dictionary 
+Dictionaries work like `HashMaps` in Java; they map a key to a value. A dictionary 
 can be created with curly brackets `{}`. Values can be added or retrieved using 
 the familiar square brackets.
 
@@ -292,8 +292,8 @@ the familiar square brackets.
 ### Files
 
 Reading files in Python is very simple. Just use the `open()` function. The first
-argument is the filename and the second is `'r'`, indicating you want to read
-file. 
+argument is the filename and the second is `'r'`, indicating you want to read 
+the file. 
     
     >>> f = open('test.txt', 'r')
     >>> f.readlines()
