@@ -5,7 +5,7 @@ formulas:
     yahtzee: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
     namesurf: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
     q1: (scope / 34.0 * 9 + 1).round(1)
-    q2: (scope / 34.0 * 9 + 1).round(1)
+    q2: (scope / 46.0 * 9 + 1).round(1)
 
 calculation:
     resit:
