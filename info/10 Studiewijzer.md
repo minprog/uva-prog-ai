@@ -14,7 +14,7 @@ de cursus kunnen we doorgaans niet reageren op e-mail over problem sets of
 praktische zaken. Spreek voor vragen je assistent aan tijdens het practicum of
 stuur in noodgevallen een e-mail.
 
-Martijn Stegeman, Bob Diertens, Maarten Inja, Tim Doolan
+Martijn Stegeman, Bob Diertens, Maarten Inja, Tim Doolan  
 progki@mprog.nl  
 kamer C3.204  
 telefoon (020) 525 5235
