@@ -1,15 +1,11 @@
 # Objectgeoriënteerd programmeren
 
-*Versie: november-december 2015 (1.0)*
+*Versie: november-december 2016 (under construction)*
 
 Welkom bij deze cursus Objectgeoriënteerd Programmeren. Dit vak begint bij het
 begin. Je leert over programmeren in het algemeen en je leert programmeren in
 Java. Je leert over het verband tussen de computer en de programma's die er op
 draaien.
-
-|Coördinator|Martijn Stegeman                      |
-|Hoofdassistent|Tim Doolan                         |
-|Studielast |6 studiepunten                        |
 
 ## Staf
 
@@ -18,7 +14,7 @@ de cursus kunnen we doorgaans niet reageren op e-mail over problem sets of
 praktische zaken. Spreek voor vragen je assistent aan tijdens het practicum of
 stuur in noodgevallen een e-mail.
 
-Martijn Stegeman & Tim Doolan  
+Martijn Stegeman, Bob Diertens, Maarten Inja, Tim Doolan
 progki@mprog.nl  
 kamer C3.204  
 telefoon (020) 525 5235
