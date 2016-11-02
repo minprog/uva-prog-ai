@@ -1,3 +1,4 @@
 name: simple
-required:
-  - pset1.zip
+files:
+    required:
+      - pset1.zip
