@@ -30,7 +30,7 @@ slightly larger rectangle at the bottom is the paddle. The paddle is in a fixed
 position in the vertical dimension, but moves back and forth across the screen
 as user input directs it until it reaches the edge of its space.
 
-![](breakout12new.png =500x)
+![](breakout12new.png)
 
 A complete game consists of three turns. On each turn, a ball is launched from
 the center of the paddle toward the top of the screen at a random angle. That
