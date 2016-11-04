@@ -1,3 +1,4 @@
 name: breakout
-required:
-  - pset2.zip
+files:
+    required:
+      - pset2.zip
