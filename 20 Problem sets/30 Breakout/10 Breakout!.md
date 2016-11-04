@@ -126,7 +126,7 @@ other brick. This extra complexity is more than compensated by the fact that
 there are the same number of bricks in each row, and that you don't have to change
 the coordinate calculation from row to row.
 
-![](breakout6.png)
+![](breakout6checker.png)
 
 For this part of the problem, fill in the functions `createBricks()` and
 `createBrickRow()`. Call these functions in the `run()` to actually add them to
