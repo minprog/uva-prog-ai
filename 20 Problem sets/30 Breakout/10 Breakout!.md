@@ -138,6 +138,7 @@ The next step is to create the paddle. At one level, this is considerably easier
 than the bricks. There is only one paddle, which is a filled `GRect`. You even
 know its position relative to the bottom of the window.
 
+<!---
 The challenge in creating the paddle is to make it track the mouse. You have to
 pay attention to the x coordinate of the mouse because the y position of the
 paddle is fixed. The only wrinkle is that you should not let the paddle move off
@@ -145,7 +146,15 @@ the edge of the window. Thus, you'll have to check to see whether the x
 coordinate of the mouse would make the paddle extend beyond the boundary and
 change it if necessary to ensure that the entire paddle is visible in the
 window.
+-->
 
+The challenge in creating the paddle is to make it respond to the user input. If
+the user pressed the left arrow key the paddle should move left and if the user
+presses the right arrow key the paddle should move left. Take special care to
+make sure that the paddle can not be moved outside of the screen. The whole
+paddle should be visible at all times.
+
+<!---
 Detecting keyboard or mouse input is done using **event listeners**. In 
 `GraphicsProgram` there is a function called `addMouseListeners()`, 
 which adds the current program as a `MouseMotionListener`. What that means is 
@@ -158,10 +167,25 @@ links to the relevant parts of the documentation:
 * [addMouseListeners](https://cs.stanford.edu/people/eroberts/jtf/javadoc/student/acm/program/GraphicsProgram.html#addMouseListeners%28%29)
 * [MouseMotionListener](https://docs.oracle.com/javase/6/docs/api/java/awt/event/MouseMotionListener.html)
 * [MouseEvent](https://docs.oracle.com/javase/6/docs/api/java/awt/event/MouseEvent.html)
+-->
+Detecting keyboard or mouse input is done using **event listeners**. In
+`GraphicsProgram` there is a function called `addKeyListeners()`,
+which adds the current program as a `KeyListener`. What that means is
+that every time the mouse is moved, Java will try to call the `keyPressed()`
+function in your program, passing it a `KeyEvent`. You can then use that
+`KeyEvent` in your function to ask details about the current state of the
+keyboard, like which buttons are pressed. Below are links to the relevant parts
+of the documentation:
 
+* [addKeyListeners](https://cs.stanford.edu/people/eroberts/jtf/javadoc/student/acm/program/GraphicsProgram.html#addKeyListeners())
+* [KeyListener](https://docs.oracle.com/javase/6/docs/api/java/awt/event/KeyListener.html)
+* [KeyEvent](https://docs.oracle.com/javase/6/docs/api/java/awt/event/KeyEvent.html)
+
+<!---
 Implement the `createPaddle()` function, which should use the instance variable 
 *GRect paddle* and add it to the screen. Also fill in the `mouseMoved()`
 function, which should update your program each time the mouse moves!
+-->
 
 ## Create a ball and get it to bounce off the walls
 
