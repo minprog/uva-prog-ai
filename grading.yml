@@ -1,12 +1,64 @@
-formulas:
-    "1": (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
-    "2": (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
-    "3": (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
-    yahtzee: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
-    namesurf: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
-    q1: (scope / 34.0 * 9 + 1).round(1)
-    q2: (scope / 46.0 * 9 + 1).round(1)
-    resit: (scope / 46.0 * 9 + 1).round(1)
+grades:
+    simple:
+        type: float
+        subgrades:
+            scope: integer
+            correctness: integer
+            design: integer
+            style: integer
+        calculation: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
+        hide_calculated: true
+    breakout:
+        type: float
+        subgrades:
+            scope: integer
+            correctness: integer
+            design: integer
+            style: integer
+        calculation: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
+        hide_calculated: true
+    hangman:
+        type: float
+        subgrades:
+            scope: integer
+            correctness: integer
+            design: integer
+            style: integer
+        calculation: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
+        hide_calculated: true
+    yahtzee:
+        type: float
+        subgrades:
+            scope: integer
+            correctness: integer
+            design: integer
+            style: integer
+        calculation: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
+        hide_calculated: true
+    namesurf:
+        type: float
+        subgrades:
+            scope: integer
+            correctness: integer
+            design: integer
+            style: integer
+        calculation: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
+        hide_calculated: true
+    q1:
+        type: float
+        subgrades:
+            points: integer
+        calculation: (scope / 34.0 * 9 + 1).round(1)
+    q2:
+        type: float
+        subgrades:
+            points: integer
+        calculation: (scope / 46.0 * 9 + 1).round(1)
+    resit:
+        type: float
+        subgrades:
+            points: integer
+        calculation: (scope / 46.0 * 9 + 1).round(1)
 
 calculation:
     resit:
@@ -17,21 +69,18 @@ calculation:
         psets: 1
 
 psets:
-    type: float
-    grades:
-        "1": 1
-        "2": 1
-        "3": 1
+    submits:
+        simple: 1
+        breakout: 1
+        hangman: 1
         yahtzee: 1
         namesurf: 2
 
 quizzes:
-    type: float
-    grades:
+    submits:
         q1: 1
         q2: 1
 
 resit:
-    type: float
-    grades:
+    submits:
         resit: 1
