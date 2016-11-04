@@ -108,7 +108,7 @@ that sets up the game and one that plays it. An important part of the setup
 consists of creating the rows of bricks at the top of the game, which look like
 this:
 
-![](breakout5.png)
+![](breakout5checker.png)
 
 As you can see each is not completely filled, only every other brick is there!
 Furthermore, notice that only the odd rows start with a brick. This leads to the
