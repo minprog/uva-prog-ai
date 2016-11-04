@@ -13,10 +13,12 @@
 
 ## Getting started
 
-Download the starter kit from [here](cdn://pset2.zip) and extract it in your
+Download the starter kit from [here](cdn://pset2-new/pset2.zip) and extract it in your
 **Dropbox** directory:
 
     cd Dropbox
+	mkdir pset2
+	cd pset2
     wget --content-disposition "http://.../pset2.zip"
     unzip pset2.zip
 
