@@ -28,19 +28,19 @@ In Breakout, the initial configuration of the world appears as shown on the
 right. The colored rectangles in the top part of the screen are bricks, and the
 slightly larger rectangle at the bottom is the paddle. The paddle is in a fixed
 position in the vertical dimension, but moves back and forth across the screen
-along with the mouse until it reaches the edge of its space.
+as user input directs it until it reaches the edge of its space.
 
 ![](breakout12.png)
 
 A complete game consists of three turns. On each turn, a ball is launched from
-the center of the window toward the bottom of the screen at a random angle. That
-ball bounces off the paddle and the walls of the world, in accordance with the
-physical principle generally expressed as "the angle of incidence equals the
-angle of reflection" (which turns out to be very easy to implement as discussed
-later in this handout). Thus, after two bounces—one off the paddle and one off
-the right wall—the ball might have the trajectory shown in the second
-diagram. (Note that the dotted line is there only to show the ball's path and
-won't appear on the screen.)
+the center of the paddle toward the top of the screen at a random angle. That
+ball bounces off the paddle, the bricks and the walls of the world, in
+accordance with the physical principle generally expressed as "the angle of
+incidence equals the angle of reflection" (which turns out to be very easy to
+implement as discussed later in this handout). Thus, after two bounces—one off
+the paddle and one off the right wall—the ball might have the trajectory shown
+in the second diagram. (Note that the dotted line is there only to show the
+ball's path and won't appear on the screen.)
 
 ![](breakout34.png)
 
@@ -95,7 +95,7 @@ of the following details:
 * If defines a function `getCollidingObject()`, which already solves a part of 
   the problem of collisions for you. *Make sure to use it!*
 
-Success in this assignment will depend on beraking up the problem into
+Success in this assignment will depend on breaking up the problem into
 manageable pieces and getting each one working before you move on to the
 next. The next few sections describe a reasonable staged approach to the
 problem.
@@ -110,27 +110,33 @@ this:
 
 ![](breakout5.png)
 
-The number, dimensions, and spacing of the bricks are specified using named
-constants in the starter file, as is the distance from the top of the window to
-the first line of bricks. The only value you need to compute is the x coordinate
-of the first column, which should be chosen so that the bricks are centered in
-the window, with the leftover space divided equally on the left and right
-sides. The color of the bricks remain constant for two rows and run in the
+As you can see each is not completely filled, only every other brick is there!
+Furthermore, notice that only the odd rows start with a brick. This leads to the
+checkerboard pattern you see in the picture.
+
+The number of rows and bricks per row are specified using named constants in the
+starter file, as is the distance from the top of the window to the first row of
+bricks. The color of the bricks remain constant for two rows and run in the
 following rainbow-like sequence: `RED`, `ORANGE`, `YELLOW`, `GREEN`, `CYAN`.
 
-This part of the assignment is almost exactly like the pyramid problem from the
+This part of the assignment is similar to the pyramid problem from the
 previous problem set. The parts that are only a touch more difficult are that
-you need to fill and color the bricks. This extra complexity is more than
-compensated by the fact that there are the same number of bricks in each row,
-and you don't have to change the coordinate calculation from row to row.
+you need to fill and color the bricks and that you only need to place every
+other brick. This extra complexity is more than compensated by the fact that
+there are the same number of bricks in each row, and that you don't have to change
+the coordinate calculation from row to row.
 
 ![](breakout6.png)
 
-For this part of the problem, fill in the functions `createBricks()` and 
-`createBrickRow()`. Call these functions in the `run()` to actually add them to 
-your game. Use the constants at the top of the file to determine how 
-many bricks to add. Don't worry too much about getting the bricks centered 
+For this part of the problem, fill in the functions `createBricks()` and
+`createBrickRow()`. Call these functions in the `run()` to actually add them to
+your game. Use the constants at the top of the file to determine how
+many bricks to add.
+
+<!---
+Don't worry too much about getting the bricks centered 
 pixel perfectly, it might be slightly off due to rounding of the values.
+-->
 
 ## Create the paddle
 
@@ -192,10 +198,13 @@ function, which should update your program each time the mouse moves!
 At one level, creating the ball is easy, given that it's just a filled
 `GOval`. The interesting part lies in getting it to move and bounce
 appropriately. You are now past the "setup" phase and into the "play" phase of
-the game. To start, create a ball and put it in the center of the window. As you
-do so, keep in mind that the coordinates of the `GOval` do not specify the
-location of the center of the ball but rather its upper left corner. The math is
-not any more difficult, but may be bit less intuitive.
+the game. To start, create a ball and put it just above the center of your
+paddle. As you do so, keep in mind that the coordinates of the `GOval` do not
+specify the location of the center of the ball but rather its upper left corner.
+The math is not any more difficult, but may be bit less intuitive.
+
+Remember the difference between the radius of a circle and the diameter of a
+circle! Set the width and the height of the ball accordingly.
 
 The program needs to keep track of the velocity of the ball, which consists of
 two separate components, which you will presumably declare as instance variables
@@ -205,9 +214,9 @@ like this:
     private double vy;
 
 The velocity components represent the change in position that occurs on each
-time step. Initially, the ball should be heading downward, and you might try a
-starting velocity of +3.0 for `vy` (remember that y values in Java increase as
-you move down the screen). The game would be boring if every ball took the same
+time step. Initially, the ball should be heading upward, and you might try a
+starting velocity of -3.0 for `vy` (remember that y values in Java decrease as
+you move up the screen). The game would be boring if every ball took the same
 course, so you should choose the `vx` component randomly. We'll talk about
 random numbers later in the quarter, but for now you should simply do the
 following:
@@ -227,7 +236,7 @@ Initialize the `vx` variable as follows:
 This code sets `vx` to be a random `double` in the range 1.0 to 3.0 and then
 makes it negative half the time. This strategy works much better for Breakout
 than calling `nextDouble(-3.0, +3.0)`, which might generate a ball going more or
-less, straight down. That would make life far too easy for the player.
+less, straight up. That would make life far too easy for the player.
 
 3) Wait for the user to click the mouse before starting the ball. This operation
 is much simpler than you might at first think because the `GraphicsProgram`
