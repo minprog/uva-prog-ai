@@ -30,7 +30,7 @@ slightly larger rectangle at the bottom is the paddle. The paddle is in a fixed
 position in the vertical dimension, but moves back and forth across the screen
 as user input directs it until it reaches the edge of its space.
 
-![](breakout12new.png)
+![](breakout12checker.png)
 
 A complete game consists of three turns. On each turn, a ball is launched from
 the center of the paddle toward the top of the screen at a random angle. That
@@ -42,7 +42,7 @@ the paddle and one off the right wall—the ball might have the trajectory shown
 in the second diagram. (Note that the dotted line is there only to show the
 ball's path and won't appear on the screen.)
 
-![](breakout34.png)
+![](breakout34checker.png)
 
 As you can see from the second diagram, the ball is about to collide with one of
 the bricks on the bottom row. When that happens, the ball bounces just as it
