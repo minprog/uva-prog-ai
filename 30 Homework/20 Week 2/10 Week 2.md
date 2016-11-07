@@ -6,12 +6,12 @@ understand. You must also write down any questions that pop-up during reading.
 
 ## Before the first lab session
 
-* Lecture 5.
+* Lecture 8 & 9.
 * Chapters 2, 3, 4.1 -- 4.7, 6.1 -- 6.7, 7, and 9 from *Think Java*.
 
 ## Before the second lab session
 
-* Lecture 6, 7.
+* Lecture 10 & 11.
 
 You must bring the syllabus with your notes to each lab session. We will check
 what you've read and will talk about the questions you have.
