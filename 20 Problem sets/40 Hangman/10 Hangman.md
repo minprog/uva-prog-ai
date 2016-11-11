@@ -17,11 +17,11 @@ are recorded by drawing an evolving picture of the user being hanged at a
 scaffold. For each incorrect guess, a new part of a stick-figure body — first
 the head, then the body, then each arm, each leg, and finally each foot — is
 added to the scaffold until the hanging is complete. For example, the three
-diagrams below show the drawing after the first incorrect guess (just the head),
-the third (the head, body, and left arm), and the diagram at the tragic end of a
-losing game:
+diagrams below show the drawing after the first incorrect guess (just the
+scaffolding and the rope), the third (the head and body), and the diagram at the
+tragic end of a losing game:
 
-![A hangman figure in three stages of completeness.](figure1.png)
+![A hangman figure in three stages of completeness.](figure1_2016.png)
 
 In order to write the program that plays Hangman, you should design and test
 your program in three parts. The first part consists of getting the interactive
@@ -37,7 +37,7 @@ Download and extract [the files required for this pset](cdn://pset3.zip).
 
 ## Part I -- Playing a console-based game
 
-![Two sample runs of the Hangman program (console only).](figure2.png)
+![Two sample runs of the Hangman program (console only).](figure2_2016.png)
 
 In the first part of this assignment, your job is to write a program that
 handles the user interaction component of the game -- everything except the
@@ -46,12 +46,32 @@ graphical display. To solve the problem, your program must be able to:
 * Choose a random word to use the secret word. That word is chosen from a word
   list, called the HangmanLexicon, as described in the following paragraph.
 * Keep track of the user's partially guessed word, which begins as a series of
-  dashes and then replaces them with letters as correct letters are guessed.
+  underscores and then replaces them with letters as correct letters are guessed.
 * Implement the basic control structure and manage the details (ask the user to
   guess a letter, keep track of the number of guesses remaining, print out the
   various messages, detect the end of the game, and so forth).
 
-The only operation that is beyond your current knowledge is that of representing
+There are many different options that you could use to keep track of the user's
+partially guessed word. In Java strings are *immmutable*. This means that once
+a string is created you can not alter its value. This is
+[convenient in many cases](http://www.programcreek.com/2013/04/why-string-is-immutable-in-java/)
+since it is faster, safer and logically sound. However, if you decide
+to use a string as the representation for your partially guessed word, it will
+be impossible to update an underscore with a correctly guessed letter. We
+suggest that you use an array of characters (`char[]`). This makes updating the
+partially guessed word extremely easy but you will require an additional
+function to transform the character array into an actual string so that it
+can be printed by the ConsoleProgram and rendered by the HangmanCanvas.
+In this case you will want to return a string that has spaces between each
+letter so that the user/player can easily count the number of letters in the
+word.
+
+Creating functions is an important step in decomposing the larger problem into
+several smaller problems. An additional benefit is that once you create a
+function you can re-use it anywhere in the code later on. Furthermore, well
+chosen function names increases the overall readability of the code.
+
+One operation that is beyond your current knowledge is that of representing
 the list of words from which you can choose a word at random. For the first two
 parts of the assignment, you will simply make use of a class that we've given
 you called `HangmanLexicon` that provides a small list of words that will allow
@@ -108,13 +128,13 @@ so that it now keeps track of the Hangman graphical display. Although you might
 want to spice things up in your extensions, the simple version of the final
 picture for the unfortunate user who has run out of guesses looks like this:
 
-![Final hangman picture.](figure3.png)
+![Final hangman picture.](figure3_2016.png)
 
-The scaffold and the tiny bit of rope above the head are drawn before the game
-begins, and then the parts are added in the following order: head, body, left
-arm, right arm, left leg, right leg, left foot, right foot. Because this picture
-is simpler than most of the figures you have drawn for section problems, the
-challenge of this part of the assignment does not lie so much in using the
+The scaffold and the tiny bit of rope above the head are drawn with the first
+incorrect guess, and then the parts are added in the following order: head, body,
+left arm, right arm, left leg, right leg, left foot, right foot. Because this picture
+is simpler than most of the figures you have drawn for the previous problems,
+the challenge of this part of the assignment does not lie so much in using the
 `acm.graphics` package but rather in implementing the separation of functions
 between the class that performs the console-based interaction and the class that
 manages the display. That class is called `HangmanCanvas` and is included in the
@@ -165,7 +185,7 @@ continue to appear on the console, and any objects you add to the
 `HangmanCanvas` stored in the variable `canvas` will appear in the area on the
 right.
 
-![side-by-side console (left) and canvas (right)](figure4.png)
+![side-by-side console (left) and canvas (right)](figure4_2016.png)
 
 You can now go through and add the calls to the methods in
 `HangmanCanvas`. Every time you start a game, for example, you will need to call
@@ -196,7 +216,7 @@ smaller font showing the incorrect guesses. Figure 5 shows how the screen
 appears at the end of the tragic session in which the user was unable to guess
 `FUZZY`.
 
-![The tragic ending of a Hangman game.](figure5.png)
+![The tragic ending of a Hangman game.](figure5_2016.png)
 
 ## Part III -- Reading the lexicon from a data file
 
