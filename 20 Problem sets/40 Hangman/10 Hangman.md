@@ -18,8 +18,8 @@ scaffold. For each incorrect guess, a new part of a stick-figure body — first
 the head, then the body, then each arm, each leg, and finally each foot — is
 added to the scaffold until the hanging is complete. For example, the three
 diagrams below show the drawing after the first incorrect guess (just the
-gallows), the third (the head and body), and the diagram at the tragic end of a
-losing game:
+scaffolding and the rope), the third (the head and body), and the diagram at the
+tragic end of a losing game:
 
 ![A hangman figure in three stages of completeness.](figure1_2016.png)
 
@@ -128,13 +128,13 @@ so that it now keeps track of the Hangman graphical display. Although you might
 want to spice things up in your extensions, the simple version of the final
 picture for the unfortunate user who has run out of guesses looks like this:
 
-![Final hangman picture.](figure3.png)
+![Final hangman picture.](figure3_2016.png)
 
-The scaffold and the tiny bit of rope above the head are drawn before the game
-begins, and then the parts are added in the following order: head, body, left
-arm, right arm, left leg, right leg, left foot, right foot. Because this picture
-is simpler than most of the figures you have drawn for section problems, the
-challenge of this part of the assignment does not lie so much in using the
+The scaffold and the tiny bit of rope above the head are drawn with the first
+incorrect guess, and then the parts are added in the following order: head, body,
+left arm, right arm, left leg, right leg, left foot, right foot. Because this picture
+is simpler than most of the figures you have drawn for the previous problems,
+the challenge of this part of the assignment does not lie so much in using the
 `acm.graphics` package but rather in implementing the separation of functions
 between the class that performs the console-based interaction and the class that
 manages the display. That class is called `HangmanCanvas` and is included in the
