@@ -216,7 +216,7 @@ smaller font showing the incorrect guesses. Figure 5 shows how the screen
 appears at the end of the tragic session in which the user was unable to guess
 `FUZZY`.
 
-![The tragic ending of a Hangman game.](figure5.png)
+![The tragic ending of a Hangman game.](figure5_2016.png)
 
 ## Part III -- Reading the lexicon from a data file
 
