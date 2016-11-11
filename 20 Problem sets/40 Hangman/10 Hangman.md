@@ -37,7 +37,7 @@ Download and extract [the files required for this pset](cdn://pset3.zip).
 
 ## Part I -- Playing a console-based game
 
-![Two sample runs of the Hangman program (console only).](figure2.png)
+![Two sample runs of the Hangman program (console only).](figure2_2016.png)
 
 In the first part of this assignment, your job is to write a program that
 handles the user interaction component of the game -- everything except the
