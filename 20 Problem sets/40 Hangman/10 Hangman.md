@@ -46,12 +46,32 @@ graphical display. To solve the problem, your program must be able to:
 * Choose a random word to use the secret word. That word is chosen from a word
   list, called the HangmanLexicon, as described in the following paragraph.
 * Keep track of the user's partially guessed word, which begins as a series of
-  dashes and then replaces them with letters as correct letters are guessed.
+  underscores and then replaces them with letters as correct letters are guessed.
 * Implement the basic control structure and manage the details (ask the user to
   guess a letter, keep track of the number of guesses remaining, print out the
   various messages, detect the end of the game, and so forth).
 
-The only operation that is beyond your current knowledge is that of representing
+There are many different options that you could use to keep track of the user's
+partially guessed word. In Java strings are *immmutable*. This means that once
+a string is created you can not alter its value. This is
+[convenient in many cases](http://www.programcreek.com/2013/04/why-string-is-immutable-in-java/)
+since it is faster, safer and logically sound. However, if you decide
+to use a string as the representation for your partially guessed word, it will
+be impossible to update an underscore with a correctly guessed letter. We
+suggest that you use an array of characters (`char[]`). This makes updating the
+partially guessed word extremely easy but you will require an additional
+function to transform the character array into an actual string so that it
+can be printed by the ConsoleProgram and rendered by the HangmanCanvas.
+In this case you will want to return a string that has spaces between each
+letter so that the user/player can easily see of how many letters the word
+consists.
+
+Creating functions is an important step in decomposing the larger problem into
+several smaller problems. An additional benefit is that once you create a
+function you can re-use it anywhere in the code later on. Furthermore, well
+chosen function names increases the overall readability of the code.
+
+One operation that is beyond your current knowledge is that of representing
 the list of words from which you can choose a word at random. For the first two
 parts of the assignment, you will simply make use of a class that we've given
 you called `HangmanLexicon` that provides a small list of words that will allow
