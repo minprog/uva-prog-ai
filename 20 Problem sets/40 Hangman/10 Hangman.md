@@ -17,11 +17,11 @@ are recorded by drawing an evolving picture of the user being hanged at a
 scaffold. For each incorrect guess, a new part of a stick-figure body — first
 the head, then the body, then each arm, each leg, and finally each foot — is
 added to the scaffold until the hanging is complete. For example, the three
-diagrams below show the drawing after the first incorrect guess (just the head),
-the third (the head, body, and left arm), and the diagram at the tragic end of a
+diagrams below show the drawing after the first incorrect guess (just the
+gallows), the third (the head and body), and the diagram at the tragic end of a
 losing game:
 
-![A hangman figure in three stages of completeness.](figure1.png)
+![A hangman figure in three stages of completeness.](figure1_2016.png)
 
 In order to write the program that plays Hangman, you should design and test
 your program in three parts. The first part consists of getting the interactive
