@@ -185,7 +185,7 @@ continue to appear on the console, and any objects you add to the
 `HangmanCanvas` stored in the variable `canvas` will appear in the area on the
 right.
 
-![side-by-side console (left) and canvas (right)](figure4.png)
+![side-by-side console (left) and canvas (right)](figure4_2016.png)
 
 You can now go through and add the calls to the methods in
 `HangmanCanvas`. Every time you start a game, for example, you will need to call
