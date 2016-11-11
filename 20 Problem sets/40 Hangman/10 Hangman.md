@@ -63,8 +63,8 @@ partially guessed word extremely easy but you will require an additional
 function to transform the character array into an actual string so that it
 can be printed by the ConsoleProgram and rendered by the HangmanCanvas.
 In this case you will want to return a string that has spaces between each
-letter so that the user/player can easily see of how many letters the word
-consists.
+letter so that the user/player can easily count the number of letters in the
+word.
 
 Creating functions is an important step in decomposing the larger problem into
 several smaller problems. An additional benefit is that once you create a
