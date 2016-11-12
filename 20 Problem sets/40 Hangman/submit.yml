@@ -1,3 +1,4 @@
 name: hangman
-required:
-  - pset3.zip
+files:
+    required:
+        - pset3.zip
