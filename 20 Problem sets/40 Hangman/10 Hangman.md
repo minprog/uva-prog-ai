@@ -33,7 +33,7 @@ file. The rest of this handout describes these three parts in more detail.
 
 ## Getting Started
 
-Download and extract [the files required for this pset](cdn://pset3.zip).
+Download and extract [the files required for this pset](cdn://pset3-new.zip).
 
 ## Part I -- Playing a console-based game
 
