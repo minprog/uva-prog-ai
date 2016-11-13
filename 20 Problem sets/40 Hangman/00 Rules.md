@@ -1,5 +1,7 @@
 # Problem Set 3: Hangman
 
+<strong>Deadline: vrijdag om 11 uur 's ochtends!</strong>
+
 For this assignment, your mission is to write a program that plays the game of
 Hangman.
 
