@@ -33,7 +33,7 @@ Voor de berekening van het cijfer van je problem set geven we de volgende gewich
 
 ### Deadline
 
-De deadline is vrijdag om 19:00 voor alle studenten. Op dat moment wordt het ingeleverde werk verdeeld onder de nakijkers en gaan zij aan de slag. Er is geen mogelijkheid om het later in te leveren; wél eerder natuurlijk!
+De deadline is vrijdag om 11:00 voor alle studenten. Op dat moment wordt het ingeleverde werk verdeeld onder de nakijkers en gaan zij aan de slag. Er is geen mogelijkheid om het later in te leveren; wél eerder natuurlijk!
 
 PROTIP: Het is prima om vóór je instuurt de assistent nog even te vragen naar
 je opgave te kijken en verbeteringen aan te brengen.
