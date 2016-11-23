@@ -48,7 +48,7 @@ grades:
         type: float
         subgrades:
             points: integer
-        calculation: (scope / 34.0 * 9 + 1).round(1)
+        calculation: (scope / 29.0 * 9 + 1).round(1)
     q2:
         type: float
         subgrades:
