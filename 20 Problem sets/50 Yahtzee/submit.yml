@@ -1,3 +1,4 @@
 name: yahtzee
-required:
-  - pset4.zip
+files:
+    required:
+      - pset4.zip
