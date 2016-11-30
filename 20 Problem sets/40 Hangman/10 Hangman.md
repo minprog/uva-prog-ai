@@ -8,18 +8,18 @@ of that letter shown in the correct positions, along with any letters correctly
 guessed on previous turns. If the letter does not appear in the word, the user
 is charged with an incorrect guess. The user keeps guessing letters until either
 (1) the user has correctly guessed all the letters in the word or (2) the user
-has made eight incorrect guesses. Two sample runs that illustrate the play of
+has made seven incorrect guesses. Two sample runs that illustrate the play of
 the game are shown in Figure 2.
 
 When it is played by children, the real fascination (a somewhat morbid
 fascination, I suppose) from Hangman comes from the fact that incorrect guesses
 are recorded by drawing an evolving picture of the user being hanged at a
 scaffold. For each incorrect guess, a new part of a stick-figure body — first
-the head, then the body, then each arm, each leg, and finally each foot — is
-added to the scaffold until the hanging is complete. For example, the three
-diagrams below show the drawing after the first incorrect guess (just the
-scaffolding and the rope), the third (the head and body), and the diagram at the
-tragic end of a losing game:
+the scaffold, then the head, then the body, then each arm, each leg, and finally
+each foot — is added to the scaffold until the hanging is complete. For example,
+the three diagrams below show the drawing after the first incorrect guess (just
+the scaffolding and the rope), the third (the head and body), and the diagram at
+the tragic end of a losing game:
 
 ![A hangman figure in three stages of completeness.](figure1_2016.png)
 
