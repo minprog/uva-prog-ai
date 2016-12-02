@@ -190,7 +190,10 @@ the `NameSurferEntry` for that name, or `null` if that name does not appear.
 
 The code for this part of the assignment is not particularly difficult. The challenging part
 lies in figuring out how you want to represent the data so that you can implement the
-findEntry method as simply and as efficiently as possible.
+findEntry method as simply and as efficiently as possible. Different data
+structures have different pros and cons. A very important aspect of programming
+is choosing the correct data structure for the task at hand. Which one that you
+saw in the lectures should you use here?
 
 To test this part of the program, you can add a line of code or two to the `NameSurfer`
 program so that it creates the `NameSurferDataBase` and then change the code for the
