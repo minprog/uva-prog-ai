@@ -12,7 +12,7 @@ than it would be in Java. For this reason, a lot of AI students end up learning
 Python later on in their bachelors anyway, but we thought we'd give you a head 
 start.
 
-### Python version
+### Python Version
 
 We will be working with Python `3.4`, which already comes installed on your VM. 
 Note if you type `python` in the terminal, you will run the old `2.7` version.
@@ -32,7 +32,7 @@ systems still come with version `2.7` by default. However, we won't be needing t
 specific tools and Python 3 is the only version that is actively developed, so 
 we will use that.
 
-### Settting up
+### Setting up
 
 You can write Python in `gedit` or any other text editor of your prefences. Make 
 sure to save your file with a `.py` extension. You can then run the file in the 
@@ -66,12 +66,13 @@ Prolog to Java. However, there are some big difference to keep in mind:
 ### Whitespace
 
 In Java you started a block of code with `{` and marked the end with `}`. You 
-used whitespace (tabs or spaces) to make the code more readible, but that did 
+used whitespace (tabs or spaces) to make the code more readable, but that did 
 not affect the actual code. Python does not use brackets to delimit a block of 
 code, but actually counts where the whitespace starts and ends. The start of a 
-block is still marked with `:`, but the end is computed based on the whitespace.
-*Make sure not to mix your tabs and spaces in Python, it will make for some hard 
-to find errors.*
+block is marked with `:`, (and indentation starting on the next line) and the
+end is computed based on the whitespace, i.e., where it springs back to the
+previous level of indentation.  *Make sure not to mix your tabs and spaces in
+Python, it will make for some hard to find errors.*
 
 Also, in Python there is no need for the `;` at the end of the line. Python simply
 assumes the line stops where you placed the enter. Below is some sample code to 
@@ -149,6 +150,19 @@ executing the code.
     if __name__ == "__main__":
         main()
 
+Note that when you are using the interactive version of Python (like a
+calculator) the values are automatically printed. Thus these two simple
+calculations both show the result
+
+    >>> 5 + 2
+    7
+    >>> print(5+2)
+    7
+
+Normally you write the code in a file, in that case you need to always
+explicitly call the print function to be able to get and read output. This also
+holds for function calls.
+
 ## The assignments
 
 Below are the assignments. **You only need to attempt 2 of them for full credit 
@@ -201,7 +215,13 @@ Save the file as `dutch-names.py`
 
 ## Extra reading on Python
 
-The structures below might be useful for the assignments. The first link provided 
+The style convention in Python is different from the one in Java.
+You might want to checkout [PEP-8](https://www.python.org/dev/peps/pep-0008/)
+(Python Enhancement Protocol Eight) which lays out all the style conventions you
+should follow.
+
+We listed some examples below that might be useful for the assignments. The
+first link provided 
 is to the book [Think Python](http://www.greenteapress.com/thinkpython2/html/index.html), 
 which walks through the topics using short examples. The second link is to the 
 [Python docs](https://docs.python.org/3/tutorial/index.html), which provides a 
@@ -213,8 +233,12 @@ here as an easy point of reference for the elements you could want to use.
 
 ### Loops
 
-Loops in Python are easy. Usually you just loop over the elements in the list 
-directly. This is the most common `for` loop in Python
+First a couple of examples on how for loops work. For convenience we've also
+listed their familiar counterparts from Java.
+
+Loops in Python are easy. Usually you just loop over the elements in the list
+directly (what we call an 'enhanced' for loop in Java). This is the most common
+`for` loop in Python
 
     >>> letters = ['a', 'b', 'c']
     >>> for let in letters:
@@ -223,7 +247,15 @@ directly. This is the most common `for` loop in Python
     b
     c
 
-If you want to use the index directly, you can use range to compute the indices.
+In Java this would be:
+
+    char[] letters = {'a', 'b', 'c'};
+    for (char let : letters) {
+        System.out.println(let);
+    }
+
+In Python you can still use the index directly. You can use range to compute the
+indices.
 
     >>> for i in range(3):
     >>>     print(i)
@@ -231,7 +263,15 @@ If you want to use the index directly, you can use range to compute the indices.
     1
     2
 
-You can then use the indices to access the elements, just like you would in Java.
+In Java this would be:
+
+    for (int i = 0; i < 3; i ++) {
+        System.out.println(i);
+    }
+
+You can then use the indices to access the elements, just like you would in
+Java. Notice that we use the function `len` to get the amount of elements in the
+list letters.
 
     >>> letters = ['a', 'b', 'c']
     >>> for i in range(len(letters)):
@@ -239,6 +279,13 @@ You can then use the indices to access the elements, just like you would in Java
     0 a
     1 b
     2 c
+
+In Java this would be:
+
+    char[] letters = {'a', 'b', 'c'};
+    for (int i = 0; i < letters.length; i ++) {
+        System.out.printf("%d, %c\n", i, letters[i]);
+    }
 
 * [Think Python](http://www.greenteapress.com/thinkpython2/html/thinkpython2008.html)
 * [Python docs](https://docs.python.org/3/tutorial/controlflow.html#for-statements)
@@ -256,7 +303,15 @@ from it. In Python, the elements don't even have to be the same type!
     [8, 'A']
 
 You can use the same square bracket notation `[i]` as in Java to retrieve or update 
-elements. You can even create a subset of the list using the `:`, look up the
+elements. This is done in the same fashion as Java. Continuing from the previous
+example:
+
+    >>> x[0]
+    8
+    >>> x[1]
+    'A'
+
+It is even possible to create a subset of the list using the `:`, look up the
 section on slices below (Think Python 10.5).
 
 * [Think Python](http://www.greenteapress.com/thinkpython2/html/thinkpython2011.html)
@@ -265,7 +320,7 @@ section on slices below (Think Python 10.5).
 ### Strings
 
 Strings in Python work a lot like Strings in Java. In addition, strings in Python 
-can be indexed and sliced using square brackes in exactly the same way as lists 
+can be indexed and sliced using square brackets in exactly the same way as lists 
 can.
 
     >>> x = "Hello World"
@@ -277,15 +332,23 @@ can.
 
 ### Dictionaries
 
-Dictionaries work like `HashMaps` in Java; they map a key to a value. A dictionary 
-can be created with curly brackets `{}`. Values can be added or retrieved using 
-the familiar square brackets.
+Dictionaries work like `HashMaps` in Java; they map a key to a value. A
+dictionary can be created with curly brackets `{}`. Values can be added or
+retrieved using the familiar square brackets.
 
     >>> d = {}
     >>> d['Mary'] = 1
     >>> d['William'] = 2
     >>> print(d)
     {'William': 2, 'Mary': 1}
+
+Note that, as we saw with lists, we can use different kind of types of variables
+for both keys and the values.
+
+    >>> d[30] = 3
+    >>> d[3.1415] = "approximately pi"
+    >>> print(d)
+    {'William': 2, 'Mary': 1, 30: 3, 3.1415: "approximately pi"}
 
 * [Think Python](http://www.greenteapress.com/thinkpython2/html/thinkpython2012.html) 
 * [Python docs](https://docs.python.org/3/library/stdtypes.html#mapping-types-dict)
@@ -299,7 +362,14 @@ the file.
     >>> f = open('test.txt', 'r')
     >>> f.readlines()
     ['This is a test\n', 'file.\n']
+    >>> f.close()
 
 * [Think Python](http://www.greenteapress.com/thinkpython2/html/thinkpython2015.html)
 * [Python docs](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
 
+
+### Manual
+
+If you are lost in Python you can read the documentation of what you are working
+on by calling the help function. For example, if you want to something about
+lists in python simply input `help(list)` or `help([])` in the interpreter.

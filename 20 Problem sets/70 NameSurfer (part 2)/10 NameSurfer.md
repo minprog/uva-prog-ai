@@ -5,14 +5,19 @@ This week we will start by finishing the Name Surfer assignment by completing
 the last milestone. *If you have not yet completed Milestone 4, make sure 
 to finish that first!* [A link to last week](https://progki.mprog.nl/psets/namesurfer)
 
+You should really strive to have this last milestone completed at least on
+Tuesday, preferably earlier. This leaves you with enough time to get a grasp of
+Python and finish the last part of the assignment.
+
 ### Milestone 5: Complete the implementation of NameSurferGraph class
 
-In addition to creating the background grid, the `update()` method in `NameSurferGraph` also
-has to plot the actual data values. The `NameSurferGraph`
-class includes two methods for specifying what entries are displayed on the screen. The
-`addEntry()` method adds a new `NameSurferEntry` to a list of values that are currently on
-the display. The `clear()` method deletes all of the entries in that list so as to clear the
-graph.
+In addition to creating the background grid, the `update()` method in
+`NameSurferGraph` also has to plot the actual data values. The `NameSurferGraph`
+therefor keeps track of a list of NameSurferEntries. The class includes two
+methods for specifying which entries are displayed on the screen. The
+`addEntry()` method adds a new `NameSurferEntry` to a list of values that are
+currently on the display. The `clear()` method deletes all of the entries in
+that list so as to clear the graph.
 
 It is important to note that neither `addEntry()` or `clear()` actually changes the display. To
 make changes in the display, you need to call `update()`, which **deletes any existing
@@ -38,5 +43,6 @@ that it can sometimes seem confusing that rank 0 (which means that the name does
 not appear in the top 1000 values for that year, appears at the bottom. To reduce the
 apparent discontinuity between rank 1 and rank 0, the entries for names that are absent
 from the data for a decade are **listed with an asterisk** instead of a numeric rank. You
-can see several examples of this convention in the data for *Samantha* in Figure 1.
+can see several examples of this convention in the data for *Samantha* in Figure
+1 of the previous assignment.
 
