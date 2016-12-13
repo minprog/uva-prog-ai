@@ -117,7 +117,7 @@ Als je het practicum hebt gehaald, maar de deeltentamens niet, krijg je een
 
 Het eindcijfer bestaat uit:
 
-* 50% het gemiddelde van de deeltentamens
+* 50% het gemiddelde van de deeltentamens (gewogen 25/75% zoals gemaild op 16 november)
 * 50% gebaseerd op het gemiddelde van de practica
 
 Een deel van het cijfer van de practica wordt bepaald door hoe je beter
